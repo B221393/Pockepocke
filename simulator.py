@@ -27,9 +27,10 @@ from typing import Optional
 
 @dataclass
 class Attack:
-    name: str
     energy_cost: int
     damage: int
+    name: str = ""          # 技名（省略可能）
+    coin_flips: int = 0     # コイントス枚数（0=固定ダメージ, 1+=表ごとにdamage加算）
     effect: str = ""
 
 
@@ -95,9 +96,10 @@ def load_deck_from_json(path: str | Path) -> list[Card]:
     for entry in data["cards"]:
         attacks = [
             Attack(
-                name=a["name"],
+                name=a.get("name", ""),
                 energy_cost=a["energy_cost"],
                 damage=a["damage"],
+                coin_flips=a.get("coin_flips", 0),
                 effect=a.get("effect", ""),
             )
             for a in entry.get("attacks", [])
@@ -233,6 +235,39 @@ class Player:
         elif card.effect == "boost_damage_30" and self.active:
             # Handled at attack time via bonus stored on active – simplified:
             pass  # damage bonus already modelled in best_attack base damage
+        elif card.effect == "rare_candy":
+            self._apply_rare_candy()
+
+    def _apply_rare_candy(self) -> None:
+        """ふしぎのあめ: Basic Pokémon を Stage 2 に直接進化させる（Stage 1 スキップ）。
+        手札にある Stage 2 カードを探し、場にある Basic から進化チェーンが繋がれば進化する。
+        """
+        in_play = []
+        if self.active:
+            in_play.append(self.active)
+        in_play.extend(self.bench)
+
+        stage2_cards = [c for c in self.hand if c.card_type == "Pokemon" and c.stage == 2]
+        all_known = self.deck + self.hand + self.discard
+
+        for slot in in_play:
+            if slot.card.stage != 0:
+                continue
+            for stage2 in stage2_cards:
+                # Stage 2 の evolves_from (= Stage 1 の名前) から Stage 1 を検索し、
+                # その Stage 1 の evolves_from が現在の Basic と一致するか確認する
+                stage1_name = stage2.evolves_from
+                chain_exists = any(
+                    c.card_type == "Pokemon"
+                    and c.stage == 1
+                    and c.name == stage1_name
+                    and c.evolves_from == slot.card.name
+                    for c in all_known
+                )
+                if chain_exists:
+                    slot.evolve(stage2)
+                    self.hand.remove(stage2)
+                    return
 
     def _apply_supporter(self, card: Card, _rng: random.Random) -> None:
         if card.effect == "draw_5":
@@ -300,7 +335,13 @@ class Player:
         attack = self.active.best_attack
         if attack is None:
             return None
-        opponent.active.damage += attack.damage
+        # コイントスがある技: 表の数 × damage を計算する
+        if attack.coin_flips > 0:
+            heads = sum(1 for _ in range(attack.coin_flips) if rng.random() < 0.5)
+            actual_damage = attack.damage * heads
+        else:
+            actual_damage = attack.damage
+        opponent.active.damage += actual_damage
         if opponent.active.is_knocked_out:
             points = 2 if opponent.active.is_ex else 1
             self.points += points
@@ -333,19 +374,32 @@ class Game:
 
     def setup(self) -> Optional[str]:
         """
-        Shuffle decks, deal opening hands and place Active Pokémon.
-        Returns None on success, or a string error if a player has a hand accident.
+        マリガンルール付きセットアップ。
+        初期手札にたねポケモンが1枚もない場合は、手札をデッキに戻して
+        たねポケモンを引くまでシャッフル＆ドローを繰り返す。
+        常に None を返す（手札事故は発生しない）。
         """
-        self.p1.shuffle_deck(self.rng)
-        self.p2.shuffle_deck(self.rng)
-        self.p1.draw(HAND_SIZE)
-        self.p2.draw(HAND_SIZE)
-
-        p1_accident = not self.p1.setup_active()
-        p2_accident = not self.p2.setup_active()
-        if p1_accident or p2_accident:
-            return "accident"
+        self._deal_opening_hand(self.p1)
+        self._deal_opening_hand(self.p2)
+        self.p1.setup_active()
+        self.p2.setup_active()
         return None
+
+    def _deal_opening_hand(self, player: Player) -> None:
+        """たねポケモンが手札に来るまでシャッフル＆ドローを繰り返す（マリガンルール）。
+        デッキにたねポケモンが1枚もない場合は即リターン（無限ループ防止）。
+        """
+        all_cards = player.deck + player.hand
+        if not any(c.card_type == "Pokemon" and c.stage == 0 for c in all_cards):
+            return  # たねが存在しないデッキはそのままにする
+        for _ in range(100):  # 安全上限
+            if player.hand:
+                player.deck.extend(player.hand)
+                player.hand.clear()
+            player.shuffle_deck(self.rng)
+            player.draw(HAND_SIZE)
+            if player.has_basic_in_hand:
+                return
 
     def play(self) -> str:
         """
