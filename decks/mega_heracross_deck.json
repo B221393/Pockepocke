@@ -1,0 +1,123 @@
+{
+  "name": "メガハッサムexデッキ",
+  "description": "ブロロローム・セレナ＆カルムとの組み合わせで高耐久・高火力を出す構成",
+  "reference": "https://www.youtube.com/watch?v=u1lM4JXj9Ww",
+  "cards": [
+    {
+      "name": "ハッサム",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 80,
+      "type": "Grass",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "みだれひっかき", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガハッサムex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 200,
+      "type": "Grass",
+      "evolves_from": "ハッサム",
+      "attacks": [
+        {"name": "メガシザークロス", "energy_cost": 3, "damage": 180}
+      ],
+      "count": 2
+    },
+    {
+      "name": "カイロス",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 80,
+      "type": "Grass",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "かみつく", "energy_cost": 1, "damage": 30}
+      ],
+      "count": 2
+    },
+    {
+      "name": "カイロスex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 150,
+      "type": "Grass",
+      "evolves_from": "カイロス",
+      "attacks": [
+        {"name": "シザーズギロチン", "energy_cost": 2, "damage": 90}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ビブラーバ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Colorless",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "たいあたり", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ブロロローム",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 110,
+      "type": "Colorless",
+      "evolves_from": "ビブラーバ",
+      "attacks": [
+        {"name": "スモッグ", "energy_cost": 1, "damage": 40, "effect": "poison"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "セレナ＆カルム",
+      "card_type": "Supporter",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "draw_3_and_bench_supporter",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "はかせのてがみ",
+      "card_type": "Supporter",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "draw_5",
+      "count": 2
+    },
+    {
+      "name": "きずぐすり",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "heal_30",
+      "count": 2
+    }
+  ]
+}

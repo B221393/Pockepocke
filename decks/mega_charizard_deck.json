@@ -1,0 +1,123 @@
+{
+  "name": "メガリザードンX / メガリザードンYデッキ",
+  "description": "世界トップクラスのプレイヤーが構築した超高火力デッキ",
+  "reference": "https://www.youtube.com/watch?v=VI8PafzBvPE",
+  "cards": [
+    {
+      "name": "リザード",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Fire",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "ひっかく", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "リザードン",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 120,
+      "type": "Fire",
+      "evolves_from": "リザード",
+      "attacks": [
+        {"name": "かえんほうしゃ", "energy_cost": 2, "damage": 70}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガリザードンX",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 220,
+      "type": "Fire",
+      "evolves_from": "リザードン",
+      "attacks": [
+        {"name": "メガクロスフレイム", "energy_cost": 4, "damage": 220}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガリザードンY",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 200,
+      "type": "Fire",
+      "evolves_from": "リザードン",
+      "attacks": [
+        {"name": "メガフレアドライブ", "energy_cost": 3, "damage": 160, "effect": "burn"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ヒトカゲ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Fire",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "ひっかく", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "マグマッグ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Fire",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "えんまく", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "はかせのてがみ",
+      "card_type": "Supporter",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "draw_5",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "スーパーボール",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "search_any",
+      "count": 2
+    },
+    {
+      "name": "まけんきハチマキ",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "boost_damage_30",
+      "count": 2
+    }
+  ]
+}
