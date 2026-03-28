@@ -1,0 +1,125 @@
+{
+  "name": "ダークライ×チルタリス「ねむり」コントロールデッキ",
+  "description": "相手を眠らせて行動を完封する害悪系コントロールデッキ",
+  "reference": "https://www.youtube.com/watch?v=iSg-l39xNk4",
+  "cards": [
+    {
+      "name": "ダークライ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 90,
+      "type": "Dark",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "ダークパルス", "energy_cost": 2, "damage": 60, "effect": "extra_per_dark_bench"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ダークライex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 150,
+      "type": "Dark",
+      "evolves_from": "ダークライ",
+      "attacks": [
+        {"name": "ナイトヘッド", "energy_cost": 2, "damage": 80},
+        {"name": "ダークオーラ", "energy_cost": 3, "damage": 130}
+      ],
+      "count": 2
+    },
+    {
+      "name": "チルット",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 50,
+      "type": "Colorless",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "ついばむ", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "チルタリス",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 90,
+      "type": "Colorless",
+      "evolves_from": "チルット",
+      "attacks": [
+        {"name": "スリープソング", "energy_cost": 1, "damage": 30, "effect": "sleep"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "クレセリア",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 100,
+      "type": "Psychic",
+      "evolves_from": null,
+      "attacks": [
+        {"name": "ムーンブラスト", "energy_cost": 2, "damage": 60}
+      ],
+      "count": 2
+    },
+    {
+      "name": "クレセリアex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 130,
+      "type": "Psychic",
+      "evolves_from": "クレセリア",
+      "attacks": [
+        {"name": "サイコカッター", "energy_cost": 1, "damage": 40},
+        {"name": "フルムーン", "energy_cost": 3, "damage": 120}
+      ],
+      "count": 2
+    },
+    {
+      "name": "サイラス",
+      "card_type": "Supporter",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "discard_opponent_bench",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "はかせのてがみ",
+      "card_type": "Supporter",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "draw_5",
+      "count": 2
+    },
+    {
+      "name": "きずぐすり",
+      "card_type": "Item",
+      "stage": null,
+      "hp": null,
+      "type": null,
+      "evolves_from": null,
+      "attacks": [],
+      "effect": "heal_30",
+      "count": 2
+    }
+  ]
+}
