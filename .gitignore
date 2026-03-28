@@ -11,6 +11,9 @@ __pycache__/
 venv/
 env/
 
+# Simulation output
+results/
+
 # Editor / OS
 .DS_Store
 *.swp

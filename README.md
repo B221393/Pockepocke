@@ -4,18 +4,71 @@
 
 ## 概要
 
-YouTube最新環境デッキのデータをもとに、Pythonプログラムによって自動対戦（モンテカルロシミュレーション）を行い、以下の指標を算出します。
+YouTube最新環境デッキおよび **GameWith** のデッキティアリストデータをもとに、Pythonプログラムによって自動対戦（モンテカルロシミュレーション）を行い、以下の指標を算出します。
 
 - **勝率**（有効試合中の各デッキの勝利割合）
 - **手札事故率**（初期手札にたねポケモンが1枚もない確率）
 
+## GameWith データ連携ワークフロー
+
+最新のメタ情報を [GameWith デッキ一覧](https://gamewith.jp/pokemon-tcg-pocket/463660) から取得してシミュレーションに活用できます。
+
+### ① データ取得（スクレイピング）
+
+```bash
+pip install requests beautifulsoup4
+python fetch_gamewith.py
+# → data/gamewith_decks.csv に保存
+```
+
+`data/gamewith_decks.csv` には既に代表的な最新環境デッキデータが同梱されているため、スクレイピングなしでもすぐにシミュレーション可能です。
+
+### ② GameWith データでシミュレーション
+
+```bash
+# Sランクデッキ同士を10000回対戦
+python simulate_from_csv.py --tier S -n 10000
+
+# 使用率上位8デッキの総当たり、結果をCSVに保存
+python simulate_from_csv.py --top 8 -n 1000 --output results/simulation_results.csv
+
+# 全デッキの総当たり（乱数シード指定）
+python simulate_from_csv.py -n 2000 --seed 42
+```
+
+### ③ 出力例
+
+```
+データソース: data/gamewith_decks.csv  (3 デッキ)
+対戦組み合わせ: 3 件  各 1000 試合
+
+=== ミュウツーexデッキ vs メガリザードンX/Yデッキ ===
+総試合数: 1000  有効試合数: 820
+[ミュウツーexデッキ]  勝利: 420  勝率: 51.2%  手札事故率: 5.6%
+[メガリザードンX/Yデッキ]  勝利: 400  勝率: 48.8%  手札事故率: 11.4%
+引き分け: 0
+
+■ デッキ総合勝率ランキング（全対戦の平均）
+  順位  デッキ名                         ティア  平均勝率   使用率
+   1  メガリザードンX/Yデッキ               S    64.0%   16.2%
+   2  ミュウツーexデッキ                   S    54.0%   18.5%
+   3  ピカチュウexデッキ                   S    29.0%   14.3%
+```
+
 ## 収録デッキ
+
+### YouTube デッキ（JSON形式）
 
 | ファイル | デッキ名 | 参考動画 |
 |---------|---------|---------|
 | `decks/mega_heracross_deck.json` | メガハッサムexデッキ | [YouTube](https://www.youtube.com/watch?v=u1lM4JXj9Ww) |
 | `decks/darkrai_altaria_deck.json` | ダークライ×チルタリス「ねむり」コントロールデッキ | [YouTube](https://www.youtube.com/watch?v=iSg-l39xNk4) |
 | `decks/mega_charizard_deck.json` | メガリザードンX / メガリザードンYデッキ | [YouTube](https://www.youtube.com/watch?v=VI8PafzBvPE) |
+
+### GameWith メタデータ（CSV形式）
+
+`data/gamewith_decks.csv` に15種類のデッキデータを収録（ティア・使用率・勝率・HP・ダメージ等）。
+[`fetch_gamewith.py`](#gameWith-データ連携ワークフロー) で最新データに更新できます。
 
 ## 使い方
 
@@ -65,14 +118,19 @@ python -m pytest tests/ -v
 
 ```
 Pockepocke/
+├── data/
+│   └── gamewith_decks.csv             # GameWith メタデッキデータ (15件)
 ├── decks/
-│   ├── mega_heracross_deck.json      # メガハッサムexデッキ (20枚)
-│   ├── darkrai_altaria_deck.json     # ダークライ×チルタリスデッキ (20枚)
-│   └── mega_charizard_deck.json      # メガリザードンX/Yデッキ (20枚)
+│   ├── mega_heracross_deck.json       # メガハッサムexデッキ (20枚)
+│   ├── darkrai_altaria_deck.json      # ダークライ×チルタリスデッキ (20枚)
+│   └── mega_charizard_deck.json       # メガリザードンX/Yデッキ (20枚)
+├── fetch_gamewith.py                  # GameWith スクレイパー
+├── simulate_from_csv.py               # CSV データを使ったシミュレーター
 ├── simulator.py                       # コアシミュレーターロジック
-├── run_simulation.py                  # CLIエントリーポイント
+├── run_simulation.py                  # JSON デッキ用 CLI
 └── tests/
-    └── test_simulator.py              # ユニットテスト (33件)
+    ├── test_simulator.py              # コアシミュレーター テスト (33件)
+    └── test_simulate_from_csv.py      # CSV シミュレーター テスト (14件)
 ```
 
 ## ゲームルール（ポケポケ準拠）
