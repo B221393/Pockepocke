@@ -1,0 +1,92 @@
+{
+  "name": "ドラパルトexデッキ（ダメカンバラマキ）",
+  "description": "2026年3月最新Tier1。ベンチ狙撃でテクニカルにサイドを取るデッキ",
+  "cards": [
+    {
+      "name": "ドラメシヤ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Psychic",
+      "weakness": "Dark",
+      "attacks": [
+        {"name": "かみつく", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ドロンチ",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 90,
+      "type": "Psychic",
+      "weakness": "Dark",
+      "evolves_from": "ドラメシヤ",
+      "attacks": [
+        {"name": "とんぼがえり", "energy_cost": 2, "damage": 40}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ドラパルトex",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 160,
+      "type": "Psychic",
+      "weakness": "Dark",
+      "evolves_from": "ドロンチ",
+      "attacks": [
+        {"name": "ファントムダイブ", "energy_cost": 2, "damage": 130, "effect": "bench_damage_20"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ヤブクロン",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Psychic",
+      "weakness": "Dark",
+      "attacks": [
+        {"name": "どくガス", "energy_cost": 1, "damage": 10, "effect": "poison"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "レッドカード",
+      "card_type": "Item",
+      "effect": "shuffle_opponent_hand",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "超エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

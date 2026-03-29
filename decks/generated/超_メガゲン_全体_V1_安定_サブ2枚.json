@@ -1,0 +1,63 @@
+{
+  "name": "超_メガゲン_全体_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.5129795918367347,
+  "wins": 12568,
+  "total_games": 24500,
+  "deck_composition": [
+    "メガゲンガーex",
+    "ゲンガーex",
+    "シュシュプ",
+    "スリーパー",
+    "スリーパー",
+    "スリープ",
+    "バリヤード",
+    "ミュウツーex",
+    "月食ネクロズマ",
+    "おおきいマラサダ",
+    "はじまりの平原",
+    "ふしぎなアメ",
+    "オボンのみ",
+    "シズイ",
+    "セキ",
+    "ハンドスコープ",
+    "フレイムパッチ",
+    "ルチア",
+    "博士の研究",
+    "幻の石板"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: レッド / In: スリープ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: ミュウツーex / In: セキ (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ゲンガーex / In: バリヤード (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: メガゲンガーex / In: シズイ (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: レッドカード / In: はじまりの平原 (Parent: 21/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: アゴの化石 / In: フレイムパッチ (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: スリープ / In: スリーパー (Parent: 29/50 -> Mutant: 33/50)"
+    }
+  ]
+}

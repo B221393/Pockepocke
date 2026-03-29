@@ -1,0 +1,79 @@
+{
+  "name": "草_フシギバ_どく_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.5794862772695285,
+  "wins": 16469,
+  "total_games": 28420,
+  "deck_composition": [
+    "アママイコ",
+    "アメモース",
+    "ストライク",
+    "ダーテング",
+    "ドクケイル",
+    "ハヤシガメ",
+    "ヒメンカ",
+    "メガカイロスex",
+    "メガフシギバナex",
+    "メガフシギバナex",
+    "リーフィアex",
+    "ワナイダー",
+    "きずぐすり",
+    "イーブイのバッグ",
+    "エリカ",
+    "エリカ",
+    "グラジオ",
+    "シトロン",
+    "ビーストナイト",
+    "ヘビーメット"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: 博士の研究 / In: やまおとこ (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: 博士の研究 / In: アメモース (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: 博士の研究 / In: ストライク (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: デンジ / In: メガカイロスex (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: やまおとこ / In: ヘビーメット (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: スター団のしたっぱ / In: アママイコ (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: 旅の行商人 / In: ワナイダー (Parent: 30/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: チュリネ / In: シトロン (Parent: 34/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: トレーニングエリア / In: ダーテング (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: エレキジェネレーター / In: ヒメンカ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: チュリネ / In: ドクケイル (Parent: 31/50 -> Mutant: 33/50)"
+    }
+  ]
+}

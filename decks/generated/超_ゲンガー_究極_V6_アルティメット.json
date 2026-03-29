@@ -1,0 +1,451 @@
+{
+  "name": "超_ゲンガー_究極_V6_アルティメット",
+  "strategy": "bench-snipe",
+  "win_rate": 0.4389261744966443,
+  "wins": 68016,
+  "total_games": 154960,
+  "deck_composition": [
+    "メガゲンガーex",
+    "イエッサンex",
+    "ゴースト",
+    "バリヤード",
+    "ベラカス",
+    "メガチルタリスex",
+    "ラルトス",
+    "ロトム",
+    "かいの化石",
+    "かんこうきゃく",
+    "こうらの化石",
+    "ふしぎな広場",
+    "オボンのみ",
+    "ギンガ団のしたっぱ",
+    "シルバー",
+    "ハンドスコープ",
+    "マーズ",
+    "メタルコアバリア",
+    "メンテナンス",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ラティアス / In: ゴビット (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: たべのこし / In: ロケット団のしたっぱ (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: タケシ / In: シルバー (Parent: 29/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: かんこうきゃく / In: ポットデス (Parent: 31/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: ナツメ / In: ポケモン通信 (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: ゴースト / In: メロエッタ (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ポケモン通信 / In: ラルトス (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ラルトス / In: グリーン (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: アカネ / In: ブルー (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: ナツメ / In: ネズ (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: ポットデス / In: カスミ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: グリーン / In: デスマス (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: どくバリ / In: ブーピッグ (Parent: 25/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ゴースト / In: ゴチム (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: ブルー / In: かけだし調査員 (Parent: 24/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: バウッツェル / In: ウォーターボート (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: ウォーターボート / In: ペロリーム (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ロケット団のしたっぱ / In: きずぐすり (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: ネズ / In: イエッサンex (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ペロリーム / In: フーディン (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: おおきいマラサダ / In: ゴース (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: ゴチム / In: セレナ (Parent: 24/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ブーピッグ / In: シトロンのリュック (Parent: 24/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: カスミ / In: セキ (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: デスマス / In: アイリス (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: アイリス / In: レッドカード (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: メガゲンガーex / In: ゲンガーex (Parent: 25/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ナンジャモ / In: ボチ (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: シトロンのリュック / In: リーシャン (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: ラルトス / In: ムウマージex (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: フワライド / In: 幻の石板 (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: 幻の石板 / In: メガチルタリスex (Parent: 19/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: セレナ / In: アンノーンG (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: リーシャン / In: アブリー (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ボチ / In: ベラカス (Parent: 23/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: フーディン / In: ピクシー (Parent: 21/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: メロエッタ / In: ミュウツーex (Parent: 27/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: アブリー / In: オドリドリ (Parent: 26/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: おおきいマラサダ / In: ラムのみ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: ピクシー / In: ベラカス (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: ゴビット / In: メモリーライト (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: アンノーンG / In: ルージュラ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: レッドカード / In: むしよけスプレー (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: ラムのみ / In: ムウマージex (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: オドリドリ / In: ムウマージ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: かけだし調査員 / In: ジュン (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: ベラカス / In: ゲンガーex (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: きずぐすり / In: トゲチック (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: トゲチック / In: ゼルネアス (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ミュウツーex / In: ふしぎなアメ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: ダークペンダント / In: カキ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 149,
+      "diff": "Out: カキ / In: ラルトス (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 151,
+      "diff": "Out: ムウマージex / In: シンボラー (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 152,
+      "diff": "Out: ゲンガーex / In: フワライド (Parent: 17/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 156,
+      "diff": "Out: ジュン / In: マシェード (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 157,
+      "diff": "Out: ルージュラ / In: オドリドリ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 160,
+      "diff": "Out: マシェード / In: ブルー (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 162,
+      "diff": "Out: ふしぎなアメ / In: コロモリ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 163,
+      "diff": "Out: ムウマージex / In: ネイティ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 165,
+      "diff": "Out: ゴース / In: バリヤード (Parent: 22/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 167,
+      "diff": "Out: ラルトス / In: レスキュースカーフ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 168,
+      "diff": "Out: むしよけスプレー / In: ルージュラ (Parent: 22/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 171,
+      "diff": "Out: ネイティ / In: ルナトーン (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 182,
+      "diff": "Out: ゼルネアス / In: シトロンのリュック (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 184,
+      "diff": "Out: シンボラー / In: マーズ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 185,
+      "diff": "Out: ギンガ団のしたっぱ / In: ネイティオ (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 186,
+      "diff": "Out: メモリーライト / In: シュシュプ (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 187,
+      "diff": "Out: バリヤード / In: ケーシィ (Parent: 18/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 190,
+      "diff": "Out: レスキュースカーフ / In: ふたの化石 (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 191,
+      "diff": "Out: ブルー / In: マシェード (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 194,
+      "diff": "Out: ゲンガーex / In: ボクレー (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 196,
+      "diff": "Out: ケーシィ / In: ヤドン (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 200,
+      "diff": "Out: ムウマージ / In: メリッサ (Parent: 20/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 205,
+      "diff": "Out: マシェード / In: ヤミラミ (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 206,
+      "diff": "Out: シュシュプ / In: ルザミーネ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 209,
+      "diff": "Out: ルナトーン / In: ユンゲラー (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 214,
+      "diff": "Out: ネイティオ / In: ヤミラミ (Parent: 22/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 217,
+      "diff": "Out: ヤドン / In: ヒカリ (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 218,
+      "diff": "Out: コロモリ / In: ミュウツー (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 222,
+      "diff": "Out: シトロンのリュック / In: かんこうきゃく (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 225,
+      "diff": "Out: ヤミラミ / In: レスキュースカーフ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 228,
+      "diff": "Out: メリッサ / In: 月食ネクロズマ (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 229,
+      "diff": "Out: ボクレー / In: かいの化石 (Parent: 22/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 232,
+      "diff": "Out: フワライド / In: イエッサン (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 234,
+      "diff": "Out: ヒカリ / In: ミカン (Parent: 20/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 242,
+      "diff": "Out: セキ / In: ラルトス (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 244,
+      "diff": "Out: オドリドリ / In: ギンガ団のしたっぱ (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 248,
+      "diff": "Out: ミュウツー / In: リーフマント (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 249,
+      "diff": "Out: ルザミーネ / In: こうらの化石 (Parent: 23/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 252,
+      "diff": "Out: ふたの化石 / In: レッドカード (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 254,
+      "diff": "Out: ラルトス / In: メタルコアバリア (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 255,
+      "diff": "Out: ルージュラ / In: ゴツゴツメット (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 262,
+      "diff": "Out: 月食ネクロズマ / In: ロトム (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 267,
+      "diff": "Out: ゴツゴツメット / In: ロトム図鑑 (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 268,
+      "diff": "Out: ヤミラミ / In: ナンジャモ (Parent: 24/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 269,
+      "diff": "Out: ナンジャモ / In: ラムのみ (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 270,
+      "diff": "Out: ユンゲラー / In: ふしぎな広場 (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 271,
+      "diff": "Out: ラムのみ / In: 釣り人 (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 279,
+      "diff": "Out: イエッサン / In: オボンのみ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 280,
+      "diff": "Out: レスキュースカーフ / In: メンテナンス (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 283,
+      "diff": "Out: レッドカード / In: ハンドスコープ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 290,
+      "diff": "Out: リーフマント / In: ゴースト (Parent: 29/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 294,
+      "diff": "Out: 釣り人 / In: バリヤード (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 298,
+      "diff": "Out: ミカン / In: ラルトス (Parent: 31/50 -> Mutant: 36/50)"
+    }
+  ]
+}

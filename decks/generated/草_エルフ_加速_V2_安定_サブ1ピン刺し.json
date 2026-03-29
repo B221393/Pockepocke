@@ -1,0 +1,75 @@
+{
+  "name": "草_エルフ_加速_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.6026389866291344,
+  "wins": 17127,
+  "total_games": 28420,
+  "deck_composition": [
+    "エルフーンex",
+    "シガロコ",
+    "ダダリン",
+    "チュリネ",
+    "ナエトル",
+    "ニャオハ",
+    "ハネッコ",
+    "ボクレー",
+    "メェークル",
+    "メガニウム",
+    "メガフシギバナex",
+    "メガフシギバナex",
+    "アゴの化石",
+    "カルネ",
+    "キョウ",
+    "グラジオ",
+    "ゴツゴツメット",
+    "シトロン",
+    "ナツメ",
+    "レスキュースカーフ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: コソクムシ / In: アゴジムシ (Parent: 33/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: ハンドスコープ / In: ハネッコ (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: エルフーンex / In: ロケット団のしたっぱ (Parent: 33/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: メガヤンマ / In: ボクレー (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: 博士の研究 / In: アゴの化石 (Parent: 25/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: マシェード / In: ニャオハ (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: ロケット団のしたっぱ / In: メェークル (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: カツラ / In: レスキュースカーフ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: ビーストウォール / In: ナエトル (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: アゴジムシ / In: シトロン (Parent: 22/50 -> Mutant: 26/50)"
+    }
+  ]
+}

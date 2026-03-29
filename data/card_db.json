@@ -1,0 +1,41 @@
+{
+  "pokemon": {
+    "610": { "name": "キバゴ", "stage": 0, "hp": 70, "type": "Dragon", "attacks": [{ "name": "かじる", "energy_cost": 1, "damage": 20 }] },
+    "611": { "name": "オノンド", "stage": 1, "hp": 100, "type": "Dragon", "evolves_from": "610", "attacks": [{ "name": "りゅうのいぶき", "energy_cost": 2, "damage": 50 }] },
+    "612": { "name": "オノノクス", "stage": 2, "hp": 160, "type": "Dragon", "evolves_from": "611", "attacks": [
+        { "name": "りゅうのはどう", "energy_cost": 2, "damage": 130, "effect": "discard_self_energy_1" },
+        { "name": "りゅうのまい", "energy_cost": 1, "damage": 0, "effect": "boost_next_damage_40" }
+      ]
+    },
+    "741": { "name": "オドリドリ (雷)", "stage": 0, "hp": 90, "type": "Lightning", "ability": "prevent_ex_damage", "attacks": [{ "name": "ぱちぱちダンス", "energy_cost": 1, "damage": 20 }] },
+    "656": { "name": "ケロマツ", "stage": 0, "hp": 60, "type": "Water", "attacks": [{ "name": "あわ", "energy_cost": 1, "damage": 10 }] },
+    "657": { "name": "ゲコガシラ", "stage": 1, "hp": 80, "type": "Water", "evolves_from": "656", "attacks": [{ "name": "みずのはどう", "energy_cost": 2, "damage": 40, "effect": "sleep" }] },
+    "658": { "name": "ゲッコウガ", "stage": 2, "hp": 140, "type": "Water", "evolves_from": "657", "ability": "water_shuriken", "attacks": [{ "name": "げっこうえんぶ", "energy_cost": 2, "damage": 80 }] },
+    "25": { "name": "ピカチュウex", "stage": 0, "hp": 120, "type": "Lightning", "attacks": [{ "name": "エレキサークル", "energy_cost": 2, "damage": 90 }] },
+    "145": { "name": "サンダーex", "stage": 0, "hp": 140, "type": "Lightning", "attacks": [{ "name": "ハリケーンサンダー", "energy_cost": 3, "damage": 100 }] },
+    "603": { "name": "シビシラス", "stage": 0, "hp": 60, "type": "Lightning", "attacks": [{ "name": "でんげき", "energy_cost": 1, "damage": 10 }] },
+    "491": { "name": "ダークライex", "stage": 0, "hp": 180, "type": "Dark", "attacks": [
+        { "name": "ダークパルス", "energy_cost": 2, "damage": 30, "effect": "extra_per_dark_bench" },
+        { "name": "アビススリープ", "energy_cost": 3, "damage": 80, "effect": "sleep" }
+      ]
+    },
+    "359": { "name": "アブソルex", "stage": 0, "hp": 150, "type": "Dark", "attacks": [{ "name": "わざわいのかぜ", "energy_cost": 2, "damage": 60 }] },
+    "10359": { "name": "メガアブソルex", "stage": 1, "hp": 210, "type": "Dark", "evolves_from": "359", "attacks": [
+        { "name": "ディザスタークロー", "energy_cost": 3, "damage": 120, "effect": "side_link" }
+      ]
+    }
+  },
+  "trainers": {
+    "1001": { "name": "アイリス", "card_type": "Supporter", "effect": "iris_point_boost", "description": "きぜつ時に追加1ポイント" },
+    "1002": { "name": "マーズ", "card_type": "Supporter", "effect": "mars_hand_discard", "description": "ハンデス" },
+    "1003": { "name": "博士の研究", "card_type": "Supporter", "effect": "draw_3", "description": "基本ドロー" },
+    "1004": { "name": "サカキ", "card_type": "Supporter", "effect": "boost_damage_20", "description": "この番のダメージ+20" },
+    "1005": { "name": "ナツメ", "card_type": "Supporter", "effect": "switch_opponent_active", "description": "相手のベンチを引きずり出す" },
+    "1006": { "name": "ものまねむすめ", "card_type": "Supporter", "effect": "draw_until_opponent_hand_size", "description": "相手の手札枚数分引く" },
+    "2001": { "name": "モンスターボール", "card_type": "Item", "effect": "search_basic", "description": "たねサーチ" },
+    "2002": { "name": "ふしぎなアメ", "card_type": "Item", "effect": "rare_candy", "description": "進化スキップ" },
+    "2003": { "name": "スピーダー", "card_type": "Item", "effect": "switch", "description": "入れ替え" },
+    "2005": { "name": "レッドカード", "card_type": "Item", "effect": "opponent_discard_hand_to_3", "description": "手札干渉" },
+    "2006": { "name": "メンテナンス", "card_type": "Item", "effect": "hand_to_deck_refresh", "description": "手札を戻して引き直す" }
+  }
+}

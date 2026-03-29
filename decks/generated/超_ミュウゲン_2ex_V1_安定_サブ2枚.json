@@ -1,0 +1,83 @@
+{
+  "name": "超_ミュウゲン_2ex_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.6090743440233236,
+  "wins": 16713,
+  "total_games": 27440,
+  "deck_composition": [
+    "アブリボン",
+    "オドリドリ",
+    "オドリドリ",
+    "キルリア",
+    "クレセリア",
+    "ゲンガーex",
+    "サーナイト",
+    "フラベベ",
+    "ミュウex",
+    "ミュウex",
+    "ミュウツーex",
+    "たての化石",
+    "ふたの化石",
+    "アセロラ",
+    "スター団のしたっぱ",
+    "ナツメ",
+    "モンスターボール",
+    "レッド",
+    "博士の研究",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: 大きなふうせん / In: オドリドリ (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ひみつのコハク / In: イエッサン (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: ゲンガーex / In: 釣り人 (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: ダークペンダント / In: プルリル (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: クレセリアex / In: キルリア (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ガラルギャロップ / In: クレセリア (Parent: 38/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: クレセリアex / In: スター団のしたっぱ (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: プルリル / In: ココロモリ (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: ミュウツーex / In: サーナイト (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: はじまりの平原 / In: レッド (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: ココロモリ / In: アセロラ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: イエッサン / In: オドリドリ (Parent: 31/50 -> Mutant: 35/50)"
+    }
+  ]
+}

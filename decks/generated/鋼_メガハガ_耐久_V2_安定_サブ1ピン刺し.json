@@ -1,0 +1,71 @@
+{
+  "name": "鋼_メガハガ_耐久_V2_安定_サブ1ピン刺し",
+  "strategy": "tank",
+  "win_rate": 0.4752186588921283,
+  "wins": 9780,
+  "total_games": 20580,
+  "deck_composition": [
+    "アイアント",
+    "オリジンディアルガ",
+    "カヌチャン",
+    "クレッフィ",
+    "ブロロローム",
+    "マギアナ",
+    "メガハガネールex",
+    "メガハガネールex",
+    "メルメタル",
+    "メルメタルex",
+    "メルメタルex",
+    "はねの化石",
+    "アゴの化石",
+    "カンナギタウンの長老",
+    "キョウ",
+    "ハウ",
+    "ヘビーメット",
+    "リーフ",
+    "ロケット団のしたっぱ",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: きずぐすり / In: マツバ (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: ハラ / In: クレッフィ (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: クチート / In: ハウ (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: マツバ / In: ブロロローム (Parent: 16/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: ドーミラー / In: キョウ (Parent: 22/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: カキ / In: はねの化石 (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: イーブイのバッグ / In: メルメタル (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: トゲデマル / In: マギアナ (Parent: 23/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: サーフゴー / In: リーフ (Parent: 24/50 -> Mutant: 27/50)"
+    }
+  ]
+}

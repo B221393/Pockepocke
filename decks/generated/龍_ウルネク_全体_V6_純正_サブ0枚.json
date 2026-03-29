@@ -1,0 +1,79 @@
+{
+  "name": "龍_ウルネク_全体_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.5986277269528502,
+  "wins": 17013,
+  "total_games": 28420,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "オノンド",
+    "カイリュー",
+    "イエッサンex",
+    "グランブル",
+    "ゴースト",
+    "ニンフィアex",
+    "メガサーナイトex",
+    "いたずらルーレット",
+    "おおきいマラサダ",
+    "たての化石",
+    "エレメンタルつけかえ",
+    "オボンのみ",
+    "メタルコアバリア",
+    "メタルコアバリア",
+    "ルザミーネ",
+    "ロトム図鑑",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: バケッチャ / In: ミュウツー (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: ネズ / In: たての化石 (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: シズイ / In: いたずらルーレット (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: 博士の研究 / In: オノンド (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: やまおとこ / In: イエッサンex (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ハラ / In: マホイップ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ネイティ / In: ガラルポニータ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: ミュウツー / In: グランブル (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: ガラルポニータ / In: カイリュー (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: マホイップ / In: おおきいマラサダ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: ハラ / In: ゴースト (Parent: 38/50 -> Mutant: 40/50)"
+    }
+  ]
+}

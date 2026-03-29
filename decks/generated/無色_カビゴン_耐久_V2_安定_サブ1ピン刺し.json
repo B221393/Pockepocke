@@ -1,0 +1,75 @@
+{
+  "name": "無色_カビゴン_耐久_V2_安定_サブ1ピン刺し",
+  "strategy": "tank",
+  "win_rate": 0.4141836734693878,
+  "wins": 12177,
+  "total_games": 29400,
+  "deck_composition": [
+    "カビゴンex",
+    "シェイミ",
+    "チラチーノ",
+    "チルット",
+    "ドゴーム",
+    "ミミロップ",
+    "ラッタ",
+    "ルギアex",
+    "ルギアex",
+    "きずぐすり",
+    "こうらの化石",
+    "たべのこし",
+    "ふしぎな広場",
+    "イツキ",
+    "エレメンタルつけかえ",
+    "シルバー",
+    "スター団のしたっぱ",
+    "ヒットハンマー",
+    "ビーストナイト",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: プクリン / In: ふしぎな広場 (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: カビゴンex / In: ホーホー (Parent: 19/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ププリン / In: ロトム図鑑 (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: きずぐすり / In: イツキ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: ホーホー / In: ミミロップ (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ペラップ / In: チラチーノ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ホーホー / In: ラッタ (Parent: 18/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: ナツメ / In: こうらの化石 (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: ホシガリス / In: トルネロス (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: トルネロス / In: ドゴーム (Parent: 21/50 -> Mutant: 26/50)"
+    }
+  ]
+}

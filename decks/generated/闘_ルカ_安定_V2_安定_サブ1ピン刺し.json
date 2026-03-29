@@ -1,0 +1,67 @@
+{
+  "name": "闘_ルカ_安定_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.19846938775510203,
+  "wins": 4668,
+  "total_games": 23520,
+  "deck_composition": [
+    "アサナン",
+    "イシヘンジン",
+    "イワーク",
+    "カイリキー",
+    "カラミンゴ",
+    "ガブリアスex",
+    "ガメノデス",
+    "ゴルーグ",
+    "ゴローニャ",
+    "ゴローン",
+    "ゴーリキー",
+    "サナギラス",
+    "ナゲツケサル",
+    "ノズパス",
+    "マクノシタ",
+    "ルカリオex",
+    "ゴツゴツメット",
+    "メモリーライト",
+    "レスキュースカーフ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: マオ / In: イシヘンジン (Parent: 9/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: リーフマント / In: ゴローン (Parent: 9/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: ロトム図鑑 / In: ガメノデス (Parent: 4/50 -> Mutant: 8/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ルカリオex / In: ゴルーグ (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: ガブリアスex / In: むしよけスプレー (Parent: 8/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: チャーレム / In: マクノシタ (Parent: 4/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: ひみつのコハク / In: ゴローニャ (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: むしよけスプレー / In: イワーク (Parent: 7/50 -> Mutant: 10/50)"
+    }
+  ]
+}

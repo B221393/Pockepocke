@@ -1,0 +1,91 @@
+{
+  "name": "超_ミュウゲン_2ex_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.37097114707952145,
+  "wins": 10543,
+  "total_games": 28420,
+  "deck_composition": [
+    "オーロット",
+    "キルリア",
+    "クレセリアex",
+    "ゲンガーex",
+    "ゲンガーex",
+    "ゴチム",
+    "ジュペッタ",
+    "ジラーチ",
+    "デスマス",
+    "ネイティオ",
+    "ミュウツーex",
+    "ムウマージex",
+    "かんこうきゃく",
+    "カルム",
+    "コトネ",
+    "セレナ",
+    "モンスターボール",
+    "ラッキーミトン",
+    "ルザミーネ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: 大きなふうせん / In: ミュウツー (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: エレキコード / In: シトロン (Parent: 18/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: 博士の研究 / In: ルザミーネ (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: シトロン / In: ムウマージ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: フレイムパッチ / In: ムウマージex (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: ムウマージ / In: デスマス (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: レスキュースカーフ / In: カルム (Parent: 19/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: ペロッパフ / In: オーロット (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: ミュウツーex / In: ゴチム (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: マーズ / In: ラッキーミトン (Parent: 17/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ミュウツー / In: キルリア (Parent: 14/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: エレキジェネレーター / In: クレセリアex (Parent: 17/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: ビーストナイト / In: ジュペッタ (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: こうらの化石 / In: コトネ (Parent: 23/50 -> Mutant: 26/50)"
+    }
+  ]
+}

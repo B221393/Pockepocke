@@ -1,0 +1,71 @@
+{
+  "name": "無色_ルギア_加速_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.3715173025732032,
+  "wins": 8374,
+  "total_games": 22540,
+  "deck_composition": [
+    "イーブイ",
+    "エテボース",
+    "ケンタロス",
+    "シェイミ",
+    "タイプヌル",
+    "デカグース",
+    "ピジョットex",
+    "ポリゴンZ",
+    "ムクバード",
+    "ルギアex",
+    "アカギ",
+    "キョウ",
+    "シズイ",
+    "ジャグラー",
+    "ジャグラー",
+    "ネモ",
+    "ビーストウォール",
+    "マツバ",
+    "モンスターボール",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ルギアex / In: ジャグラー (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: カビゴンex / In: ビッパ (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: ずがいの化石 / In: タイプヌル (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: セレナ / In: メンテナンス (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: ビッパ / In: ビーストウォール (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: メンテナンス / In: ポリゴンZ (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: ピジョットex / In: シェイミ (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: カビゴンex / In: ケンタロス (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: ヌイコグマ / In: エテボース (Parent: 7/50 -> Mutant: 11/50)"
+    }
+  ]
+}

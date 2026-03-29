@@ -1,0 +1,67 @@
+{
+  "name": "無色_ルギア_加速_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.5183992346938775,
+  "wins": 16257,
+  "total_games": 31360,
+  "deck_composition": [
+    "アルセウスex",
+    "キテルグマ",
+    "チラチーノ",
+    "チルタリス",
+    "バクオング",
+    "ヒメグマ",
+    "プリン",
+    "ムクホーク",
+    "ヤルキモノ",
+    "ルギア",
+    "ルギアex",
+    "ルギアex",
+    "ふたの化石",
+    "カツラ",
+    "カンナギタウンの長老",
+    "スピーダー",
+    "ナツメ",
+    "ヒカリ",
+    "ロトム図鑑",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: レッド / In: ムックル (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ネモ / In: チラチーノ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ネズ / In: かいの化石 (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ムックル / In: カンナギタウンの長老 (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: モンスターボール / In: ヒメグマ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: かいの化石 / In: プリン (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: 博士の研究 / In: バクオング (Parent: 24/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: モンスターボール / In: ムクホーク (Parent: 25/50 -> Mutant: 27/50)"
+    }
+  ]
+}

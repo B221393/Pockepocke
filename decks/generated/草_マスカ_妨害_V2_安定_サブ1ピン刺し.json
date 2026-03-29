@@ -1,0 +1,87 @@
+{
+  "name": "草_マスカ_妨害_V2_安定_サブ1ピン刺し",
+  "strategy": "control",
+  "win_rate": 0.14775510204081632,
+  "wins": 5068,
+  "total_games": 34300,
+  "deck_composition": [
+    "アノクサ",
+    "キャタピー",
+    "ゴーゴート",
+    "チェリム",
+    "ナッシー",
+    "ブリガロン",
+    "ブリガロン",
+    "ボクレー",
+    "マスカーニャex",
+    "マラカッチ",
+    "ミニーブ",
+    "いたずらルーレット",
+    "イツキ",
+    "エリカ",
+    "ジュン",
+    "セキ",
+    "デンジ",
+    "ナンジャモ",
+    "ネズ",
+    "ラッキーミトン"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: マダツボミ / In: ナンジャモ (Parent: 10/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: マチス / In: ジュン (Parent: 4/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: チュリネ / In: ゴーゴート (Parent: 6/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: ジュナイパーex / In: アノクサ (Parent: 17/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: ポケモン通信 / In: フシギソウ (Parent: 5/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: マスカーニャex / In: いたずらルーレット (Parent: 6/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: コソクムシ / In: チェリム (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: いたずらルーレット / In: ミニーブ (Parent: 7/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ジュナイパーex / In: アゴジムシ (Parent: 7/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: ジャグラー / In: セキ (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: アゴジムシ / In: ブリガロン (Parent: 10/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: ウォーターボート / In: デンジ (Parent: 13/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: フシギソウ / In: ブリガロン (Parent: 7/50 -> Mutant: 11/50)"
+    }
+  ]
+}

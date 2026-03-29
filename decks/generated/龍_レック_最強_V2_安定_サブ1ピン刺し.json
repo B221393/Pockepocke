@@ -1,0 +1,75 @@
+{
+  "name": "龍_レック_最強_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.5846574344023323,
+  "wins": 16043,
+  "total_games": 27440,
+  "deck_composition": [
+    "レックウザex",
+    "レックウザex",
+    "カイリューex",
+    "クリムガン",
+    "コモルー",
+    "チルタリス",
+    "ハクリュー",
+    "メガラティオスex",
+    "おおきいマラサダ",
+    "こうらの化石",
+    "ずがいの化石",
+    "ふしぎなアメ",
+    "まもりのポンチョ",
+    "やまおとこ",
+    "セレナ",
+    "ナンジャモ",
+    "ネズ",
+    "ビーストウォール",
+    "マツバ",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: アゴの化石 / In: カイリュー (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: テーブルシティ / In: オボンのみ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: オボンのみ / In: ラムのみ (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: カイリューex / In: ビーストウォール (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: マツバ / In: 旅の行商人 (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: 博士の研究 / In: まもりのポンチョ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: カイリューex / In: こうらの化石 (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: カイリュー / In: やまおとこ (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: マーマネ / In: セレナ (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: ラムのみ / In: ネズ (Parent: 31/50 -> Mutant: 33/50)"
+    }
+  ]
+}

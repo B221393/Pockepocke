@@ -1,0 +1,75 @@
+{
+  "name": "鋼_ソルガレオ_コンボ_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.32151603498542275,
+  "wins": 11028,
+  "total_games": 34300,
+  "deck_composition": [
+    "アローラダグトリオex",
+    "アーマーガア",
+    "カヌチャン",
+    "ココドラ",
+    "コバルオン",
+    "ソルガレオex",
+    "ソルガレオex",
+    "フォレトス",
+    "メガハガネールex",
+    "ネイティオ",
+    "ミュウ",
+    "ヤドン",
+    "むしよけスプレー",
+    "カイ",
+    "カンナギタウンの長老",
+    "セキ",
+    "ポケモン図鑑",
+    "リーフマント",
+    "ルザミーネ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ポットデス / In: ポケモン図鑑 (Parent: 8/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: プルリル / In: メガハガネールex (Parent: 6/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: メモリーライト / In: ネイティオ (Parent: 20/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: メルタン / In: アローラダグトリオ (Parent: 13/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: ヨノワール / In: ミュウ (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: ゲンガーex / In: フォレトス (Parent: 14/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: アローラダグトリオ / In: ヤドン (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: 博士の研究 / In: コバルオン (Parent: 20/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: シズイ / In: リーフマント (Parent: 14/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: メンテナンス / In: アーマーガア (Parent: 15/50 -> Mutant: 19/50)"
+    }
+  ]
+}

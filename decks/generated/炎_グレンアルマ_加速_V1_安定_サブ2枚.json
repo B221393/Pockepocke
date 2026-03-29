@@ -1,0 +1,87 @@
+{
+  "name": "炎_グレンアルマ_加速_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.2919709989258861,
+  "wins": 10873,
+  "total_games": 37240,
+  "deck_composition": [
+    "ウインディex",
+    "キュウコン",
+    "ギャロップ",
+    "クイタラン",
+    "グレンアルマex",
+    "シャンデラ",
+    "ニャビー",
+    "バシャーモ",
+    "パルデアケンタロス",
+    "ホウオウex",
+    "ポニータ",
+    "ランプラー",
+    "リザードン",
+    "レシラム",
+    "ふしぎなアメ",
+    "アセロラ",
+    "スター団のしたっぱ",
+    "トレーニングエリア",
+    "ネズ",
+    "ビーストナイト"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: グレンアルマex / In: エレキコード (Parent: 23/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: ウインディex / In: デルビル (Parent: 14/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: リザードンex / In: ネズ (Parent: 11/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ネズ / In: どくバリ (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: いたずらルーレット / In: レシラム (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: ラウドボーン / In: レシラム (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: リザードンex / In: シャンデラ (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: ニャビー / In: ニャビー (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: どくバリ / In: リザードン (Parent: 10/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: エレキコード / In: ランプラー (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: レシラム / In: バシャーモ (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: デルビル / In: ギャロップ (Parent: 20/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: マツバ / In: クイタラン (Parent: 18/50 -> Mutant: 21/50)"
+    }
+  ]
+}

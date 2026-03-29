@@ -1,0 +1,25 @@
+id,name,type,card_type,hp,stage,evolves_from,ability,effect,description
+610,キバゴ,Dragon,Pokemon,70,0,,,-,かじる(20)
+611,オノンド,Dragon,Pokemon,100,1,610,,-,りゅうのいぶき(50)
+612,オノノクス,Dragon,Pokemon,160,2,611,,discard_self_energy_1,りゅうのはどう(130)
+741,オドリドリ (雷),Lightning,Pokemon,90,0,,prevent_ex_damage,-,exからダメージを受けない
+656,ケロマツ,Water,Pokemon,60,0,,,-,あわ(10)
+657,ゲコガシラ,Water,Pokemon,80,1,656,,-,みずのはどう(40)
+658,ゲッコウガ,Water,Pokemon,140,2,657,water_shuriken,-,毎ターンベンチに20
+25,ピカチュウex,Lightning,Pokemon,120,0,,,-,エレキサークル(90)
+145,サンダーex,Lightning,Pokemon,140,0,,,-,ハリケーンサンダー(100)
+603,シビシラス,Lightning,Pokemon,60,0,,,-,でんげき(10)
+491,ダークライex,Dark,Pokemon,180,0,,,-,ダークパルス(30+悪ベンチx20)
+359,アブソルex,Dark,Pokemon,150,0,,,-,わざわいのかぜ(60)
+10359,メガアブソルex,Dark,Pokemon,210,1,359,,side_link,ディザスタークロー(120+ポイント連動)
+1001,アイリス,-,Supporter,,, ,iris_point_boost,きぜつ時に追加1ポイント
+1002,マーズ,-,Supporter,,, ,mars_hand_discard,ハンデス
+1003,博士の研究,-,Supporter,,, ,draw_3,3枚引く
+1004,サカキ,-,Supporter,,, ,boost_damage_20,ダメージ+20
+1005,ナツメ,-,Supporter,,, ,switch_opponent_active,相手ベンチを引きずり出す
+1006,ものまねむすめ,-,Supporter,,, ,draw_until_opponent_hand_size,相手の手札枚数分引く
+2001,モンスターボール,-,Item,,, ,search_basic,たねサーチ
+2002,ふしぎなアメ,-,Item,,, ,rare_candy,進化スキップ
+2003,スピーダー,-,Item,,, ,switch,入れ替え
+2005,レッドカード,-,Item,,, ,opponent_discard_hand_to_3,手札干渉
+2006,メンテナンス,-,Item,,, ,hand_to_deck_refresh,手札を戻して引き直す

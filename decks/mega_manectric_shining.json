@@ -1,0 +1,92 @@
+{
+  "name": "メガライボルトex",
+  "description": "2026年3月Tier A。逆転のイナズマアクセル",
+  "cards": [
+    {
+      "name": "ラクライ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "でんこうせっか", "energy_cost": 1, "damage": 10, "coin_flips": 1}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ライボルト",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 90,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "evolves_from": "ラクライ",
+      "attacks": [
+        {"name": "フラッシュ", "energy_cost": 1, "damage": 40}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガライボルトex",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 180,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "evolves_from": "ライボルト",
+      "attacks": [
+        {"name": "イナズマアクセル", "energy_cost": 2, "damage": 80}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ピカチュウ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "バチバチ", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "retreat_cost_minus_1",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "雷エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

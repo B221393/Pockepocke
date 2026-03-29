@@ -1,0 +1,87 @@
+{
+  "name": "闘_ルカガブ_2ex_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.26753590325018894,
+  "wins": 7079,
+  "total_games": 26460,
+  "deck_composition": [
+    "イシズマイ",
+    "ガチゴラス",
+    "ガブリアスex",
+    "コジョンド",
+    "コノヨザル",
+    "ゴローニャ",
+    "タイレーツ",
+    "テラキオン",
+    "ルカリオex",
+    "マッシブーンex",
+    "はねの化石",
+    "ふしぎなアメ",
+    "イツキ",
+    "グラジオ",
+    "コトネ",
+    "デンジ",
+    "ビーストウォール",
+    "マオ",
+    "モンスターボール",
+    "リーリエ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: たての化石 / In: イワーク (Parent: 16/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: イワーク / In: コトネ (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ズガイドス / In: ガチゴラス (Parent: 15/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: モンスターボール / In: コノヨザル (Parent: 20/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: 釣り人 / In: グラジオ (Parent: 18/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ケケンカニ / In: ミカン (Parent: 13/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: モグリュー / In: マオ (Parent: 17/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ルカリオex / In: イシズマイ (Parent: 17/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: モグリュー / In: ゴローニャ (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ガブリアスex / In: デンジ (Parent: 17/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: ナマズン / In: リーリエ (Parent: 12/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: ふしぎなアメ / In: テラキオン (Parent: 14/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: ミカン / In: イツキ (Parent: 16/50 -> Mutant: 20/50)"
+    }
+  ]
+}

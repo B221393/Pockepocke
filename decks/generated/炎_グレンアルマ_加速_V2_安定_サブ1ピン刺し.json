@@ -1,0 +1,83 @@
+{
+  "name": "炎_グレンアルマ_加速_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.11258503401360544,
+  "wins": 3972,
+  "total_games": 35280,
+  "deck_composition": [
+    "アチャモ",
+    "ウインディ",
+    "グレンアルマex",
+    "ダルマッカ",
+    "ニャビー",
+    "ヒトカゲ",
+    "ヒヒダルマ",
+    "ヒートロトム",
+    "マグマッグ",
+    "ランプラー",
+    "リザード",
+    "リザードンex",
+    "いじわるレター",
+    "たての化石",
+    "ふしぎなアメ",
+    "マツバ",
+    "メタルコアバリア",
+    "大きなマント",
+    "幻の石板",
+    "当たりつきアイス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: パルデアケンタロス / In: 大きなマント (Parent: 2/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: ラビフット / In: リザードン (Parent: 4/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: イツキ / In: ニャビー (Parent: 5/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ヘビーメット / In: たての化石 (Parent: 7/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: リザードンex / In: ガーディ (Parent: 9/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: ガーディ / In: マグマッグ (Parent: 4/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: ヒノアラシ / In: ヒトカゲ (Parent: 9/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: リザード / In: ランプラー (Parent: 2/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: ずがいの化石 / In: ヒヒダルマ (Parent: 5/50 -> Mutant: 8/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: グレンアルマex / In: 幻の石板 (Parent: 5/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: メリッサ / In: マツバ (Parent: 3/50 -> Mutant: 5/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: リザードン / In: ダルマッカ (Parent: 5/50 -> Mutant: 7/50)"
+    }
+  ]
+}

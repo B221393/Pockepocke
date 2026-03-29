@@ -1,0 +1,315 @@
+{
+  "name": "水_スターミー_究極_V6_アルティメット",
+  "strategy": "snipe",
+  "win_rate": 0.519023569023569,
+  "wins": 80158,
+  "total_games": 154440,
+  "deck_composition": [
+    "ギャラドスex",
+    "シェルダー",
+    "シードラ",
+    "スイクンex",
+    "ナマズン",
+    "ニョロゾ",
+    "ニョロゾ",
+    "バイバニラ",
+    "パルキアex",
+    "ホエルオー",
+    "マリルリ",
+    "メガラグラージex",
+    "ラプラス",
+    "たべのこし",
+    "ひみつのコハク",
+    "シロナ",
+    "ポケモン図鑑",
+    "ポケモン図鑑",
+    "マーズ",
+    "マーズ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: アリゲイツ / In: ラプラス (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: トリトドン / In: メリッサ (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: ハラ / In: ケイコウオ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: パルシェン / In: バイバニラ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: カスミ / In: ジュン (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: タッツー / In: グレイシア (Parent: 16/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: ミカン / In: エリカ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: カスミ / In: サカキ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: スターミーex / In: グリーン (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ブイゼル / In: ゴルダック (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: グリーン / In: ウォーターボート (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: ゴルダック / In: ジュン (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: ラプラス / In: ヒットハンマー (Parent: 21/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: リーフ / In: ハンドスコープ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: 大きなふうせん / In: オシャマリ (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: フリーザーex / In: ウェルカモ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: ジュン / In: カジリガメ (Parent: 20/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: ケイコウオ / In: ハンドスコープ (Parent: 19/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: ヒットハンマー / In: アローラキュウコンex (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: きずぐすり / In: セレナ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: スターミーex / In: ヒカリ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: ウォーターボート / In: ゴツゴツメット (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: カスミ / In: アローラキュウコンex (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: リーリエ / In: スイクンex (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: サカキ / In: ポッタイシ (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: セレナ / In: タケシ (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: オシャマリ / In: ニョロゾ (Parent: 26/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: グレイシア / In: ウェルカモ (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: メリッサ / In: フリーザーex (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: ハンドスコープ / In: シロナ (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: アローラキュウコンex / In: メモリーライト (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: ゴツゴツメット / In: ポケモンの笛 (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: ポケモンの笛 / In: ポッタイシ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: ウェルカモ / In: レッド (Parent: 37/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: アローラキュウコンex / In: ネズ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: アゴの化石 / In: アカギ (Parent: 34/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: ネズ / In: シザリガー (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 146,
+      "diff": "Out: シザリガー / In: ヨワシex (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 149,
+      "diff": "Out: デンジ / In: アローラサンドパン (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 156,
+      "diff": "Out: ヒカリ / In: カメール (Parent: 36/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 159,
+      "diff": "Out: ポッタイシ / In: たての化石 (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 164,
+      "diff": "Out: ハンドスコープ / In: アローラロコン (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 168,
+      "diff": "Out: ジュン / In: ウッウ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 175,
+      "diff": "Out: アローラサンドパン / In: ユキワラシ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 179,
+      "diff": "Out: エリカ / In: オシャマリ (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 182,
+      "diff": "Out: ユキワラシ / In: ラプラス (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 190,
+      "diff": "Out: ウッウ / In: ポケモン図鑑 (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 191,
+      "diff": "Out: フリーザーex / In: 当たりつきアイス (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 198,
+      "diff": "Out: カジリガメ / In: ナマズン (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 201,
+      "diff": "Out: アローラロコン / In: おさかなネット (Parent: 26/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 207,
+      "diff": "Out: 当たりつきアイス / In: メガラグラージex (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 215,
+      "diff": "Out: たての化石 / In: アカネ (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 216,
+      "diff": "Out: おさかなネット / In: カルム (Parent: 38/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 217,
+      "diff": "Out: アカネ / In: シードラ (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 227,
+      "diff": "Out: オシャマリ / In: マーズ (Parent: 34/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 229,
+      "diff": "Out: メモリーライト / In: たべのこし (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 231,
+      "diff": "Out: ヨワシex / In: どくバリ (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 242,
+      "diff": "Out: シロナ / In: おおきいマラサダ (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 245,
+      "diff": "Out: カメール / In: ドジョッチ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 248,
+      "diff": "Out: ウェルカモ / In: ギャラドスex (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 252,
+      "diff": "Out: ポッタイシ / In: メリッサ (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 255,
+      "diff": "Out: アカギ / In: マリルリ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 259,
+      "diff": "Out: おおきいマラサダ / In: ヒヤップ (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 271,
+      "diff": "Out: タケシ / In: ポケモン図鑑 (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 273,
+      "diff": "Out: カルム / In: ホエルオー (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 274,
+      "diff": "Out: ヒヤップ / In: ニョロゾ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 279,
+      "diff": "Out: メリッサ / In: ひみつのコハク (Parent: 23/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 280,
+      "diff": "Out: レッド / In: シェルダー (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 281,
+      "diff": "Out: ドジョッチ / In: マーズ (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 297,
+      "diff": "Out: どくバリ / In: シロナ (Parent: 31/50 -> Mutant: 33/50)"
+    }
+  ]
+}

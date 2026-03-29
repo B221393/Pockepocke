@@ -1,0 +1,95 @@
+{
+  "name": "草_マスカ_妨害_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.48664723032069973,
+  "wins": 16692,
+  "total_games": 34300,
+  "deck_composition": [
+    "キノガッサ",
+    "ジュナイパーex",
+    "セレビィex",
+    "タネボー",
+    "チェリム",
+    "ハヤシガメ",
+    "ヒマナッツ",
+    "ビークイン",
+    "ポポッコ",
+    "メガニウム",
+    "いじわるレター",
+    "ふしぎな広場",
+    "エレキジェネレーター",
+    "グリーン",
+    "ゴツゴツメット",
+    "シズイ",
+    "ジュン",
+    "メタルコアバリア",
+    "レッドカード",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: ツタージャ / In: いじわるレター (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: シズイ / In: レッドカード (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: セレビィex / In: メガヤンマ (Parent: 24/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: エリカ / In: ツタージャ (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: ミカン / In: ポポッコ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: マスカーニャex / In: ビリジオン (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: ハンドスコープ / In: グリーン (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ツタージャ / In: ゴツゴツメット (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: シトロンのリュック / In: メガニウム (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ジュナイパーex / In: キノガッサ (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: ワナイダー / In: タネボー (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ビリジオン / In: 旅の行商人 (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: マスカーニャex / In: エレキジェネレーター (Parent: 34/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: 旅の行商人 / In: ジュン (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: メガヤンマ / In: チェリム (Parent: 35/50 -> Mutant: 37/50)"
+    }
+  ]
+}

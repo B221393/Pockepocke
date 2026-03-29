@@ -1,0 +1,63 @@
+{
+  "name": "超_ミュウツ_サナ_V4_グッズ偏重_ピンサブ",
+  "strategy": "control",
+  "win_rate": 0.684365889212828,
+  "wins": 18779,
+  "total_games": 27440,
+  "deck_composition": [
+    "ガラルギャロップ",
+    "トゲチック",
+    "ピクシー",
+    "ペロリーム",
+    "ミュウex",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "メガサーナイトex",
+    "かけだし調査員",
+    "こうらの化石",
+    "ふしぎなアメ",
+    "シトロン",
+    "ジャグラー",
+    "ジャグラー",
+    "スイレン",
+    "デンジ",
+    "ハウ",
+    "ラッキーミトン",
+    "リーフマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ふしぎなアメ / In: トゲチック (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: クレッフィ / In: シトロン (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ヒットハンマー / In: ラッキーミトン (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ダークペンダント / In: ミュウex (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ペロリーム / In: リーフマント (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: シトロンのリュック / In: ペロリーム (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: カツラ / In: ミュウex (Parent: 42/50 -> Mutant: 44/50)"
+    }
+  ]
+}

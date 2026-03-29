@@ -1,0 +1,67 @@
+{
+  "name": "超_ルナアーラ_回復_V2_安定_サブ1ピン刺し",
+  "strategy": "tank",
+  "win_rate": 0.11902040816326531,
+  "wins": 2916,
+  "total_games": 24500,
+  "deck_composition": [
+    "カプテテフ",
+    "ガラルサニゴーン",
+    "スリーパー",
+    "ダブラン",
+    "バネブー",
+    "フーディン",
+    "プルリル",
+    "ミュウ",
+    "ヤミラミ",
+    "ルナアーラex",
+    "ルナアーラex",
+    "きずぐすり",
+    "はねの化石",
+    "ふしぎなアメ",
+    "アカネ",
+    "グリーン",
+    "シズイ",
+    "スター団のしたっぱ",
+    "ヒレの化石",
+    "ヘビーメット"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: アカギ / In: ミュウ (Parent: 11/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ソルガレオex / In: フワライド (Parent: 7/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: ブルー / In: ヤミラミ (Parent: 7/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: ずがいの化石 / In: はねの化石 (Parent: 8/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: フワライド / In: アカネ (Parent: 2/50 -> Mutant: 8/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ソルガレオex / In: ヒレの化石 (Parent: 4/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: キルリア / In: スター団のしたっぱ (Parent: 6/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: サカキ / In: ダブラン (Parent: 3/50 -> Mutant: 8/50)"
+    }
+  ]
+}

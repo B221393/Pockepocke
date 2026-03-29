@@ -1,0 +1,83 @@
+{
+  "name": "悪_サザンアブ_狙撃_V6_純正_サブ0枚",
+  "strategy": "snipe",
+  "win_rate": 0.4483920841063698,
+  "wins": 14501,
+  "total_games": 32340,
+  "deck_composition": [
+    "オトシドリ",
+    "パルデアドオー",
+    "ブラッキーex",
+    "ポチエナ",
+    "メガアブソルex",
+    "メガアブソルex",
+    "どくバリ",
+    "ふしぎなアメ",
+    "グラジオ",
+    "ジュン",
+    "スピーダー",
+    "セレナ",
+    "トレーニングエリア",
+    "ナツメ",
+    "ハウ",
+    "ハンサム",
+    "ビーストナイト",
+    "博士の研究",
+    "博士の研究",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: レスキュースカーフ / In: どくバリ (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ポケモン図鑑 / In: スカンプー (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: 鋼鉄のまえかけ / In: ふしぎなアメ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: アローラニャース / In: ポチエナ (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: たべのこし / In: ゴツゴツメット (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: クズモー / In: オトシドリ (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ゴツゴツメット / In: ウツロイド (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ウツロイド / In: ニドリーノ (Parent: 25/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: ニドリーノ / In: ジュン (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: リーフマント / In: ハウ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: スカンプー / In: グラジオ (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: レッド / In: パルデアドオー (Parent: 31/50 -> Mutant: 37/50)"
+    }
+  ]
+}

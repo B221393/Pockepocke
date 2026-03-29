@@ -1,0 +1,87 @@
+{
+  "name": "水_メガギャラ_爆発_V5_メガピン刺し_サブ1",
+  "strategy": "combo",
+  "win_rate": 0.4590702947845805,
+  "wins": 12147,
+  "total_games": 26460,
+  "deck_composition": [
+    "アリゲイツ",
+    "アローラキュウコンex",
+    "オムナイト",
+    "ギャラドスex",
+    "シャリタツ",
+    "シャワーズ",
+    "デリバード",
+    "ニョロモ",
+    "ブルンゲル",
+    "ブロスター",
+    "ヘイラッシャ",
+    "ミズゴロウ",
+    "メガギャラドスex",
+    "メガギャラドスex",
+    "おさかなネット",
+    "かけだし調査員",
+    "イーブイのバッグ",
+    "カルネ",
+    "デンジ",
+    "ラッキーミトン"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: ふしぎなアメ / In: レッド (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: メモリーライト / In: カメール (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ギャラドスex / In: アシレーヌex (Parent: 25/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: 大きなふうせん / In: マツバ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ウォッシュロトム / In: マーズ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: マーズ / In: ブルンゲル (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: カメール / In: ビーストナイト (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: マツバ / In: ヘイラッシャ (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: アシレーヌex / In: シャワーズ (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ビーストナイト / In: イーブイのバッグ (Parent: 24/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: レッド / In: オムナイト (Parent: 22/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: カイ / In: デリバード (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: カンナギタウンの長老 / In: デンジ (Parent: 26/50 -> Mutant: 28/50)"
+    }
+  ]
+}

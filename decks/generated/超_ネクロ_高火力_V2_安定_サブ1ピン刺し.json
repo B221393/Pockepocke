@@ -1,0 +1,71 @@
+{
+  "name": "超_ネクロ_高火力_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.4778231292517007,
+  "wins": 14048,
+  "total_games": 29400,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "アイアント",
+    "ソルガレオex",
+    "クレセリアex",
+    "バリヤード",
+    "ヒラヒナ",
+    "フワライド",
+    "ブーピッグ",
+    "ミミッキュex",
+    "メガサーナイトex",
+    "ヨマワル",
+    "かんこうきゃく",
+    "アカネ",
+    "エレキジェネレーター",
+    "ジャグラー",
+    "フレイムパッチ",
+    "メンテナンス",
+    "モンスターボール",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: ロトム図鑑 / In: グズマ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: セレナ / In: フワライド (Parent: 18/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: ゴース / In: アカネ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ソルガレオex / In: 旅の行商人 (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: アイアント / In: ジャグラー (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: グズマ / In: ヨマワル (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ミュウツー / In: ミミッキュex (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: アイリス / In: クレセリアex (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: アカギ / In: ブーピッグ (Parent: 31/50 -> Mutant: 34/50)"
+    }
+  ]
+}

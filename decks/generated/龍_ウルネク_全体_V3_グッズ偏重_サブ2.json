@@ -1,0 +1,67 @@
+{
+  "name": "龍_ウルネク_全体_V3_グッズ偏重_サブ2",
+  "strategy": "combo",
+  "win_rate": 0.6302721088435375,
+  "wins": 18530,
+  "total_games": 29400,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "ギラティナex",
+    "ゲンガーex",
+    "ピクシー",
+    "ムウマージ",
+    "ヨノワール",
+    "ラルトス",
+    "パルキアex",
+    "どくバリ",
+    "むしよけスプレー",
+    "カスミ",
+    "シズイ",
+    "デンジ",
+    "ハンサム",
+    "ヒットハンマー",
+    "ヘビーメット",
+    "ポケモン図鑑",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: カイリュー / In: ムウマージ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: ひみつのコハク / In: ゴチルゼル (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: アセロラ / In: むしよけスプレー (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: ポケモンの笛 / In: ハンサム (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: オボンのみ / In: ヨノワール (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: ゴチルゼル / In: ゲンガーex (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: セキ / In: ラルトス (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: イリマ / In: どくバリ (Parent: 31/50 -> Mutant: 35/50)"
+    }
+  ]
+}

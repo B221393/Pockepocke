@@ -1,0 +1,87 @@
+{
+  "name": "草_フシギバ_どく_V5_メガピン刺し_サブ1",
+  "strategy": "control",
+  "win_rate": 0.5150313971742543,
+  "wins": 13123,
+  "total_games": 25480,
+  "deck_composition": [
+    "アリアドス",
+    "コノハナ",
+    "ジャローダ",
+    "チュリネ",
+    "バチンキー",
+    "フシギバナex",
+    "フシギバナex",
+    "ブリガロン",
+    "ミュウex",
+    "ミュウex",
+    "おおきいマラサダ",
+    "こうらの化石",
+    "ふしぎな広場",
+    "イーブイのバッグ",
+    "エリカ",
+    "カキ",
+    "レッド",
+    "博士の研究",
+    "当たりつきアイス",
+    "当たりつきアイス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: シェイミ / In: バチンキー (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: トレーニングエリア / In: ブリガロン (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: マツバ / In: おおきいマラサダ (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: カンナギタウンの長老 / In: チュリネ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: マッシブーン / In: ミニーブ (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: ボクレー / In: パラス (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: カプサイジ / In: チュリネ (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: カツラ / In: 当たりつきアイス (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: パラス / In: イーブイのバッグ (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ハラ / In: ビークイン (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ビークイン / In: コノハナ (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ミニーブ / In: こうらの化石 (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: チュリネ / In: 当たりつきアイス (Parent: 33/50 -> Mutant: 35/50)"
+    }
+  ]
+}

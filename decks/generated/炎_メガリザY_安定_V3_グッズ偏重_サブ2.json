@@ -1,0 +1,83 @@
+{
+  "name": "炎_メガリザY_安定_V3_グッズ偏重_サブ2",
+  "strategy": "tempo",
+  "win_rate": 0.6926122448979591,
+  "wins": 16969,
+  "total_games": 24500,
+  "deck_composition": [
+    "ゴウカザルex",
+    "ズガドーンex",
+    "ブースターex",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "リザードンex",
+    "おおきいマラサダ",
+    "ふたの化石",
+    "やまおとこ",
+    "エレキコード",
+    "エレメンタルつけかえ",
+    "カルネ",
+    "カルム",
+    "シズイ",
+    "シトロン",
+    "ジャグラー",
+    "セレナ",
+    "タケシ",
+    "テーブルシティ",
+    "ポケモンセンターのお姉さん"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: ポニータ / In: クイタラン (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: ロケット団のしたっぱ / In: ヤトウモリ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: リザードン / In: エレキコード (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: マーズ / In: やまおとこ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: 博士の研究 / In: シトロン (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ヤトウモリ / In: ブースターex (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: クイタラン / In: リザードンex (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: リザードンex / In: アチゲータ (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: マーマネ / In: カルム (Parent: 41/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: ルザミーネ / In: エレメンタルつけかえ (Parent: 44/50 -> Mutant: 49/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: 博士の研究 / In: シズイ (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: アチゲータ / In: カルネ (Parent: 41/50 -> Mutant: 45/50)"
+    }
+  ]
+}

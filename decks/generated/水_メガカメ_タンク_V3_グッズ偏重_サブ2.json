@@ -1,0 +1,71 @@
+{
+  "name": "水_メガカメ_タンク_V3_グッズ偏重_サブ2",
+  "strategy": "tank",
+  "win_rate": 0.54282622139765,
+  "wins": 17555,
+  "total_games": 32340,
+  "deck_composition": [
+    "カメックスex",
+    "スイクンex",
+    "ニョロモ",
+    "メガカメックスex",
+    "メガカメックスex",
+    "ルージュラ",
+    "おさかなネット",
+    "きずぐすり",
+    "きずぐすり",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "イーブイのバッグ",
+    "エリカ",
+    "キョウ",
+    "グズマ",
+    "シトロン",
+    "ダークペンダント",
+    "ハイキングコース",
+    "ポケモン通信",
+    "ポケモン通信"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: カマスジョー / In: ナツメ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: たべのこし / In: アズマオウ (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: アズマオウ / In: ポッチャマ (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: カキ / In: シトロン (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ナツメ / In: ハイキングコース (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: かいの化石 / In: ウリムー (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ウリムー / In: ルージュラ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: はじまりの平原 / In: キョウ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: ポッチャマ / In: エリカ (Parent: 34/50 -> Mutant: 39/50)"
+    }
+  ]
+}

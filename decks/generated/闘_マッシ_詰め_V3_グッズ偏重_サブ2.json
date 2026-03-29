@@ -1,0 +1,79 @@
+{
+  "name": "闘_マッシ_詰め_V3_グッズ偏重_サブ2",
+  "strategy": "aggro",
+  "win_rate": 0.43615160349854226,
+  "wins": 11968,
+  "total_games": 27440,
+  "deck_composition": [
+    "ガブリアスex",
+    "ガラガラex",
+    "サンドパン",
+    "ジーランス",
+    "ナゲツケサル",
+    "ナゲツケサル",
+    "マクノシタ",
+    "ルカリオex",
+    "ルカリオex",
+    "マッシブーンex",
+    "マッシブーンex",
+    "ふしぎなアメ",
+    "アカギ",
+    "カスミ",
+    "ゼニガメじょうろ",
+    "ヒットハンマー",
+    "ビーストウォール",
+    "マチス",
+    "レスキュースカーフ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ジュン / In: カスミ (Parent: 22/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: チャーレム / In: ナゲツケサル (Parent: 19/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: チャーレム / In: サンドパン (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: ハラ / In: ガラガラex (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: グリーン / In: ヒカリ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: モノマネむすめ / In: マチス (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: 博士の研究 / In: カルネ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ガブリアスex / In: マーマネ (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: ヒカリ / In: ルカリオex (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: マーマネ / In: ガブリアスex (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: カルネ / In: マクノシタ (Parent: 22/50 -> Mutant: 25/50)"
+    }
+  ]
+}

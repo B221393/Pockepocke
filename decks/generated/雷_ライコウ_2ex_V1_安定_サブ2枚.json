@@ -1,0 +1,75 @@
+{
+  "name": "雷_ライコウ_2ex_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.6844812925170068,
+  "wins": 16099,
+  "total_games": 23520,
+  "deck_composition": [
+    "エレザード",
+    "サンダーex",
+    "サンダースex",
+    "サンダースex",
+    "ジバコイル",
+    "ゼブライカ",
+    "ゼブライカ",
+    "トゲデマル",
+    "ハラバリー",
+    "パモット",
+    "パモット",
+    "メガライボルトex",
+    "モココ",
+    "ライコウex",
+    "ライコウex",
+    "ふしぎなアメ",
+    "イーブイのバッグ",
+    "メモリーライト",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: カスミ / In: いじわるレター (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: やまおとこ / In: サンダース (Parent: 35/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: ルチア / In: トゲデマル (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: アカギ / In: ゼブライカ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: マツバ / In: ハラバリーex (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ハラバリーex / In: ハラバリー (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: たべのこし / In: パモット (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: サンダース / In: イーブイのバッグ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: いじわるレター / In: ジバコイル (Parent: 34/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: メガライボルトex / In: エレザード (Parent: 33/50 -> Mutant: 35/50)"
+    }
+  ]
+}

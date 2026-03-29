@@ -1,0 +1,87 @@
+{
+  "name": "草_エルフ_加速_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.1531667839549613,
+  "wins": 4353,
+  "total_games": 28420,
+  "deck_composition": [
+    "エルフーンex",
+    "カイロス",
+    "コフキムシ",
+    "シガロコ",
+    "ジャローダ",
+    "ジュナイパー",
+    "タマンチュラ",
+    "タルップル",
+    "チュリネ",
+    "ナエトル",
+    "ニャオハ",
+    "マラカッチ",
+    "メガヤンマ",
+    "カルネ",
+    "サカキ",
+    "スイレン",
+    "マオ",
+    "メタルコアバリア",
+    "リーリエ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: ジュナイパー / In: モクロー (Parent: 10/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: エルフーンex / In: カツラ (Parent: 7/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: グズマ / In: タマンチュラ (Parent: 2/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: ひみつのコハク / In: カイロス (Parent: 6/50 -> Mutant: 8/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: ハラ / In: リーリエ (Parent: 8/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: アゴジムシ / In: はねの化石 (Parent: 14/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: アノホラグサ / In: マラカッチ (Parent: 10/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: カツラ / In: ナエトル (Parent: 5/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: エリカ / In: ジャローダ (Parent: 7/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: 博士の研究 / In: ニャオハ (Parent: 9/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: アメタマ / In: チュリネ (Parent: 11/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: モクロー / In: メタルコアバリア (Parent: 10/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: はねの化石 / In: メガヤンマ (Parent: 11/50 -> Mutant: 18/50)"
+    }
+  ]
+}

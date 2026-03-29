@@ -1,0 +1,67 @@
+{
+  "name": "龍_ウルネク_全体_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.5431122448979592,
+  "wins": 10645,
+  "total_games": 19600,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "クリムガン",
+    "キルリア",
+    "ギラティナex",
+    "ギラティナex",
+    "クレセリア",
+    "サマヨール",
+    "バネブー",
+    "ムウマ",
+    "ムシャーナ",
+    "ヤドラン",
+    "カツラ",
+    "ギンガ団のしたっぱ",
+    "スイレン",
+    "セレナ",
+    "テーブルシティ",
+    "ミカン",
+    "リーリエ",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: マホミル / In: ミカン (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: 博士の研究 / In: ムシャーナ (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: セキ / In: スイレン (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: ロケット団のしたっぱ / In: キルリア (Parent: 21/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: メモリーライト / In: サマヨール (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: サマヨール / In: ムウマ (Parent: 29/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: コトネ / In: テーブルシティ (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: ベラカス / In: カツラ (Parent: 27/50 -> Mutant: 30/50)"
+    }
+  ]
+}

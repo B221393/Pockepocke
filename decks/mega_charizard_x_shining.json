@@ -1,0 +1,99 @@
+{
+  "name": "メガリザードンXex",
+  "description": "2026年3月Tier S。残りHP110以下で180ダメージの怪物",
+  "cards": [
+    {
+      "name": "ヒトカゲ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Fire",
+      "weakness": "Water",
+      "attacks": [
+        {"name": "ひのしっぽ", "energy_cost": 1, "damage": 30}
+      ],
+      "count": 2
+    },
+    {
+      "name": "リザード",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 80,
+      "type": "Fire",
+      "weakness": "Water",
+      "evolves_from": "ヒトカゲ",
+      "attacks": [
+        {"name": "きりさく", "energy_cost": 2, "damage": 40}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガリザードンXex",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 220,
+      "type": "Fire",
+      "weakness": "Water",
+      "evolves_from": "リザード",
+      "attacks": [
+        {"name": "レイジングブレイズ", "energy_cost": 3, "damage": 100}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ポニータ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Fire",
+      "weakness": "Water",
+      "attacks": [
+        {"name": "こがす", "energy_cost": 1, "damage": 0, "effect": "burn"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ギャロップ",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 100,
+      "type": "Fire",
+      "weakness": "Water",
+      "evolves_from": "ポニータ",
+      "attacks": [
+        {"name": "オーバースマッシュ", "energy_cost": 1, "damage": 30}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "大きなマント",
+      "card_type": "Item",
+      "effect": "hp_boost_20",
+      "count": 2
+    },
+    {
+      "name": "炎エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

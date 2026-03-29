@@ -1,0 +1,63 @@
+{
+  "name": "超_メガゲン_全体_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.735095856524428,
+  "wins": 23773,
+  "total_games": 32340,
+  "deck_composition": [
+    "メガゲンガーex",
+    "ミミッキュ",
+    "ミミッキュex",
+    "ミュウex",
+    "メガチルタリスex",
+    "ヤドラン",
+    "そうじゅくエキス",
+    "たべのこし",
+    "はねの化石",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "アカネ",
+    "カツラ",
+    "カルネ",
+    "グズマ",
+    "テーブルシティ",
+    "ミカン",
+    "博士の研究",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: ネズ / In: ミカン (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ヒトモシ / In: ミュウex (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ラッキーミトン / In: メガチルタリスex (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: ヘビーメット / In: ペロリーム (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: ゴチム / In: ミミッキュ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: メガゲンガーex / In: そうじゅくエキス (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: ペロリーム / In: ミミッキュex (Parent: 37/50 -> Mutant: 41/50)"
+    }
+  ]
+}

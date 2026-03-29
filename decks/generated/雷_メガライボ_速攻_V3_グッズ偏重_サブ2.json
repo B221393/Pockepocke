@@ -1,0 +1,75 @@
+{
+  "name": "雷_メガライボ_速攻_V3_グッズ偏重_サブ2",
+  "strategy": "aggro",
+  "win_rate": 0.4346938775510204,
+  "wins": 10224,
+  "total_games": 23520,
+  "deck_composition": [
+    "エモンガ",
+    "エレブー",
+    "サンダースex",
+    "ハラバリーex",
+    "ビリリダマ",
+    "ピカチュウ",
+    "メガライボルトex",
+    "メガライボルトex",
+    "ランターンex",
+    "かいの化石",
+    "かけだし調査員",
+    "たての化石",
+    "ひみつのコハク",
+    "タケシ",
+    "ナツメ",
+    "ハラ",
+    "フレイムパッチ",
+    "ヘビーメット",
+    "マーズ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: そうじゅくエキス / In: カプコケコ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: アローラライチュウ / In: ヘビーメット (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: パルスワン / In: フレイムパッチ (Parent: 21/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: 博士の研究 / In: ビリリダマ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: そうじゅくエキス / In: エレブー (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: エレブー / In: ナツメ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: タイカイデン / In: ナツメ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: アローラライチュウex / In: エレブー (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: ナツメ / In: ランターンex (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: カプコケコ / In: かけだし調査員 (Parent: 21/50 -> Mutant: 25/50)"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "雷_ライコウ_2ex_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.5991104133961277,
+  "wins": 22898,
+  "total_games": 38220,
+  "deck_composition": [
+    "エレザード",
+    "パチリス",
+    "パーモット",
+    "メガライボルトex",
+    "ライコウex",
+    "ライコウex",
+    "ランターンex",
+    "おさかなネット",
+    "こうらの化石",
+    "ふしぎなアメ",
+    "カツラ",
+    "グリーン",
+    "サカキ",
+    "タケシ",
+    "デンジ",
+    "ヒレの化石",
+    "マツバ",
+    "ロケット団のしたっぱ",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: 鋼鉄のまえかけ / In: おさかなネット (Parent: 37/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: マーマネ / In: グリーン (Parent: 35/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: グズマ / In: ランターンex (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: メガライボルトex / In: コトネ (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ふしぎなアメ / In: スピーダー (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: スイレン / In: ズピカ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ヒレの化石 / In: ロケット団のしたっぱ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: スピーダー / In: デンジ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: コトネ / In: こうらの化石 (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: ズピカ / In: カツラ (Parent: 26/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: サンダース / In: パチリス (Parent: 29/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: アイリス / In: パーモット (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: グリーン / In: エレザード (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: 博士の研究 / In: ヒレの化石 (Parent: 27/50 -> Mutant: 29/50)"
+    }
+  ]
+}

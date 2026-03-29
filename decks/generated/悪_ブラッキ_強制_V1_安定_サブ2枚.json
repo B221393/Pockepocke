@@ -1,0 +1,75 @@
+{
+  "name": "悪_ブラッキ_強制_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.4351513019000704,
+  "wins": 12367,
+  "total_games": 28420,
+  "deck_composition": [
+    "アローララッタ",
+    "クロバット",
+    "スカタンク",
+    "チョロネコ",
+    "ニドキング",
+    "パルデアドオー",
+    "ヒドイデ",
+    "ブラッキーex",
+    "ヘルガー",
+    "マニューラex",
+    "マニューラex",
+    "ミカルゲ",
+    "メガアブソルex",
+    "メガアブソルex",
+    "たべのこし",
+    "やまおとこ",
+    "セレナ",
+    "ネズ",
+    "ロケット団のしたっぱ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: ヒレの化石 / In: ニューラ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: そうじゅくエキス / In: クロバット (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ニューラ / In: ニドキング (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: マニューラex / In: ヒドイデ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: モノマネむすめ / In: ミカルゲ (Parent: 20/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ブラッキーex / In: パルデアドオー (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: ヒカリ / In: かけだし調査員 (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: かけだし調査員 / In: たべのこし (Parent: 25/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: ヤミカラス / In: アローララッタ (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: ニドリーナ / In: ネズ (Parent: 28/50 -> Mutant: 33/50)"
+    }
+  ]
+}

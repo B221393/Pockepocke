@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_安定_V1_安定_サブ2枚",
+  "strategy": "tempo",
+  "win_rate": 0.5945029624753128,
+  "wins": 18061,
+  "total_games": 30380,
+  "deck_composition": [
+    "ウインディ",
+    "エンテイex",
+    "エンニュート",
+    "ギャロップex",
+    "デルビル",
+    "ヒトカゲ",
+    "ヒトカゲ",
+    "ポニータ",
+    "マグカルゴ",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "モウカザル",
+    "レシラム",
+    "かけだし調査員",
+    "エレキジェネレーター",
+    "ギンガ団のしたっぱ",
+    "グラジオ",
+    "スター団のしたっぱ",
+    "ラムのみ",
+    "レスキュースカーフ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: バオッキー / In: ギャロップex (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: イーブイのバッグ / In: 大きなふうせん (Parent: 34/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: 大きなふうせん / In: かけだし調査員 (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: 博士の研究 / In: エンテイex (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: ゴウカザルex / In: レシラム (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ズガドーンex / In: デルビル (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ズガドーンex / In: グラジオ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ゴウカザルex / In: エレキジェネレーター (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: ペパー / In: マグカルゴ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: ネズ / In: エンニュート (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: ボタン / In: ポニータ (Parent: 31/50 -> Mutant: 33/50)"
+    }
+  ]
+}

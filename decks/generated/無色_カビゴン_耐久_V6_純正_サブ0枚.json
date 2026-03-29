@@ -1,0 +1,67 @@
+{
+  "name": "無色_カビゴン_耐久_V6_純正_サブ0枚",
+  "strategy": "tank",
+  "win_rate": 0.48645640074211505,
+  "wins": 10488,
+  "total_games": 21560,
+  "deck_composition": [
+    "カビゴンex",
+    "カビゴンex",
+    "カビゴンex",
+    "ムクホーク",
+    "おさかなネット",
+    "ふたの化石",
+    "むしよけスプレー",
+    "アゴの化石",
+    "ウォーターボート",
+    "カツラ",
+    "スイレン",
+    "スイレン",
+    "セキ",
+    "ハルカ",
+    "マオ",
+    "マーマネ",
+    "メモリーライト",
+    "メンテナンス",
+    "ラムのみ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: そうじゅくエキス / In: ハルカ (Parent: 17/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: きずぐすり / In: スイレン (Parent: 19/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: カイ / In: ハイキングコース (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: ポリゴン / In: スイレン (Parent: 22/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: ハイキングコース / In: 博士の研究 (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: きずぐすり / In: カビゴンex (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: オタチ / In: ラムのみ (Parent: 31/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ポケモンの笛 / In: セキ (Parent: 36/50 -> Mutant: 41/50)"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "ダークライ（Sメガ）",
+  "description": "2026年3月最強Tier SS。相手をねむらせて一方的に叩く",
+  "cards": [
+    {
+      "name": "ダークライ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 100,
+      "type": "Dark",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "くろいまどろみ", "energy_cost": 2, "damage": 40, "effect": "sleep_synergy"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ミカルゲ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Dark",
+      "attacks": [
+        {"name": "のろい", "energy_cost": 1, "damage": 10, "effect": "sleep"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "アーボ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Dark",
+      "attacks": [
+        {"name": "かみつく", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "アーボック",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 100,
+      "type": "Dark",
+      "evolves_from": "アーボ",
+      "attacks": [
+        {"name": "どくのキバ", "energy_cost": 2, "damage": 60, "effect": "poison"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "レッドカード",
+      "card_type": "Item",
+      "effect": "shuffle_opponent_hand",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "大きなマント",
+      "card_type": "Item",
+      "effect": "hp_boost_20",
+      "count": 2
+    },
+    {
+      "name": "悪エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

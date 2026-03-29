@@ -1,0 +1,83 @@
+{
+  "name": "鋼_ディアルガ_ロマン_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.4599686028257457,
+  "wins": 11720,
+  "total_games": 25480,
+  "deck_composition": [
+    "コマタナ",
+    "ジバコイル",
+    "ディアルガex",
+    "ディアルガex",
+    "レアコイル",
+    "カマスジョー",
+    "ハスボー",
+    "パルキアex",
+    "パルキアex",
+    "ホエルコ",
+    "ホエルコ",
+    "ミロカロス",
+    "ラプラス",
+    "ラプラス",
+    "どくバリ",
+    "ふしぎなアメ",
+    "エレキジェネレーター",
+    "ゴツゴツメット",
+    "ダークペンダント",
+    "ヒカリ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ナットレイ / In: ホエルコ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: レッドカード / In: タッツー (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: ナットレイ / In: ポケモン通信 (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ナットレイ / In: パウワウ (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ジュン / In: ハスボー (Parent: 19/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: ポケモン通信 / In: ブロスター (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ブロスター / In: エアームド (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: ふしぎなアメ / In: カマスジョー (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: タッツー / In: レアコイル (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: レジスチル / In: ミロカロス (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: パウワウ / In: ラプラス (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: エアームド / In: ラプラス (Parent: 25/50 -> Mutant: 30/50)"
+    }
+  ]
+}

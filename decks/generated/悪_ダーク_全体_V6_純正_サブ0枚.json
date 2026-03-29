@@ -1,0 +1,71 @@
+{
+  "name": "悪_ダーク_全体_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.33015141540487164,
+  "wins": 10030,
+  "total_games": 30380,
+  "deck_composition": [
+    "アローラコラッタ",
+    "クロバットex",
+    "ダークライex",
+    "ドヒドイデ",
+    "ドラミドロ",
+    "ニドリーノ",
+    "マニューラ",
+    "マニューラ",
+    "ヤミカラス",
+    "ワルビル",
+    "きずぐすり",
+    "やまおとこ",
+    "アセロラ",
+    "ゴツゴツメット",
+    "ダークペンダント",
+    "ハラ",
+    "ボタン",
+    "モンスターボール",
+    "博士の研究",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: ポケモンの笛 / In: クロバットex (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: メモリーライト / In: ハラ (Parent: 16/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: 博士の研究 / In: ワルビル (Parent: 25/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ヒカリ / In: ニドリーナ (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: ニドリーナ / In: やまおとこ (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: モンスターボール / In: ニューラ (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ダークライex / In: マニューラ (Parent: 13/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: ホイーガ / In: ドラミドロ (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: ニューラ / In: ダークペンダント (Parent: 17/50 -> Mutant: 20/50)"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "雷_ピカライ_進化_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.5551948051948052,
+  "wins": 17955,
+  "total_games": 32340,
+  "deck_composition": [
+    "エモンガ",
+    "ストリンダーex",
+    "ピカチュウ",
+    "ピカチュウex",
+    "ピカチュウex",
+    "メガデンリュウex",
+    "ライチュウex",
+    "ライチュウex",
+    "いじわるレター",
+    "はじまりの平原",
+    "ふたの化石",
+    "エレキジェネレーター",
+    "グズマ",
+    "グズマ",
+    "グラジオ",
+    "シズイ",
+    "デンジ",
+    "ヒレの化石",
+    "ビーストウォール",
+    "モンスターボール"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: アローラゴローニャ / In: ペパー (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: ペパー / In: ビーストウォール (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: サンダースex / In: グズマ (Parent: 24/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: 鋼鉄のまえかけ / In: おおきいマラサダ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: モンスターボール / In: こうらの化石 (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: ゴツゴツメット / In: グラジオ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: おおきいマラサダ / In: ヒレの化石 (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: こうらの化石 / In: メガデンリュウex (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: メガデンリュウex / In: シズイ (Parent: 44/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: デンチュラ / In: エレキジェネレーター (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: レントラー / In: ストリンダーex (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: ジバコイル / In: エモンガ (Parent: 28/50 -> Mutant: 31/50)"
+    }
+  ]
+}

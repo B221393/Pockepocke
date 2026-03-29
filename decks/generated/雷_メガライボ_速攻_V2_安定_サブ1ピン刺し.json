@@ -1,0 +1,71 @@
+{
+  "name": "雷_メガライボ_速攻_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.4925756509500352,
+  "wins": 13999,
+  "total_games": 28420,
+  "deck_composition": [
+    "サンダーex",
+    "サンダースex",
+    "サンダースex",
+    "ビリリダマ",
+    "メガライボルトex",
+    "メガライボルトex",
+    "ライチュウ",
+    "ランターンex",
+    "レントラー",
+    "レントラー",
+    "ワンパチ",
+    "かんこうきゃく",
+    "きずぐすり",
+    "ギンガ団のしたっぱ",
+    "スイレン",
+    "スピーダー",
+    "ハンドスコープ",
+    "ミカン",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: かいの化石 / In: アカギ (Parent: 36/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: ハウ / In: きずぐすり (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: ラクライ / In: ハルカ (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: カツラ / In: レントラー (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: カキ / In: カプコケコex (Parent: 34/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: アカギ / In: いじわるレター (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: ハルカ / In: ハンドスコープ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: いじわるレター / In: スピーダー (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 146,
+      "diff": "Out: カプコケコex / In: ギンガ団のしたっぱ (Parent: 21/50 -> Mutant: 24/50)"
+    }
+  ]
+}

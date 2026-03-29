@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_安定_V5_メガピン刺し_サブ1",
+  "strategy": "tempo",
+  "win_rate": 0.5105685131195336,
+  "wins": 14010,
+  "total_games": 27440,
+  "deck_composition": [
+    "アチャモ",
+    "エンニュート",
+    "ガーディ",
+    "ヒバニー",
+    "ファイヤー",
+    "ブーバーン",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "リザード",
+    "リザード",
+    "レシラム",
+    "アカネ",
+    "イツキ",
+    "コトネ",
+    "ジャグラー",
+    "ハイキングコース",
+    "ヒカリ",
+    "ヒレの化石",
+    "ラムのみ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: 博士の研究 / In: ラムのみ (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: ゴウカザルex / In: ガーディ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ポニータ / In: ヒットハンマー (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ホゲータ / In: アカネ (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: ゴウカザルex / In: ヒカリ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: ヒートロトム / In: コトネ (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: ヒットハンマー / In: ブーバーン (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ヘビーメット / In: ヒバニー (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: ブースター / In: リザード (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: テーブルシティ / In: エンニュート (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: ネモ / In: アチャモ (Parent: 29/50 -> Mutant: 31/50)"
+    }
+  ]
+}

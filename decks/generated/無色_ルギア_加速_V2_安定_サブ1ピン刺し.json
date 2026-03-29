@@ -1,0 +1,59 @@
+{
+  "name": "無色_ルギア_加速_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.5425909494232476,
+  "wins": 12230,
+  "total_games": 22540,
+  "deck_composition": [
+    "イーブイex",
+    "カビゴンex",
+    "カビゴンex",
+    "カビゴンex",
+    "チラーミィ",
+    "ドーブル",
+    "ハピナスex",
+    "ビーダルex",
+    "ルギアex",
+    "ルギアex",
+    "こうらの化石",
+    "ハラ",
+    "フレイムパッチ",
+    "メリッサ",
+    "メンテナンス",
+    "モンスターボール",
+    "ルチア",
+    "博士の研究",
+    "大きなマント",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: リーフマント / In: ビーダルex (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: ポリゴン2 / In: ムクホーク (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: ムクホーク / In: 大きなマント (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: かいの化石 / In: カビゴンex (Parent: 31/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: ヒメグマ / In: メンテナンス (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: ポッポ / In: チラーミィ (Parent: 36/50 -> Mutant: 38/50)"
+    }
+  ]
+}

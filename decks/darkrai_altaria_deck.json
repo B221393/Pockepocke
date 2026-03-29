@@ -19,7 +19,7 @@
       "name": "ダークライex",
       "card_type": "Pokemon",
       "stage": 1,
-      "hp": 150,
+      "hp": 100,
       "type": "Dark",
       "evolves_from": "ダークライ",
       "attacks": [

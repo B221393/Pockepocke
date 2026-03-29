@@ -1,0 +1,59 @@
+{
+  "name": "炎_メガリザX_速攻_V3_グッズ偏重_サブ2",
+  "strategy": "aggro",
+  "win_rate": 0.7057050092764379,
+  "wins": 15215,
+  "total_games": 21560,
+  "deck_composition": [
+    "ウインディex",
+    "ウインディex",
+    "ニャヒート",
+    "ニャビー",
+    "メガバシャーモex",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "ラビフット",
+    "かいの化石",
+    "ふたの化石",
+    "カツラ",
+    "カツラ",
+    "カルネ",
+    "セキ",
+    "デンジ",
+    "フレイムパッチ",
+    "マツバ",
+    "メモリーライト",
+    "リーフマント",
+    "リーリエ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: エンテイex / In: はじまりの平原 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: フレイムパッチ / In: かいの化石 (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: バシャーモ / In: カツラ (Parent: 29/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: はじまりの平原 / In: ニャヒート (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: アゴの化石 / In: ウインディex (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: メガリザードンXex / In: メガリザードンXex (Parent: 28/50 -> Mutant: 39/50)"
+    }
+  ]
+}

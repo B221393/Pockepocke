@@ -1,0 +1,83 @@
+{
+  "name": "炎_メガリザX_速攻_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.4856842737094838,
+  "wins": 16183,
+  "total_games": 33320,
+  "deck_composition": [
+    "ウインディex",
+    "オドリドリ",
+    "ニャヒート",
+    "ヒトカゲ",
+    "ブーバー",
+    "ホゲータ",
+    "マグカルゴ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "リザード",
+    "かんこうきゃく",
+    "そうじゅくエキス",
+    "どくバリ",
+    "サカキ",
+    "ナンジャモ",
+    "ハンドスコープ",
+    "ビーストナイト",
+    "フレイムパッチ",
+    "マオ",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: かんこうきゃく / In: マオ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: 博士の研究 / In: カキ (Parent: 27/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: ヒートロトム / In: ナンジャモ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: エンテイex / In: リザード (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: ハルカ / In: ブーバー (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 56,
+      "diff": "Out: ポニータ / In: マグカルゴ (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: エンテイex / In: オドリドリ (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ウインディex / In: リーフ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: リーフ / In: ホゲータ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: セキ / In: どくバリ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: カキ / In: そうじゅくエキス (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: ブーバー / In: 釣り人 (Parent: 25/50 -> Mutant: 29/50)"
+    }
+  ]
+}

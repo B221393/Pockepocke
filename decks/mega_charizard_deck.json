@@ -38,7 +38,7 @@
       "weakness": "Water",
       "evolves_from": "リザードン",
       "attacks": [
-        {"name": "メガクロスフレイム", "energy_cost": 4, "damage": 220}
+        {"name": "メガクロスフレイム", "energy_cost": 4, "damage": 90, "effect": "haisui_no_jin"}
       ],
       "count": 2
     },
@@ -104,25 +104,25 @@
       "count": 2
     },
     {
-      "name": "スーパーボール",
+      "name": "なんでもなおし",
       "card_type": "Item",
       "stage": null,
       "hp": null,
       "type": null,
       "evolves_from": null,
       "attacks": [],
-      "effect": "search_any",
+      "effect": "switch",
       "count": 2
     },
     {
-      "name": "まけんきハチマキ",
+      "name": "エネ加速",
       "card_type": "Item",
       "stage": null,
       "hp": null,
       "type": null,
       "evolves_from": null,
       "attacks": [],
-      "effect": "boost_damage_30",
+      "effect": "energy_accel",
       "count": 2
     }
   ]

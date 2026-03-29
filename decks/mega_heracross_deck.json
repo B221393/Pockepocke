@@ -33,12 +33,12 @@
       "name": "メガハッサムex",
       "card_type": "Pokemon",
       "stage": 2,
-      "hp": 230,
+      "hp": 200,
       "type": "Grass",
       "weakness": "Fire",
       "evolves_from": "ハッサムex",
       "attacks": [
-        {"name": "メガシザークロス", "energy_cost": 4, "damage": 210}
+        {"name": "メガシザークロス", "energy_cost": 4, "damage": 120, "effect": "side_link"}
       ],
       "count": 2
     },
@@ -104,25 +104,25 @@
       "count": 2
     },
     {
-      "name": "傷薬",
+      "name": "なんでもなおし",
       "card_type": "Item",
       "stage": null,
       "hp": null,
       "type": null,
       "evolves_from": null,
       "attacks": [],
-      "effect": "heal_30",
+      "effect": "switch",
       "count": 2
     },
     {
-      "name": "レッドカード",
+      "name": "エネ加速",
       "card_type": "Item",
       "stage": null,
       "hp": null,
       "type": null,
       "evolves_from": null,
       "attacks": [],
-      "effect": "shuffle_opponent_hand",
+      "effect": "energy_accel",
       "count": 2
     }
   ]

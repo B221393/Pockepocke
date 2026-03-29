@@ -1,0 +1,99 @@
+{
+  "name": "闘_ルカガブ_2ex_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.18897959183673468,
+  "wins": 5556,
+  "total_games": 29400,
+  "deck_composition": [
+    "ガブリアスex",
+    "ガブリアスex",
+    "ガントル",
+    "ギガイアスex",
+    "コノヨザル",
+    "ゴローン",
+    "ジーランス",
+    "ダグトリオ",
+    "チゴラス",
+    "ディグダ",
+    "ヒポポタス",
+    "マクノシタ",
+    "マンキー",
+    "メガミミロップex",
+    "おさかなネット",
+    "おさかなネット",
+    "エレメンタルつけかえ",
+    "カルム",
+    "モンスターボール",
+    "ルチア"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ケケンカニ / In: マクノシタ (Parent: 6/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: チャーレム / In: ジーランス (Parent: 12/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ふしぎなアメ / In: ヒポポタス (Parent: 12/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: 当たりつきアイス / In: ヒレの化石 (Parent: 8/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ルカリオex / In: リーリエ (Parent: 8/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: ヒレの化石 / In: ダグトリオ (Parent: 9/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 56,
+      "diff": "Out: ゴローニャ / In: ルカリオ (Parent: 8/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: ルカリオ / In: チゴラス (Parent: 6/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: イワンコ / In: おさかなネット (Parent: 6/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: モンスターボール / In: カルム (Parent: 9/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: リーリエ / In: サワムラー (Parent: 10/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: サワムラー / In: メガミミロップex (Parent: 13/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: ふしぎなアメ / In: ギガイアスex (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: ルカリオex / In: ルチア (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: マーシャドー / In: ゴローン (Parent: 14/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: ビーストナイト / In: ガントル (Parent: 20/50 -> Mutant: 23/50)"
+    }
+  ]
+}

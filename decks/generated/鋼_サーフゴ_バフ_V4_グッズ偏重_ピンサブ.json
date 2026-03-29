@@ -1,0 +1,75 @@
+{
+  "name": "鋼_サーフゴ_バフ_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.47825255102040815,
+  "wins": 14998,
+  "total_games": 31360,
+  "deck_composition": [
+    "ギルガルド",
+    "サーフゴーex",
+    "ソルガレオex",
+    "ディアルガex",
+    "ディアルガex",
+    "ドーミラー",
+    "ハガネール",
+    "ミミズズ",
+    "メガハガネールex",
+    "メルメタルex",
+    "はじまりの平原",
+    "ふたの化石",
+    "カイ",
+    "シトロン",
+    "タケシ",
+    "ナツメ",
+    "フレイムパッチ",
+    "ボタン",
+    "モンスターボール",
+    "リーフ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: ナットレイ / In: メガハガネールex (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: モンスターボール / In: はじまりの平原 (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: マオ / In: ふたの化石 (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: テッシード / In: ソルガレオex (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: ボタン / In: シトロン (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: アゴの化石 / In: ディアルガex (Parent: 25/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: クチート / In: むしよけスプレー (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: アセロラ / In: ボタン (Parent: 27/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: サーフゴーex / In: ギルガルド (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: むしよけスプレー / In: ドーミラー (Parent: 30/50 -> Mutant: 32/50)"
+    }
+  ]
+}

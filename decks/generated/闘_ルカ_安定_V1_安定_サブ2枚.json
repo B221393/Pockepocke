@@ -1,0 +1,79 @@
+{
+  "name": "闘_ルカ_安定_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.1661047027506655,
+  "wins": 3744,
+  "total_games": 22540,
+  "deck_composition": [
+    "カイリキー",
+    "カイリキーex",
+    "カイリキーex",
+    "ガブリアスex",
+    "コジョフー",
+    "サワムラー",
+    "ジーランス",
+    "チャーレム",
+    "ナゲツケサル",
+    "ハリテヤマ",
+    "バンギラス",
+    "メレシー",
+    "ルカリオex",
+    "ワンリキー",
+    "おおきいマラサダ",
+    "シロナ",
+    "スイレン",
+    "ヘビーメット",
+    "メタルコアバリア",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: スピーダー / In: おおきいマラサダ (Parent: 2/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: ガブリアスex / In: メレシー (Parent: 14/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: モノマネむすめ / In: ふたの化石 (Parent: 13/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: シトロンのリュック / In: アサナン (Parent: 9/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ふたの化石 / In: 鋼鉄のまえかけ (Parent: 11/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: 鋼鉄のまえかけ / In: ナゲツケサル (Parent: 4/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: セキ / In: メタルコアバリア (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: ネズ / In: ヘビーメット (Parent: 15/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: イワーク / In: スイレン (Parent: 3/50 -> Mutant: 5/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: アサナン / In: ハリテヤマ (Parent: 3/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: ルカリオex / In: サワムラー (Parent: 7/50 -> Mutant: 9/50)"
+    }
+  ]
+}

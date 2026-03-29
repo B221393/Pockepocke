@@ -1,0 +1,63 @@
+{
+  "name": "鋼_サーフゴ_バフ_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.22994370161857847,
+  "wins": 6535,
+  "total_games": 28420,
+  "deck_composition": [
+    "アローラディグダ",
+    "エアームドex",
+    "ガラルニャイキング",
+    "クレッフィ",
+    "テッシード",
+    "テッシード",
+    "ナカヌチャン",
+    "メルメタルex",
+    "メルメタルex",
+    "はねの化石",
+    "カイ",
+    "カンナギタウンの長老",
+    "シズイ",
+    "シロナ",
+    "ジュン",
+    "スピーダー",
+    "ダークペンダント",
+    "ボタン",
+    "ポケモン通信",
+    "メモリーライト"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: サーフゴーex / In: エアームドex (Parent: 9/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: 博士の研究 / In: ジュン (Parent: 17/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: サーフゴーex / In: シロナ (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: たべのこし / In: ダークペンダント (Parent: 14/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: モンスターボール / In: カイ (Parent: 18/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: メルメタルex / In: スピーダー (Parent: 10/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: アイリス / In: ボタン (Parent: 13/50 -> Mutant: 22/50)"
+    }
+  ]
+}

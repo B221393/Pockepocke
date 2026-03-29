@@ -1,0 +1,99 @@
+{
+  "name": "超_メガゲン_全体_V4_グッズ偏重_ピンサブ",
+  "strategy": "control",
+  "win_rate": 0.5506902761104442,
+  "wins": 18349,
+  "total_games": 33320,
+  "deck_composition": [
+    "メガゲンガーex",
+    "メガゲンガーex",
+    "アブリボン",
+    "アンノーンP",
+    "ゴースト",
+    "フーディン",
+    "ブーピッグ",
+    "ルージュラ",
+    "いじわるレター",
+    "ずがいの化石",
+    "ふしぎなアメ",
+    "カルム",
+    "グリーン",
+    "シロナ",
+    "ハラ",
+    "ヘビーメット",
+    "メタルコアバリア",
+    "メリッサ",
+    "博士の研究",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ゲンガーex / In: メリッサ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ジャグラー / In: スリーパー (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: ポケモンセンターのお姉さん / In: ハラ (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: ふしぎなアメ / In: カルム (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: シトロン / In: グリーン (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: はねの化石 / In: ハイキングコース (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ふしぎなアメ / In: シロナ (Parent: 27/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: カルム / In: ルザミーネ (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ルザミーネ / In: フーディン (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: スリーパー / In: ヤドラン (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: ケーシィ / In: アブリボン (Parent: 33/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ハイキングコース / In: シトロンのリュック (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: ヤドラン / In: ずがいの化石 (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: 博士の研究 / In: メタルコアバリア (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: シトロンのリュック / In: アンノーンP (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: リーフ / In: ブーピッグ (Parent: 30/50 -> Mutant: 32/50)"
+    }
+  ]
+}

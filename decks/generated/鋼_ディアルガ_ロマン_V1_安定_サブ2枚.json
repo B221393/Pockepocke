@@ -1,0 +1,79 @@
+{
+  "name": "鋼_ディアルガ_ロマン_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.4910946196660482,
+  "wins": 15882,
+  "total_games": 32340,
+  "deck_composition": [
+    "ガラルニャイキング",
+    "クレッフィ",
+    "コバルオン",
+    "ディアルガex",
+    "ヒードラン",
+    "ミノマダム",
+    "ミノマダム",
+    "アズマオウ",
+    "ジュゴン",
+    "デリバード",
+    "バニリッチ",
+    "パルキアex",
+    "パルキアex",
+    "プロトーガ",
+    "ユキノオー",
+    "ヨワシ",
+    "ふしぎなアメ",
+    "オボンのみ",
+    "ハラ",
+    "マツバ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: リーフマント / In: ヨワシ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: ハンドスコープ / In: 博士の研究 (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: ディアルガex / In: ヒードラン (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: ヌマクロー / In: ハラ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: そうじゅくエキス / In: ジュゴン (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: メガハガネールex / In: ユキノオー (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: フリージオ / In: ミノマダム (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ナンジャモ / In: バニリッチ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: ロトム図鑑 / In: ガラルニャイキング (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: 博士の研究 / In: アズマオウ (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: イーブイのバッグ / In: デリバード (Parent: 26/50 -> Mutant: 32/50)"
+    }
+  ]
+}

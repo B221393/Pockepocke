@@ -1,0 +1,67 @@
+{
+  "name": "雷_サンダース_加速_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.2102641056422569,
+  "wins": 3503,
+  "total_games": 16660,
+  "deck_composition": [
+    "エリキテル",
+    "サンダースex",
+    "サンダースex",
+    "ストリンダーex",
+    "パモット",
+    "パルスワン",
+    "ビリリダマ",
+    "ピカチュウex",
+    "メリープ",
+    "ロトム",
+    "エレメンタルつけかえ",
+    "グズマ",
+    "シズイ",
+    "ナンジャモ",
+    "ハンドスコープ",
+    "ビーストウォール",
+    "マーマネ",
+    "メリッサ",
+    "ルザミーネ",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ビーストナイト / In: ピカチュウex (Parent: 11/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: デンヂムシ / In: マーマネ (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: モンスターボール / In: エレブー (Parent: 12/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: デデンネ / In: はねの化石 (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: はねの化石 / In: ロトム図鑑 (Parent: 18/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: エレブー / In: グズマ (Parent: 12/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ボタン / In: ビリリダマ (Parent: 12/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: モンスターボール / In: ストリンダーex (Parent: 12/50 -> Mutant: 15/50)"
+    }
+  ]
+}

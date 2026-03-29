@@ -1,0 +1,279 @@
+{
+  "name": "超_ミュウツー_グッズ偏重_V3",
+  "strategy": "control",
+  "win_rate": 0.728536617492097,
+  "wins": 110621,
+  "total_games": 151840,
+  "deck_composition": [
+    "オーロット",
+    "クエスパトラ",
+    "グランブル",
+    "ダブラン",
+    "ニンフィア",
+    "フワライド",
+    "マホイップ",
+    "メガサーナイトex",
+    "メガチルタリスex",
+    "ヤドラン",
+    "エリカ",
+    "エレキコード",
+    "カスミ",
+    "カルム",
+    "グラジオ",
+    "スピーダー",
+    "ヒカリ",
+    "ヒカリ",
+    "ボタン",
+    "ロケット団のしたっぱ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: ラルトス / In: ペパー (Parent: 37/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: カスミ / In: ココロモリ (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: シルバー / In: ポケモン図鑑 (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ペパー / In: ヨノワール (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: シロナ / In: アゴの化石 (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: ボタン / In: ココロモリ (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ヨノワール / In: トゲキッス (Parent: 44/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ミュウツーex / In: グラジオ (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ポケモン図鑑 / In: モノマネむすめ (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: サカキ / In: 旅の行商人 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: 旅の行商人 / In: 釣り人 (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: レッド / In: イリマ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: 旅の行商人 / In: メガチルタリスex (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: リーフマント / In: ゲンガー (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: サカキ / In: グランブル (Parent: 43/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ミュウツーex / In: エレキコード (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: ゲンガー / In: テーブルシティ (Parent: 43/50 -> Mutant: 49/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: ココロモリ / In: 幻の石板 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: グラジオ / In: クエスパトラ (Parent: 43/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: クエスパトラ / In: ムウマージ (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: モノマネむすめ / In: たべのこし (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: トゲキッス / In: カイ (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: ムウマージ / In: ヤドラン (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: イリマ / In: トゲキッス (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: ココロモリ / In: ヤドキング (Parent: 40/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: いじわるレター / In: フワライド (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: グラジオ / In: マシェード (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ミカン / In: 鋼鉄のまえかけ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: マシェード / In: パンプジン (Parent: 34/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: たべのこし / In: グラジオ (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: キルリア / In: マツバ (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: アゴの化石 / In: カツラ (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: カイ / In: ペロリーム (Parent: 36/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: パンプジン / In: はじまりの平原 (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: マツバ / In: ヤドラン (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 152,
+      "diff": "Out: オーロット / In: フレイムパッチ (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 165,
+      "diff": "Out: はじまりの平原 / In: 大きなふうせん (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 166,
+      "diff": "Out: 大きなふうせん / In: クエスパトラ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 170,
+      "diff": "Out: テーブルシティ / In: マホイップ (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 171,
+      "diff": "Out: ペロリーム / In: ムシャーナ (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 173,
+      "diff": "Out: 幻の石板 / In: ロケット団のしたっぱ (Parent: 41/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 178,
+      "diff": "Out: ヤドキング / In: アセロラ (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 191,
+      "diff": "Out: ヤドラン / In: アカネ (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 198,
+      "diff": "Out: カルネ / In: ポケモンセンターのお姉さん (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 208,
+      "diff": "Out: フレイムパッチ / In: ルナアーラex (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 216,
+      "diff": "Out: トゲキッス / In: かいの化石 (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 220,
+      "diff": "Out: ルナアーラex / In: ニンフィア (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 227,
+      "diff": "Out: 釣り人 / In: サカキ (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 239,
+      "diff": "Out: ムシャーナ / In: 幻の石板 (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 242,
+      "diff": "Out: ポケモンセンターのお姉さん / In: ヒカリ (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 245,
+      "diff": "Out: サカキ / In: ミュウツーex (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 253,
+      "diff": "Out: アセロラ / In: カスミ (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 259,
+      "diff": "Out: アカネ / In: オーロット (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 260,
+      "diff": "Out: 幻の石板 / In: グランブル (Parent: 43/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 261,
+      "diff": "Out: かいの化石 / In: スピーダー (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 264,
+      "diff": "Out: グランブル / In: ダブラン (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 275,
+      "diff": "Out: 鋼鉄のまえかけ / In: ボタン (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 280,
+      "diff": "Out: カツラ / In: ポケモン通信 (Parent: 40/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 286,
+      "diff": "Out: セキ / In: エリカ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 287,
+      "diff": "Out: ポケモン通信 / In: ヒカリ (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 292,
+      "diff": "Out: ミュウツーex / In: カルム (Parent: 39/50 -> Mutant: 44/50)"
+    }
+  ]
+}

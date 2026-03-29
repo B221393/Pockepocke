@@ -1,0 +1,75 @@
+{
+  "name": "悪_サザンアブ_狙撃_V5_メガピン刺し_サブ1",
+  "strategy": "snipe",
+  "win_rate": 0.5339517625231911,
+  "wins": 17268,
+  "total_games": 32340,
+  "deck_composition": [
+    "アーボック",
+    "オトシドリ",
+    "ゴロンダ",
+    "サザンドラ",
+    "スコルピ",
+    "ダークライex",
+    "ダークライex",
+    "チョロネコ",
+    "ドラピオン",
+    "ヒドイデ",
+    "マタドガス",
+    "メガアブソルex",
+    "メガアブソルex",
+    "メグロコ",
+    "ヤブクロン",
+    "ワルビル",
+    "エレキジェネレーター",
+    "カルネ",
+    "グリーン",
+    "ハルカ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ハンサム / In: ゴロンダ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: マチス / In: ヤブクロン (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: まもりのポンチョ / In: スコルピ (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: 博士の研究 / In: メグロコ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: 当たりつきアイス / In: ダークライ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: 鋼鉄のまえかけ / In: ハルカ (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: アローラニャース / In: エレキジェネレーター (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: ダークライ / In: サザンドラ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: レッド / In: チョロネコ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: ゴースト / In: ワルビル (Parent: 29/50 -> Mutant: 31/50)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "水_パルキア_高打点_V3_グッズ偏重_サブ2",
+  "strategy": "combo",
+  "win_rate": 0.38245682888540034,
+  "wins": 9745,
+  "total_games": 25480,
+  "deck_composition": [
+    "アルクジラ",
+    "カマスジョー",
+    "ガラルバリヤード",
+    "キングラー",
+    "コアルヒー",
+    "シェルダー",
+    "スイクンex",
+    "セビエ",
+    "タッツー",
+    "ナミイルカ",
+    "パルキアex",
+    "フィオネ",
+    "フィオネ",
+    "カスミ",
+    "コトネ",
+    "ゴツゴツメット",
+    "シロナ",
+    "シロナ",
+    "ゼニガメじょうろ",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ふしぎなアメ / In: コアルヒー (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ナツメ / In: ナミイルカ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: マチス / In: フィオネ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: メンテナンス / In: タッツー (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: そうじゅくエキス / In: アルクジラ (Parent: 22/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: プロトーガ / In: スイクンex (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: スイクンex / In: ボタン (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: パルキアex / In: コトネ (Parent: 9/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: アローラキュウコンex / In: フィオネ (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: ボタン / In: ガラルバリヤード (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: カスミ / In: セビエ (Parent: 22/50 -> Mutant: 25/50)"
+    }
+  ]
+}

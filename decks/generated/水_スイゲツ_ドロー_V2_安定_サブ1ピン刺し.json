@@ -1,0 +1,63 @@
+{
+  "name": "水_スイゲツ_ドロー_V2_安定_サブ1ピン刺し",
+  "strategy": "tempo",
+  "win_rate": 0.4347331240188383,
+  "wins": 11077,
+  "total_games": 25480,
+  "deck_composition": [
+    "ゲッコウガex",
+    "コダック",
+    "スイクンex",
+    "スイクンex",
+    "ナマコブシ",
+    "ニョロモ",
+    "パオジアンex",
+    "パオジアンex",
+    "ヒトデマン",
+    "メノクラゲ",
+    "ラプラスex",
+    "いたずらルーレット",
+    "どくバリ",
+    "アセロラ",
+    "ジュン",
+    "マツバ",
+    "モンスターボール",
+    "ラッキーミトン",
+    "リーフマント",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: ルザミーネ / In: ナマコブシ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: いたずらルーレット / In: ニョロモ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: イリマ / In: メノクラゲ (Parent: 17/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: トサキント / In: マツバ (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ゲッコウガex / In: ジュン (Parent: 19/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: ウミトリオ / In: ラッキーミトン (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: リーリエ / In: ラプラスex (Parent: 30/50 -> Mutant: 32/50)"
+    }
+  ]
+}

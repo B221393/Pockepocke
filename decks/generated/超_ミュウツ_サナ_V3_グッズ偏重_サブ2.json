@@ -1,0 +1,67 @@
+{
+  "name": "超_ミュウツ_サナ_V3_グッズ偏重_サブ2",
+  "strategy": "control",
+  "win_rate": 0.6744520030234316,
+  "wins": 17846,
+  "total_games": 26460,
+  "deck_composition": [
+    "ジュペッタ",
+    "フラベベ",
+    "ブルー",
+    "ミュウex",
+    "ミュウツーex",
+    "メガサーナイトex",
+    "ランクルス",
+    "こうらの化石",
+    "そうじゅくエキス",
+    "ふしぎなアメ",
+    "むしよけスプレー",
+    "ウォーターボート",
+    "エリカ",
+    "コトネ",
+    "シロナ",
+    "ハウ",
+    "ビーストウォール",
+    "ミカン",
+    "レッド",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: まもりのポンチョ / In: ウォーターボート (Parent: 38/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: きずぐすり / In: レッド (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: ミュウツーex / In: ブルー (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: ふしぎなアメ / In: グリーン (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: レスキュースカーフ / In: ジュペッタ (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: ゼニガメじょうろ / In: コトネ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: グリーン / In: フラベベ (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: ルナアーラex / In: シロナ (Parent: 33/50 -> Mutant: 37/50)"
+    }
+  ]
+}

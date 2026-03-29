@@ -1,0 +1,67 @@
+{
+  "name": "超_ミュウゲン_2ex_V4_グッズ偏重_ピンサブ",
+  "strategy": "control",
+  "win_rate": 0.5565714285714286,
+  "wins": 13636,
+  "total_games": 24500,
+  "deck_composition": [
+    "カゲボウズ",
+    "ゲンガーex",
+    "デスカーン",
+    "ブルー",
+    "ブーピッグ",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "はじまりの平原",
+    "はねの化石",
+    "アカギ",
+    "ウォーターボート",
+    "グリーン",
+    "ハイキングコース",
+    "マーマネ",
+    "ミカン",
+    "メタルコアバリア",
+    "リーフ",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ずがいの化石 / In: リグレー (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ヤドキング / In: メタルコアバリア (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ゲンガーex / In: ブーピッグ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: ジュペッタ / In: リーフ (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: シロナ / In: ハイキングコース (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: リグレー / In: はねの化石 (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: かいの化石 / In: ミカン (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: グズマ / In: カゲボウズ (Parent: 36/50 -> Mutant: 42/50)"
+    }
+  ]
+}

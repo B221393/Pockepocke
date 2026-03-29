@@ -1,0 +1,91 @@
+{
+  "name": "炎_メガリザY_安定_V6_純正_サブ0枚",
+  "strategy": "tempo",
+  "win_rate": 0.4717474489795918,
+  "wins": 14794,
+  "total_games": 31360,
+  "deck_composition": [
+    "ゴウカザルex",
+    "シシコ",
+    "デルビル",
+    "バクガメス",
+    "パルデアケンタロス",
+    "ヒトカゲ",
+    "ホゲータ",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "ワカシャモ",
+    "はねの化石",
+    "ふしぎな広場",
+    "ふたの化石",
+    "アゴの化石",
+    "イリマ",
+    "オボンのみ",
+    "ジュン",
+    "ポケモン図鑑",
+    "ミカン",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ヘビーメット / In: はねの化石 (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: 博士の研究 / In: レッド (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: ウインディ / In: バクガメス (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: ポケモンセンターのお姉さん / In: シシコ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: モンスターボール / In: かいの化石 (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: かいの化石 / In: ふたの化石 (Parent: 26/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: 幻の石板 / In: デルビル (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: スイレン / In: パルデアケンタロス (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: ヒノアラシ / In: オボンのみ (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: カエンジシ / In: ゴウカザルex (Parent: 23/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: カルネ / In: ヒノヤコマ (Parent: 18/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: ヒノヤコマ / In: ホゲータ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: レッド / In: ジュン (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ジャグラー / In: アゴの化石 (Parent: 25/50 -> Mutant: 31/50)"
+    }
+  ]
+}

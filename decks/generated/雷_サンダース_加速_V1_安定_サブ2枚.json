@@ -1,0 +1,71 @@
+{
+  "name": "雷_サンダース_加速_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.6051020408163266,
+  "wins": 16604,
+  "total_games": 27440,
+  "deck_composition": [
+    "ゼブライカ",
+    "パモ",
+    "マルマイン",
+    "メガデンリュウex",
+    "メガデンリュウex",
+    "モココ",
+    "ライコウex",
+    "レントラー",
+    "ワンパチ",
+    "たべのこし",
+    "はねの化石",
+    "アイリス",
+    "イーブイのバッグ",
+    "カツラ",
+    "サカキ",
+    "ポケモンの笛",
+    "モンスターボール",
+    "レスキュースカーフ",
+    "ロトム図鑑",
+    "当たりつきアイス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: ふしぎなアメ / In: カプコケコ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: サンダースex / In: 当たりつきアイス (Parent: 34/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: ランターンex / In: サカキ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: サンダースex / In: アイリス (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: サカキ / In: たべのこし (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: ロケット団のしたっぱ / In: ライチュウ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: カプコケコ / In: マルマイン (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: ライチュウ / In: はねの化石 (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: ライコウex / In: パモ (Parent: 35/50 -> Mutant: 38/50)"
+    }
+  ]
+}

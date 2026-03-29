@@ -1,0 +1,87 @@
+{
+  "name": "闘_ドンフ_耐久_V1_安定_サブ2枚",
+  "strategy": "tank",
+  "win_rate": 0.15193525686136525,
+  "wins": 4318,
+  "total_games": 28420,
+  "deck_composition": [
+    "イワンコ",
+    "ガラガラex",
+    "ガラガラex",
+    "コジョンド",
+    "コライドン",
+    "ゴローニャ",
+    "サナギラス",
+    "サンド",
+    "ディグダ",
+    "ヒポポタス",
+    "メグロコ",
+    "リオル",
+    "ワンリキー",
+    "きずぐすり",
+    "イリマ",
+    "ダークペンダント",
+    "トレーニングエリア",
+    "ナツメ",
+    "ハラ",
+    "メタルコアバリア"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ポケモン図鑑 / In: ヒポポタス (Parent: 9/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: コジョフー / In: ゴローニャ (Parent: 9/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: ゴローン / In: ディグダ (Parent: 13/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: ルカリオex / In: シルバー (Parent: 4/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: ドンファンex / In: イリマ (Parent: 6/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: シルバー / In: サンド (Parent: 12/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ラムパルド / In: イワンコ (Parent: 5/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ドンファンex / In: サナギラス (Parent: 8/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: ガントル / In: トレーニングエリア (Parent: 7/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ゴローン / In: コジョンド (Parent: 9/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: リーリエ / In: コライドン (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: ルカリオex / In: ナツメ (Parent: 11/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: 大きなマント / In: ダークペンダント (Parent: 9/50 -> Mutant: 11/50)"
+    }
+  ]
+}

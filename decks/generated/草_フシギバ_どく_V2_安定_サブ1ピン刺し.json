@@ -1,0 +1,87 @@
+{
+  "name": "草_フシギバ_どく_V2_安定_サブ1ピン刺し",
+  "strategy": "control",
+  "win_rate": 0.4735137533274179,
+  "wins": 10673,
+  "total_games": 22540,
+  "deck_composition": [
+    "ウツドン",
+    "カイロス",
+    "クヌギダマ",
+    "クヌギダマ",
+    "チュリネ",
+    "チュリネ",
+    "ナゾノクサ",
+    "ネマシュ",
+    "ビークイン",
+    "ブリガロン",
+    "マスカーニャex",
+    "ミニーブ",
+    "モンメン",
+    "リーフィアex",
+    "ミュウex",
+    "ミュウex",
+    "スイレン",
+    "ハウ",
+    "ヒットハンマー",
+    "メンテナンス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: マユルド / In: アイリス (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: フシギバナex / In: クヌギダマ (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: スピーダー / In: ネマシュ (Parent: 23/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: おさかなネット / In: ヘビーメット (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ハイキングコース / In: ナゾノクサ (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: 博士の研究 / In: マスカーニャex (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: アイリス / In: チュリネ (Parent: 17/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ヘビーメット / In: ウツドン (Parent: 25/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: エリカ / In: ビークイン (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: ジュナイパー / In: フクスロー (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: フシギバナex / In: クヌギダマ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: フクスロー / In: カイロス (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: ロトム図鑑 / In: ブリガロン (Parent: 27/50 -> Mutant: 34/50)"
+    }
+  ]
+}

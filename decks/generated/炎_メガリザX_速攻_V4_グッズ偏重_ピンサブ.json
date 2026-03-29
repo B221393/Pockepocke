@@ -1,0 +1,75 @@
+{
+  "name": "炎_メガリザX_速攻_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.59547471162378,
+  "wins": 13422,
+  "total_games": 22540,
+  "deck_composition": [
+    "ウインディ",
+    "エンテイex",
+    "ギャロップex",
+    "パルデアケンタロス",
+    "マグカルゴ",
+    "マグマラシ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "ロコン",
+    "たべのこし",
+    "むしよけスプレー",
+    "アカギ",
+    "シトロンのリュック",
+    "ゼニガメじょうろ",
+    "ハンサム",
+    "ハンサム",
+    "フレイムパッチ",
+    "ポケモンの笛",
+    "レッドカード",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: モンスターボール / In: 旅の行商人 (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: モウカザル / In: レッドカード (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: フレイムパッチ / In: ロコン (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: イツキ / In: ウインディ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ラウドボーン / In: ゼニガメじょうろ (Parent: 30/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: リーリエ / In: シトロンのリュック (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: おさかなネット / In: 博士の研究 (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: きずぐすり / In: マグカルゴ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: 旅の行商人 / In: ギャロップex (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ナンジャモ / In: たべのこし (Parent: 31/50 -> Mutant: 39/50)"
+    }
+  ]
+}

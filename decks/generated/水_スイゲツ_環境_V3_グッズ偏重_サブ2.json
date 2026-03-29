@@ -1,0 +1,63 @@
+{
+  "name": "水_スイゲツ_環境_V3_グッズ偏重_サブ2",
+  "strategy": "snipe",
+  "win_rate": 0.5125072886297376,
+  "wins": 17579,
+  "total_games": 34300,
+  "deck_composition": [
+    "カメックスex",
+    "ゲッコウガex",
+    "ゲッコウガex",
+    "コダック",
+    "スイクンex",
+    "スイクンex",
+    "ナミイルカ",
+    "ハルクジラ",
+    "フリーザーex",
+    "フローゼル",
+    "ブイゼル",
+    "ヘイラッシャ",
+    "ホエルコ",
+    "ワニノコ",
+    "たべのこし",
+    "カスミ",
+    "カスミ",
+    "ナンジャモ",
+    "フレイムパッチ",
+    "モンスターボール"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: ラッキーミトン / In: ワニノコ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ダークペンダント / In: ヘイラッシャ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: アセロラ / In: カメックスex (Parent: 43/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: ミロカロス / In: ブイゼル (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: スイレン / In: コダック (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ヒレの化石 / In: フローゼル (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: 鋼鉄のまえかけ / In: ナミイルカ (Parent: 30/50 -> Mutant: 36/50)"
+    }
+  ]
+}

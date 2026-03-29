@@ -1,0 +1,59 @@
+{
+  "name": "水_スイゲツ_環境_V2_安定_サブ1ピン刺し",
+  "strategy": "snipe",
+  "win_rate": 0.5108485499462944,
+  "wins": 9512,
+  "total_games": 18620,
+  "deck_composition": [
+    "ゲッコウガex",
+    "スイクンex",
+    "スイクンex",
+    "テッポウオ",
+    "ハギギシリ",
+    "フリーザーex",
+    "フリーザーex",
+    "ポッチャマ",
+    "ミロカロス",
+    "ミロカロス",
+    "ラプラスex",
+    "いじわるレター",
+    "そうじゅくエキス",
+    "はじまりの平原",
+    "カルム",
+    "グズマ",
+    "シトロンのリュック",
+    "ネモ",
+    "ヒカリ",
+    "レッドカード"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: かいの化石 / In: ヘイラッシャ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: タケシ / In: グズマ (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: ヘイラッシャ / In: セグレイブ (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: カスミ / In: カルム (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ゲッコウガex / In: シトロンのリュック (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: セグレイブ / In: ラプラスex (Parent: 30/50 -> Mutant: 36/50)"
+    }
+  ]
+}

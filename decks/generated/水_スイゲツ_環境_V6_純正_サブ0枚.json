@@ -1,0 +1,71 @@
+{
+  "name": "水_スイゲツ_環境_V6_純正_サブ0枚",
+  "strategy": "snipe",
+  "win_rate": 0.6167638483965014,
+  "wins": 16924,
+  "total_games": 27440,
+  "deck_composition": [
+    "ウェーニバル",
+    "カマスジョー",
+    "ガマガル",
+    "ゲッコウガex",
+    "ゲッコウガex",
+    "ゴルダック",
+    "スイクンex",
+    "トリトドン",
+    "ハルクジラ",
+    "ミロカロス",
+    "メガカメックスex",
+    "ユキメノコ",
+    "アセロラ",
+    "カスミ",
+    "シトロンのリュック",
+    "ハイキングコース",
+    "ポケモンの笛",
+    "マーズ",
+    "リーリエ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: スイクンex / In: ゴルダック (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: テーブルシティ / In: カマスジョー (Parent: 24/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ウミトリオ / In: 博士の研究 (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: ハイキングコース / In: ミロカロス (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: グリーン / In: ハイキングコース (Parent: 26/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: テッポウオ / In: たての化石 (Parent: 29/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ジャグラー / In: シトロンのリュック (Parent: 42/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: たての化石 / In: ユキメノコ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: カスミ / In: ガマガル (Parent: 38/50 -> Mutant: 40/50)"
+    }
+  ]
+}

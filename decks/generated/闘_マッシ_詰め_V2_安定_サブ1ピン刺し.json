@@ -1,0 +1,91 @@
+{
+  "name": "闘_マッシ_詰め_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.35098852040816325,
+  "wins": 11007,
+  "total_games": 31360,
+  "deck_composition": [
+    "アサナン",
+    "アーケン",
+    "オコリザル",
+    "ガラガラ",
+    "グライオン",
+    "ゴマゾウ",
+    "メガチャーレムex",
+    "ルカリオex",
+    "マッシブーンex",
+    "マッシブーンex",
+    "かけだし調査員",
+    "こうらの化石",
+    "アゴの化石",
+    "カキ",
+    "ギンガ団のしたっぱ",
+    "ゼニガメじょうろ",
+    "ハラ",
+    "ヒレの化石",
+    "博士の研究",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: マンキー / In: バルキー (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: バルキー / In: ヒポポタス (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: ルカリオex / In: アサナン (Parent: 18/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: サンド / In: トレーニングエリア (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: ギガイアスex / In: エレメンタルつけかえ (Parent: 16/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ヒポポタス / In: かんこうきゃく (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: サイホーン / In: ガラガラ (Parent: 20/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: トレーニングエリア / In: ヘビーメット (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: かんこうきゃく / In: グライオン (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ヘビーメット / In: カキ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: エレメンタルつけかえ / In: こうらの化石 (Parent: 16/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: ビーストナイト / In: アーケン (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: たべのこし / In: かけだし調査員 (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: サイドン / In: メガチャーレムex (Parent: 27/50 -> Mutant: 37/50)"
+    }
+  ]
+}

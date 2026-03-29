@@ -1,0 +1,87 @@
+{
+  "name": "鋼_サーフゴ_バフ_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.5885374149659864,
+  "wins": 17303,
+  "total_games": 29400,
+  "deck_composition": [
+    "アローラダグトリオ",
+    "アローラディグダ",
+    "ガラルニャイキング",
+    "サーフゴーex",
+    "フォレトス",
+    "ブロロン",
+    "メガクチートex",
+    "メガハッサムex",
+    "メガハッサムex",
+    "メルメタルex",
+    "エレキコード",
+    "カイ",
+    "コトネ",
+    "シロナ",
+    "ダークペンダント",
+    "ヒレの化石",
+    "ポケモン通信",
+    "リーリエ",
+    "大きなふうせん",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: メルメタルex / In: クチート (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: サーフゴーex / In: ガラルニャイキング (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: モンスターボール / In: ハンドスコープ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: どくバリ / In: シロナ (Parent: 32/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: クチート / In: シトロン (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: サーフゴー / In: クチート (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ミカン / In: エレキコード (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: アカギ / In: アローラダグトリオ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: シトロン / In: ネモ (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: クチート / In: リーリエ (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ハンドスコープ / In: ポケモン通信 (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: オリジンディアルガ / In: アローラディグダ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: ネモ / In: コトネ (Parent: 29/50 -> Mutant: 33/50)"
+    }
+  ]
+}

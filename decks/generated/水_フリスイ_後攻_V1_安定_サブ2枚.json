@@ -1,0 +1,63 @@
+{
+  "name": "水_フリスイ_後攻_V1_安定_サブ2枚",
+  "strategy": "tempo",
+  "win_rate": 0.5771373414230557,
+  "wins": 20927,
+  "total_games": 36260,
+  "deck_composition": [
+    "オタマロ",
+    "オムスター",
+    "サメハダー",
+    "スイクンex",
+    "スイクンex",
+    "ネオラント",
+    "バニリッチ",
+    "パオジアンex",
+    "フリーザーex",
+    "フリーザーex",
+    "マリルリ",
+    "ふしぎな広場",
+    "カキ",
+    "ジャグラー",
+    "スイレン",
+    "スピーダー",
+    "ビーストウォール",
+    "フレイムパッチ",
+    "ヘビーメット",
+    "レッド"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: アイリス / In: キバニア (Parent: 33/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: キバニア / In: オムスター (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: カメール / In: サメハダー (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: パオジアンex / In: ネオラント (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ハルカ / In: スピーダー (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: カスミ / In: マリルリ (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: オムスター / In: フレイムパッチ (Parent: 35/50 -> Mutant: 37/50)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_安定_V2_安定_サブ1ピン刺し",
+  "strategy": "tempo",
+  "win_rate": 0.40048185941043085,
+  "wins": 14129,
+  "total_games": 35280,
+  "deck_composition": [
+    "ウインディ",
+    "エンニュート",
+    "ゴウカザルex",
+    "ゴウカザルex",
+    "ヒトカゲ",
+    "ブースターex",
+    "ブーバー",
+    "ブーバーン",
+    "ホウオウ",
+    "ポニータ",
+    "メガリザードンYex",
+    "モウカザル",
+    "おさかなネット",
+    "ずがいの化石",
+    "ふたの化石",
+    "イリマ",
+    "グラジオ",
+    "シトロン",
+    "セキ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ニャビー / In: カキ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: マグカルゴ / In: おさかなネット (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: メガリザードンYex / In: ブースターex (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ウォーターボート / In: たての化石 (Parent: 16/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: ヤクデ / In: ホウオウ (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: マツバ / In: ウインディ (Parent: 18/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: ニャヒート / In: モウカザル (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: たての化石 / In: ブーバー (Parent: 18/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: 大きなふうせん / In: グラジオ (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: カキ / In: ブーバーン (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: ファイアロー / In: エンニュート (Parent: 16/50 -> Mutant: 25/50)"
+    }
+  ]
+}

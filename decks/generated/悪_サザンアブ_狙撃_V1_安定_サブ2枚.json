@@ -1,0 +1,75 @@
+{
+  "name": "悪_サザンアブ_狙撃_V1_安定_サブ2枚",
+  "strategy": "snipe",
+  "win_rate": 0.6483124018838304,
+  "wins": 16519,
+  "total_games": 25480,
+  "deck_composition": [
+    "イベルタル",
+    "ダークライex",
+    "ニドリーノ",
+    "ブラッキーex",
+    "ペンドラー",
+    "メガアブソルex",
+    "メガアブソルex",
+    "メガアブソルex",
+    "レパルダス",
+    "どくバリ",
+    "はねの化石",
+    "グズマ",
+    "ジャグラー",
+    "ビーストナイト",
+    "ポケモンセンターのお姉さん",
+    "ミカン",
+    "ミカン",
+    "ラムのみ",
+    "幻の石板",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: ずがいの化石 / In: メガアブソルex (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: きずぐすり / In: ポケモンセンターのお姉さん (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: ダークライex / In: ペンドラー (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: ヒレの化石 / In: はねの化石 (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: アリアドス / In: どくバリ (Parent: 31/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: 博士の研究 / In: グズマ (Parent: 33/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: ブラッキーex / In: 鋼鉄のまえかけ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: グレッグル / In: サカキ (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: サカキ / In: 幻の石板 (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: スカンプー / In: ニドリーノ (Parent: 38/50 -> Mutant: 41/50)"
+    }
+  ]
+}

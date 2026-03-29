@@ -1,0 +1,75 @@
+{
+  "name": "龍_ウルネク_全体_V4_グッズ偏重_ピンサブ",
+  "strategy": "combo",
+  "win_rate": 0.4979272959183674,
+  "wins": 15615,
+  "total_games": 31360,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "カイリュー",
+    "クリムガン",
+    "ギラティナex",
+    "ゴチルゼル",
+    "ゴース",
+    "サマヨール",
+    "バリヤード",
+    "ヒラヒナ",
+    "フワライド",
+    "フーディン",
+    "メガチルタリスex",
+    "ルナアーラex",
+    "どくバリ",
+    "シズイ",
+    "スイレン",
+    "マーズ",
+    "リーフ",
+    "リーリエ",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: 博士の研究 / In: スイレン (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: イツキ / In: フワライド (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: グズマ / In: メガチルタリスex (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ウルトラネクロズマex / In: バリヤード (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: セレナ / In: リーフ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: ルザミーネ / In: クリムガン (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: アゴの化石 / In: ヒラヒナ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: 博士の研究 / In: どくバリ (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: シトロン / In: リーシャン (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: リーシャン / In: サマヨール (Parent: 26/50 -> Mutant: 29/50)"
+    }
+  ]
+}

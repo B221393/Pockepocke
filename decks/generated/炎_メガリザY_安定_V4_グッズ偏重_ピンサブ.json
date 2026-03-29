@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_安定_V4_グッズ偏重_ピンサブ",
+  "strategy": "tempo",
+  "win_rate": 0.6535860058309038,
+  "wins": 22418,
+  "total_games": 34300,
+  "deck_composition": [
+    "アチゲータ",
+    "ズガドーン",
+    "ヒノアラシ",
+    "ブーバーン",
+    "ヘルガー",
+    "ポニータ",
+    "メガバシャーモex",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "レシラム",
+    "イーブイのバッグ",
+    "シズイ",
+    "スピーダー",
+    "ナツメ",
+    "ナンジャモ",
+    "ミカン",
+    "メンテナンス",
+    "リーフ",
+    "リーリエ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: ポケモン図鑑 / In: ナンジャモ (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: ペパー / In: シズイ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: マオ / In: アチゲータ (Parent: 35/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: おおきいマラサダ / In: ギャロップ (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ヒヒダルマ / In: ミカン (Parent: 34/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: ゴウカザルex / In: ヒレの化石 (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: ヒレの化石 / In: レシラム (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: ギャロップ / In: ブーバーン (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: スター団のしたっぱ / In: イーブイのバッグ (Parent: 29/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: リザード / In: ポニータ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 146,
+      "diff": "Out: 博士の研究 / In: リーフ (Parent: 38/50 -> Mutant: 41/50)"
+    }
+  ]
+}

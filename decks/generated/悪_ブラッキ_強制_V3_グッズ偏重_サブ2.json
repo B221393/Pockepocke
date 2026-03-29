@@ -1,0 +1,95 @@
+{
+  "name": "悪_ブラッキ_強制_V3_グッズ偏重_サブ2",
+  "strategy": "control",
+  "win_rate": 0.3775170068027211,
+  "wins": 11099,
+  "total_games": 29400,
+  "deck_composition": [
+    "アローラベトベター",
+    "エクスレッグ",
+    "ヒドイデ",
+    "ブラッキーex",
+    "ベトベトン",
+    "ベトベトン",
+    "マニューラex",
+    "メガアブソルex",
+    "ヤミカラス",
+    "レパルダス",
+    "かんこうきゃく",
+    "かんこうきゃく",
+    "きずぐすり",
+    "エレメンタルつけかえ",
+    "スイレン",
+    "デンジ",
+    "ハンドスコープ",
+    "フレイムパッチ",
+    "博士の研究",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: ヤブクロン / In: ヤブクロン (Parent: 21/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: ニドラン♂ / In: マチス (Parent: 18/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ブラッキーex / In: ベトベトン (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: チョロネコ / In: スイレン (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ブラッキーex / In: ベトベトン (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: マチス / In: かんこうきゃく (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ベトベトン / In: はじまりの平原 (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: 博士の研究 / In: エクスレッグ (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: スカタンク / In: きずぐすり (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: はじまりの平原 / In: ベトベトン (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: カスミ / In: かんこうきゃく (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ヤブクロン / In: ヒドイデ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: ベトベトン / In: ブラッキーex (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: ルザミーネ / In: アローラベトベター (Parent: 15/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: ニドリーノ / In: ヤミカラス (Parent: 21/50 -> Mutant: 23/50)"
+    }
+  ]
+}

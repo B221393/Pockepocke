@@ -1,0 +1,71 @@
+{
+  "name": "悪_ダーク_全体_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.5881083202511774,
+  "wins": 14985,
+  "total_games": 25480,
+  "deck_composition": [
+    "アクジキングex",
+    "アローラペルシアン",
+    "ゴルバット",
+    "シルシュルー",
+    "ダークライex",
+    "ドヒドイデ",
+    "ドラピオン",
+    "メガアブソルex",
+    "ヤミカラス",
+    "かけだし調査員",
+    "ひみつのコハク",
+    "まもりのポンチョ",
+    "イリマ",
+    "カンナギタウンの長老",
+    "シトロン",
+    "ハンサム",
+    "マチス",
+    "モンスターボール",
+    "博士の研究",
+    "幻の石板"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: いじわるレター / In: ドラピオン (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: ふしぎなアメ / In: ゴルバット (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: ダークライex / In: ニドキング (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: マニューラex / In: メガアブソルex (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: チョロネコ / In: カンナギタウンの長老 (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ナンジャモ / In: まもりのポンチョ (Parent: 29/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: マニューラex / In: イリマ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: ニドキング / In: ヤミカラス (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: アクジキングex / In: マチス (Parent: 32/50 -> Mutant: 38/50)"
+    }
+  ]
+}

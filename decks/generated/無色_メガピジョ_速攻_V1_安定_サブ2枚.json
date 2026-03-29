@@ -1,0 +1,75 @@
+{
+  "name": "無色_メガピジョ_速攻_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.6452071737786024,
+  "wins": 20866,
+  "total_games": 32340,
+  "deck_composition": [
+    "ケンタロスex",
+    "トルネロス",
+    "バクオング",
+    "ポリゴン",
+    "ミミロップ",
+    "メガピジョットex",
+    "メガピジョットex",
+    "メガピジョットex",
+    "メガピジョットex",
+    "ルギアex",
+    "ルギアex",
+    "いたずらルーレット",
+    "いたずらルーレット",
+    "かいの化石",
+    "かいの化石",
+    "ふしぎなアメ",
+    "ジャグラー",
+    "トレーニングエリア",
+    "ヒカリ",
+    "ヒカリ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: シルバー / In: ポリゴン (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: ラムのみ / In: いたずらルーレット (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ドードー / In: ホーホー (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ホーホー / In: トルネロス (Parent: 35/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: ハンサム / In: 鋼鉄のまえかけ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ハピナスex / In: トレーニングエリア (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: 鋼鉄のまえかけ / In: ヤレユータン (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: プリン / In: バクオング (Parent: 41/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: タイプヌル / In: ケンタロスex (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ヤレユータン / In: ヒカリ (Parent: 40/50 -> Mutant: 42/50)"
+    }
+  ]
+}

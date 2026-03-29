@@ -1,0 +1,59 @@
+{
+  "name": "雷_ライコウ_2ex_V5_メガピン刺し_サブ1",
+  "strategy": "combo",
+  "win_rate": 0.5518140589569162,
+  "wins": 14601,
+  "total_games": 26460,
+  "deck_composition": [
+    "エレザード",
+    "サンダースex",
+    "サンダースex",
+    "サンダースex",
+    "パルスワン",
+    "ビリリダマ",
+    "メガライボルトex",
+    "ライコウex",
+    "ワンパチ",
+    "ふしぎなアメ",
+    "やまおとこ",
+    "エレメンタルつけかえ",
+    "カスミ",
+    "サカキ",
+    "タケシ",
+    "ナツメ",
+    "ハウ",
+    "モノマネむすめ",
+    "レッドカード",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: こうらの化石 / In: ハウ (Parent: 35/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: ふしぎな広場 / In: マルマイン (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: ライコウex / In: サンダー (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: メガライボルトex / In: ナツメ (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: マルマイン / In: モノマネむすめ (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: サンダー / In: ワンパチ (Parent: 25/50 -> Mutant: 30/50)"
+    }
+  ]
+}

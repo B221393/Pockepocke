@@ -1,0 +1,83 @@
+{
+  "name": "超_ミュウ_完封_V2_安定_サブ1ピン刺し",
+  "strategy": "control",
+  "win_rate": 0.504109977324263,
+  "wins": 17785,
+  "total_games": 35280,
+  "deck_composition": [
+    "アンノーン",
+    "アンノーンP",
+    "ギラティナex",
+    "シュシュプ",
+    "ピッピ",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "ムシャーナ",
+    "ムシャーナ",
+    "ユクシー",
+    "いじわるレター",
+    "かいの化石",
+    "たべのこし",
+    "やまおとこ",
+    "アイリス",
+    "アカネ",
+    "カスミ",
+    "ハルカ",
+    "モノマネむすめ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: ミュウex / In: ネモ (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: シルバー / In: ギラティナex (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: ヘビーメット / In: かいの化石 (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ペパー / In: アイリス (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: 博士の研究 / In: やまおとこ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: きずぐすり / In: アカネ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: ヒトモシ / In: ムシャーナ (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ネモ / In: アンノーン (Parent: 34/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: 大きなふうせん / In: ピッピ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: ポケモンセンターのお姉さん / In: シュシュプ (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: ヨマワル / In: モノマネむすめ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 146,
+      "diff": "Out: ゴースト / In: ハルカ (Parent: 25/50 -> Mutant: 27/50)"
+    }
+  ]
+}

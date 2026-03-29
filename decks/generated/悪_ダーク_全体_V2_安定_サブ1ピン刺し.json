@@ -1,0 +1,91 @@
+{
+  "name": "悪_ダーク_全体_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.39760066188637616,
+  "wins": 14417,
+  "total_games": 36260,
+  "deck_composition": [
+    "アローラニャース",
+    "スカタンク",
+    "ダークライex",
+    "ダークライex",
+    "ヘルガー",
+    "マニューラex",
+    "マニューラex",
+    "ヤブクロン",
+    "かんこうきゃく",
+    "たての化石",
+    "アカネ",
+    "アセロラ",
+    "カキ",
+    "タケシ",
+    "ハラ",
+    "ペパー",
+    "ポケモン図鑑",
+    "モンスターボール",
+    "モンスターボール",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: カラマネロ / In: ふたの化石 (Parent: 21/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: アブソル / In: マニューラex (Parent: 15/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ポケモンセンターのお姉さん / In: キョウ (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: アーボ / In: アカネ (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: キョウ / In: スカタンク (Parent: 20/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ヤミカラス / In: ヘルガー (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ヘルガー / In: ヘルガー (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: ふたの化石 / In: ポケモン図鑑 (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: ベトベター / In: こうらの化石 (Parent: 20/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: スイレン / In: ポケモンの笛 (Parent: 22/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ダークライ / In: タケシ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: こうらの化石 / In: ヤブクロン (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: マニューラex / In: モンスターボール (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 146,
+      "diff": "Out: ポケモンの笛 / In: アローラニャース (Parent: 26/50 -> Mutant: 28/50)"
+    }
+  ]
+}

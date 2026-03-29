@@ -1,0 +1,67 @@
+{
+  "name": "龍_カイリュ_狙撃_V2_安定_サブ1ピン刺し",
+  "strategy": "snipe",
+  "win_rate": 0.4366326530612245,
+  "wins": 12837,
+  "total_games": 29400,
+  "deck_composition": [
+    "レックウザex",
+    "レックウザex",
+    "カイリュー",
+    "カイリューex",
+    "カイリューex",
+    "カイリューex",
+    "コモルー",
+    "ジジーロン",
+    "ヌメルゴン",
+    "ボーマンダ",
+    "ミニリュウ",
+    "アイリス",
+    "イツキ",
+    "エレキコード",
+    "ギンガ団のしたっぱ",
+    "ギンガ団のしたっぱ",
+    "グズマ",
+    "スイレン",
+    "モンスターボール",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: レッド / In: グズマ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: フカマル / In: ギンガ団のしたっぱ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: セキ / In: かいの化石 (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: かいの化石 / In: エレキコード (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ペパー / In: スイレン (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ハクリュー / In: カイリュー (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: 大きなマント / In: ボーマンダ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: リーフマント / In: アイリス (Parent: 28/50 -> Mutant: 34/50)"
+    }
+  ]
+}

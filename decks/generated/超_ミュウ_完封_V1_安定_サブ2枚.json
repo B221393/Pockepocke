@@ -1,0 +1,71 @@
+{
+  "name": "超_ミュウ_完封_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.6466754443712969,
+  "wins": 19646,
+  "total_games": 30380,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "スリープ",
+    "ハカドッグ",
+    "バウッツェル",
+    "バケッチャ",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "ムウマ",
+    "メレシー",
+    "いたずらルーレット",
+    "かんこうきゃく",
+    "ふしぎな広場",
+    "やまおとこ",
+    "ネモ",
+    "ハラ",
+    "ラッキーミトン",
+    "ロケット団のしたっぱ",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: シトロンのリュック / In: メロエッタ (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: やまおとこ / In: メレシー (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: メロエッタ / In: メガチルタリスex (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: かけだし調査員 / In: ハラ (Parent: 30/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: きずぐすり / In: かんこうきゃく (Parent: 41/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: メガチルタリスex / In: 旅の行商人 (Parent: 34/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: 博士の研究 / In: バウッツェル (Parent: 38/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: ミュウex / In: ムウマ (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: キルリア / In: ネモ (Parent: 29/50 -> Mutant: 37/50)"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "炎_メガリザX_速攻_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.5243008314436886,
+  "wins": 13873,
+  "total_games": 26460,
+  "deck_composition": [
+    "アチゲータ",
+    "エンテイex",
+    "エンテイex",
+    "オーガポンかまどのめん",
+    "ゴウカザルex",
+    "ヒトカゲ",
+    "ブーバーン",
+    "ホゲータ",
+    "マグカルゴ",
+    "マグマッグ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "ヤトウモリ",
+    "リザードン",
+    "やまおとこ",
+    "アセロラ",
+    "ゴツゴツメット",
+    "シズイ",
+    "フレイムパッチ",
+    "メモリーライト"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: レスキュースカーフ / In: バオッキー (Parent: 21/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: バオッキー / In: アチゲータ (Parent: 28/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: マオ / In: マグカルゴ (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ヒートロトム / In: リザードン (Parent: 32/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: カルネ / In: メモリーライト (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: ロコン / In: ヒトカゲ (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: たべのこし / In: オーガポンかまどのめん (Parent: 26/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: メガリザードンXex / In: マグマッグ (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: ヒトカゲ / In: メガリザードンXex (Parent: 26/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ウインディ / In: ゴウカザルex (Parent: 27/50 -> Mutant: 32/50)"
+    }
+  ]
+}

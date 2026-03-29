@@ -1,0 +1,83 @@
+{
+  "name": "炎_メガリザX_速攻_V5_メガピン刺し_サブ1",
+  "strategy": "aggro",
+  "win_rate": 0.5236453201970444,
+  "wins": 14882,
+  "total_games": 28420,
+  "deck_composition": [
+    "エンテイex",
+    "エンテイex",
+    "エンニュート",
+    "ギャロップ",
+    "クイタラン",
+    "ヘルガー",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "ヤクデ",
+    "ヤトウモリ",
+    "リザード",
+    "いじわるレター",
+    "ずがいの化石",
+    "そうじゅくエキス",
+    "たての化石",
+    "セレナ",
+    "テーブルシティ",
+    "ハイキングコース",
+    "モノマネむすめ",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: ウルガモス / In: エンニュート (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: 旅の行商人 / In: ヤクデ (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: ブーバーン / In: モウカザル (Parent: 26/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: ブーバー / In: ガーディ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ヤトウモリ / In: レッド (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: ブーバーン / In: クイタラン (Parent: 28/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: シロナ / In: ギャロップ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: フレイムパッチ / In: リザード (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ガーディ / In: ずがいの化石 (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: モウカザル / In: セレナ (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: カルボウ / In: いじわるレター (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: レッド / In: ヘルガー (Parent: 27/50 -> Mutant: 34/50)"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "悪_ブラッキ_強制_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.2056326530612245,
+  "wins": 5038,
+  "total_games": 24500,
+  "deck_composition": [
+    "ガラルマッスグマ",
+    "ゾロアーク",
+    "タギングル",
+    "ダークライex",
+    "ドクロッグ",
+    "ドクロッグ",
+    "ニドリーナ",
+    "ブラッキーex",
+    "ベトベトン",
+    "ヤブクロン",
+    "ヤブクロン",
+    "ギンガ団のしたっぱ",
+    "スピーダー",
+    "セキ",
+    "ヒットハンマー",
+    "メリッサ",
+    "メリッサ",
+    "博士の研究",
+    "博士の研究",
+    "大きなふうせん"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: ブラッキーex / In: メタルコアバリア (Parent: 9/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: タケシ / In: アーゴヨン (Parent: 12/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: ダークペンダント / In: ふたの化石 (Parent: 9/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ふたの化石 / In: リーフ (Parent: 7/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: イーブイのバッグ / In: ベトベトン (Parent: 5/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: ラムのみ / In: ダークライex (Parent: 5/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: リーフ / In: タギングル (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: アローラニャース / In: 大きなふうせん (Parent: 16/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: グズマ / In: ジャグラー (Parent: 19/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: ニューラ / In: ニドリーナ (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: サザンドラ / In: ゾロアーク (Parent: 18/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: ジャグラー / In: アクジキング (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: メタルコアバリア / In: メリッサ (Parent: 18/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: アクジキング / In: ギンガ団のしたっぱ (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: アーゴヨン / In: ドクロッグ (Parent: 17/50 -> Mutant: 20/50)"
+    }
+  ]
+}

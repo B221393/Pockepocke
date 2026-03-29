@@ -1,0 +1,75 @@
+{
+  "name": "超_ミュウツ_サナ_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.5058761435608726,
+  "wins": 14377,
+  "total_games": 28420,
+  "deck_composition": [
+    "イエッサン",
+    "キルリア",
+    "キルリア",
+    "ゲンガー",
+    "ゲンガー",
+    "バリヤード",
+    "ヒラヒナ",
+    "ブルー",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "ムウマージ",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "カルネ",
+    "シルバー",
+    "スイレン",
+    "ビーストナイト",
+    "マチス",
+    "マツバ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: エレキコード / In: アカギ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: サカキ / In: ミュウex (Parent: 25/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: ポケモンセンターのお姉さん / In: ムウマージ (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ハンサム / In: ブルー (Parent: 26/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: フレフワン / In: カスミ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: カスミ / In: ゲンガー (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: アカギ / In: マツバ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ルチア / In: ヒラヒナ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: そうじゅくエキス / In: キルリア (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: タケシ / In: カルネ (Parent: 34/50 -> Mutant: 37/50)"
+    }
+  ]
+}

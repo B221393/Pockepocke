@@ -1,0 +1,107 @@
+{
+  "name": "闘_マッシ_詰め_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.4282112845138055,
+  "wins": 14268,
+  "total_games": 33320,
+  "deck_composition": [
+    "アサナン",
+    "イワーク",
+    "カラカラ",
+    "ガチゴラス",
+    "ガブリアスex",
+    "ゴローン",
+    "サンドパン",
+    "トロッゴン",
+    "ドサイドン",
+    "ナマズン",
+    "バンギラス",
+    "メガミミロップex",
+    "メグロコ",
+    "ヨーギラス",
+    "リオル",
+    "マッシブーンex",
+    "マッシブーンex",
+    "ふしぎな広場",
+    "スピーダー",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: ジャグラー / In: カブトプス (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: イシズマイ / In: ダグトリオ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ルカリオex / In: スピーダー (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: カブトプス / In: ドサイドン (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ルカリオex / In: イワンコ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: アセロラ / In: ガチゴラス (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: エリカ / In: ヨーギラス (Parent: 19/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: マーズ / In: ナマズン (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: イツキ / In: メガミミロップex (Parent: 24/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ジャグラー / In: ヒカリ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: サワムラー / In: メグロコ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: イワンコ / In: スピーダー (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: ひみつのコハク / In: ゴローン (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ダグトリオ / In: リオル (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: ヒカリ / In: サンドパン (Parent: 24/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: スピーダー / In: アサナン (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: ガブリアスex / In: カラカラ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: プテラex / In: イワーク (Parent: 23/50 -> Mutant: 26/50)"
+    }
+  ]
+}

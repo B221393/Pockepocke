@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_ワンパン_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.6003684807256235,
+  "wins": 21181,
+  "total_games": 35280,
+  "deck_composition": [
+    "アチゲータ",
+    "エンテイex",
+    "ギャロップ",
+    "バオッキー",
+    "ファイアロー",
+    "ブーバーン",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "ランプラー",
+    "カキ",
+    "スイレン",
+    "タケシ",
+    "テーブルシティ",
+    "ネズ",
+    "ヒレの化石",
+    "フレイムパッチ",
+    "フレイムパッチ",
+    "ミカン",
+    "メリッサ",
+    "リーフ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: スイレン / In: リーフ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: マルヤクデ / In: まもりのポンチョ (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: フレイムパッチ / In: ファイアロー (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: ファイアロー / In: ランプラー (Parent: 34/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: まもりのポンチョ / In: ポニータ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ポニータ / In: ヒトカゲ (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: やまおとこ / In: ずがいの化石 (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: ずがいの化石 / In: ファイアロー (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: ヒトカゲ / In: タケシ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: ふしぎな広場 / In: アチゲータ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ブーバー / In: ブーバーン (Parent: 37/50 -> Mutant: 43/50)"
+    }
+  ]
+}

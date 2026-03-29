@@ -1,0 +1,79 @@
+{
+  "name": "闘_ルカガブ_2ex_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.4103815439219166,
+  "wins": 9250,
+  "total_games": 22540,
+  "deck_composition": [
+    "オコリザル",
+    "カポエラー",
+    "ガバイト",
+    "ガメノデス",
+    "ケケンカニ",
+    "サナギラス",
+    "ナマズン",
+    "マクノシタ",
+    "ミノマダム",
+    "ルカリオex",
+    "ルカリオex",
+    "マッシブーンex",
+    "マッシブーンex",
+    "かいの化石",
+    "アカネ",
+    "グズマ",
+    "ネズ",
+    "ボタン",
+    "メリッサ",
+    "ラムのみ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: モンスターボール / In: ケケンカニ (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ふしぎなアメ / In: ガバイト (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: ヒレの化石 / In: ガメノデス (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: ガブリアスex / In: ナマズン (Parent: 23/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: ガブリアスex / In: ミノマダム (Parent: 24/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ミノマダム / In: カポエラー (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: カイリキー / In: ネズ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: はじまりの平原 / In: ボタン (Parent: 19/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: 当たりつきアイス / In: かいの化石 (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: カラミンゴ / In: ラムのみ (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: アーケオス / In: サナギラス (Parent: 21/50 -> Mutant: 25/50)"
+    }
+  ]
+}

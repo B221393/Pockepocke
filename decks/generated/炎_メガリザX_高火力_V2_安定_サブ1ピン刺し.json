@@ -1,0 +1,67 @@
+{
+  "name": "炎_メガリザX_高火力_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.588997338065661,
+  "wins": 13276,
+  "total_games": 22540,
+  "deck_composition": [
+    "ガーディ",
+    "ニャヒート",
+    "パルデアケンタロス",
+    "ホウオウex",
+    "ホウオウex",
+    "ホゲータ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "おさかなネット",
+    "グリーン",
+    "サカキ",
+    "シズイ",
+    "シズイ",
+    "ゼニガメじょうろ",
+    "ナツメ",
+    "フレイムパッチ",
+    "ボタン",
+    "ミカン",
+    "ラッキーミトン",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: ハンサム / In: ハウ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: ブビィ / In: おさかなネット (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: カイ / In: シズイ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: メリッサ / In: ミカン (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: メリッサ / In: ナツメ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ゼニガメじょうろ / In: ゼニガメじょうろ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ハウ / In: ボタン (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: クイタラン / In: サカキ (Parent: 34/50 -> Mutant: 39/50)"
+    }
+  ]
+}

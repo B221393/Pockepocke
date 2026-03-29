@@ -1,0 +1,67 @@
+{
+  "name": "水_フリスイ_後攻_V6_純正_サブ0枚",
+  "strategy": "tempo",
+  "win_rate": 0.6332944606413994,
+  "wins": 21722,
+  "total_games": 34300,
+  "deck_composition": [
+    "スイクンex",
+    "ニョロゾ",
+    "フリーザーex",
+    "フローゼル",
+    "マリルリ",
+    "ふしぎな広場",
+    "ふしぎな広場",
+    "アイリス",
+    "アセロラ",
+    "カスミ",
+    "カスミ",
+    "カスミ",
+    "サカキ",
+    "メタルコアバリア",
+    "ラムのみ",
+    "リーフマント",
+    "レッドカード",
+    "ロケット団のしたっぱ",
+    "釣り人",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: スターミーex / In: テーブルシティ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: フリーザーex / In: ラムのみ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: かいの化石 / In: ロケット団のしたっぱ (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: どくバリ / In: リーフマント (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: ハラ / In: ニョロゾ (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: テーブルシティ / In: アセロラ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: ふしぎな広場 / In: 釣り人 (Parent: 32/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: スイクンex / In: マリルリ (Parent: 33/50 -> Mutant: 41/50)"
+    }
+  ]
+}

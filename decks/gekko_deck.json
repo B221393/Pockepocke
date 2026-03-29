@@ -1,0 +1,77 @@
+{
+  "name": "ゲッコウガ みずしゅりけんデッキ",
+  "cards": [
+    {
+      "name": "ケロマツ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Water",
+      "attacks": [{ "name": "あわ", "energy_cost": 1, "damage": 10 }],
+      "count": 2
+    },
+    {
+      "name": "ゲコガシラ",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 80,
+      "type": "Water",
+      "evolves_from": "ケロマツ",
+      "attacks": [{ "name": "みずのはどう", "energy_cost": 2, "damage": 40, "effect": "sleep" }],
+      "count": 2
+    },
+    {
+      "name": "ゲッコウガ",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 140,
+      "type": "Water",
+      "evolves_from": "ゲコガシラ",
+      "ability": "water_shuriken",
+      "attacks": [{ "name": "げっこうえんぶ", "energy_cost": 2, "damage": 80 }],
+      "count": 2
+    },
+    {
+      "name": "カスミ",
+      "card_type": "Supporter",
+      "effect": "energy_accel",
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "キズぐすり",
+      "card_type": "Item",
+      "effect": "heal_30",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "switch",
+      "count": 2
+    }
+  ]
+}

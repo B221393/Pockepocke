@@ -1,0 +1,83 @@
+{
+  "name": "オノノクス・アイリス ガチ構成 (雷オドリドリ採用)",
+  "cards": [
+    {
+      "name": "キバゴ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Dragon",
+      "attacks": [{ "name": "かじる", "energy_cost": 1, "damage": 20 }],
+      "count": 2
+    },
+    {
+      "name": "オノンド",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 100,
+      "type": "Dragon",
+      "evolves_from": "キバゴ",
+      "attacks": [{ "name": "りゅうのいぶき", "energy_cost": 2, "damage": 50 }],
+      "count": 2
+    },
+    {
+      "name": "オノノクス",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 160,
+      "type": "Dragon",
+      "evolves_from": "オノンド",
+      "attacks": [
+        { "name": "りゅうのはどう", "energy_cost": 2, "damage": 130, "effect": "discard_self_energy_1" },
+        { "name": "りゅうのまい", "energy_cost": 1, "damage": 0, "effect": "boost_next_damage_40" }
+      ],
+      "count": 2
+    },
+    {
+      "name": "オドリドリ (雷)",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 90,
+      "type": "Lightning",
+      "ability": "prevent_ex_damage",
+      "attacks": [{ "name": "ぱちぱちダンス", "energy_cost": 1, "damage": 20 }],
+      "count": 2
+    },
+    {
+      "name": "アイリス",
+      "card_type": "Supporter",
+      "effect": "iris_point_boost",
+      "count": 2
+    },
+    {
+      "name": "マーズ",
+      "card_type": "Supporter",
+      "effect": "mars_hand_discard",
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "switch",
+      "count": 2
+    }
+  ]
+}

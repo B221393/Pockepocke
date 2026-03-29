@@ -1,0 +1,107 @@
+{
+  "name": "水_スイゲツ_ドロー_V6_純正_サブ0枚",
+  "strategy": "tempo",
+  "win_rate": 0.36379008746355684,
+  "wins": 12478,
+  "total_games": 34300,
+  "deck_composition": [
+    "アシレーヌ",
+    "アローラサンドパン",
+    "ウェルカモ",
+    "カジリガメ",
+    "ゲッコウガex",
+    "ゲッコウガex",
+    "シェルダー",
+    "シャワーズ",
+    "タッツー",
+    "ドククラゲ",
+    "ヌマクロー",
+    "ネオラント",
+    "メガヤドランex",
+    "おおきいマラサダ",
+    "グズマ",
+    "マチス",
+    "モンスターボール",
+    "ルザミーネ",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: レジアイス / In: ウェルカモ (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: 当たりつきアイス / In: ヌマクロー (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ギャラドス / In: コオリッポ (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: コオリッポ / In: ハウ (Parent: 20/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ハンサム / In: ホエルオー (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: モノマネむすめ / In: ゼニガメ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: ゼニガメ / In: ゴツゴツメット (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: ゴツゴツメット / In: エレキコード (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: スイクンex / In: ユキメノコ (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: ヒヤップ / In: オクタン (Parent: 13/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ホエルオー / In: アシレーヌ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: モンスターボール / In: タッツー (Parent: 15/50 -> Mutant: 20/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: スイクンex / In: メガヤドランex (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ユキメノコ / In: おおきいマラサダ (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ハウ / In: シェルダー (Parent: 20/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: オクタン / In: シャワーズ (Parent: 16/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: エレキコード / In: カジリガメ (Parent: 22/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: かけだし調査員 / In: ドククラゲ (Parent: 17/50 -> Mutant: 20/50)"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "水_スイゲツ_ドロー_V1_安定_サブ2枚",
+  "strategy": "tempo",
+  "win_rate": 0.6755102040816326,
+  "wins": 21846,
+  "total_games": 32340,
+  "deck_composition": [
+    "オムスター",
+    "ゲッコウガex",
+    "ゲッコウガex",
+    "スイクンex",
+    "スイクンex",
+    "パオジアンex",
+    "パオジアンex",
+    "ホエルコ",
+    "ポッタイシ",
+    "ラプラスex",
+    "ラプラスex",
+    "シズイ",
+    "デンジ",
+    "ポケモン通信",
+    "マチス",
+    "マーマネ",
+    "モンスターボール",
+    "モンスターボール",
+    "レッド",
+    "ロケット団のしたっぱ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: スピーダー / In: セグレイブ (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: セグレイブ / In: オーダイル (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: オーダイル / In: ロケット団のしたっぱ (Parent: 38/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ジュゴン / In: ホエルコ (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: ガラルバリコオル / In: マチス (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: 博士の研究 / In: ポッタイシ (Parent: 36/50 -> Mutant: 45/50)"
+    }
+  ]
+}

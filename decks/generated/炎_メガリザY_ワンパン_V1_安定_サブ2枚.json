@@ -1,0 +1,75 @@
+{
+  "name": "炎_メガリザY_ワンパン_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.5684402332361516,
+  "wins": 15598,
+  "total_games": 27440,
+  "deck_composition": [
+    "エンテイex",
+    "ガオガエンex",
+    "ファイヤー",
+    "ブビィ",
+    "ポニータ",
+    "メガリザードンXex",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "モウカザル",
+    "ヤクデ",
+    "ランプラー",
+    "レシラム",
+    "はじまりの平原",
+    "トレーニングエリア",
+    "ハラ",
+    "ヘビーメット",
+    "ペパー",
+    "ポケモンセンターのお姉さん",
+    "メモリーライト",
+    "大きなふうせん"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: ルザミーネ / In: ヒノアラシ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: フレイムパッチ / In: ランプラー (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: ヘルガー / In: モウカザル (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: エンテイex / In: メガリザードンXex (Parent: 24/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: コータス / In: はじまりの平原 (Parent: 33/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: ブーバーン / In: レシラム (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: ヒノアラシ / In: ポニータ (Parent: 37/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: やまおとこ / In: ヘビーメット (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: ヒトカゲ / In: ガオガエンex (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ファイアロー / In: ヤクデ (Parent: 34/50 -> Mutant: 40/50)"
+    }
+  ]
+}

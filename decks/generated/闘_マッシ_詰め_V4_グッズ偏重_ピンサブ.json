@@ -1,0 +1,67 @@
+{
+  "name": "闘_マッシ_詰め_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.37004081632653063,
+  "wins": 9066,
+  "total_games": 24500,
+  "deck_composition": [
+    "スナバァ",
+    "ダグトリオ",
+    "チャーレム",
+    "ドテッコツ",
+    "リオル",
+    "マッシブーンex",
+    "マッシブーンex",
+    "ふたの化石",
+    "やまおとこ",
+    "アカネ",
+    "アカネ",
+    "ウォーターボート",
+    "カスミ",
+    "カツラ",
+    "シロナ",
+    "ラムのみ",
+    "博士の研究",
+    "博士の研究",
+    "幻の石板",
+    "当たりつきアイス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: かんこうきゃく / In: シロナ (Parent: 17/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ミノマダム / In: ルカリオex (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ネモ / In: 当たりつきアイス (Parent: 18/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: ルカリオex / In: チャーレム (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: キョウ / In: ドテッコツ (Parent: 19/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ルカリオex / In: ふたの化石 (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: セレナ / In: やまおとこ (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: いたずらルーレット / In: ダグトリオ (Parent: 27/50 -> Mutant: 29/50)"
+    }
+  ]
+}

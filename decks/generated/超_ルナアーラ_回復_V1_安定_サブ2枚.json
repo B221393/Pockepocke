@@ -1,0 +1,67 @@
+{
+  "name": "超_ルナアーラ_回復_V1_安定_サブ2枚",
+  "strategy": "tank",
+  "win_rate": 0.4941094619666048,
+  "wins": 10653,
+  "total_games": 21560,
+  "deck_composition": [
+    "ソルガレオex",
+    "クレセリアex",
+    "クレセリアex",
+    "ゲンガー",
+    "デスカーン",
+    "フワライド",
+    "ヤドキング",
+    "ルナアーラex",
+    "たての化石",
+    "ふしぎなアメ",
+    "イリマ",
+    "ジュン",
+    "セキ",
+    "セキ",
+    "ナツメ",
+    "ネモ",
+    "ビーストウォール",
+    "フレイムパッチ",
+    "リーリエ",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: バネブー / In: セキ (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ルナアーラex / In: ナツメ (Parent: 15/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: バケッチャ / In: フレイムパッチ (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: やまおとこ / In: セキ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ネモ / In: リーリエ (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: きずぐすり / In: ゲンガー (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ソルガレオex / In: 釣り人 (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: 幻の石板 / In: ネモ (Parent: 35/50 -> Mutant: 39/50)"
+    }
+  ]
+}

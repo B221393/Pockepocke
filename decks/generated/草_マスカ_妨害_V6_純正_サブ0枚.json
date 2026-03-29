@@ -1,0 +1,87 @@
+{
+  "name": "草_マスカ_妨害_V6_純正_サブ0枚",
+  "strategy": "control",
+  "win_rate": 0.2783333333333333,
+  "wins": 8183,
+  "total_games": 29400,
+  "deck_composition": [
+    "クヌギダマ",
+    "コクーン",
+    "コフキムシ",
+    "シェイミ",
+    "ジャノビー",
+    "パラセクト",
+    "ビードル",
+    "フシギバナex",
+    "マスカーニャex",
+    "マスカーニャex",
+    "メガヤンマex",
+    "モンメン",
+    "エリカ",
+    "シルバー",
+    "シロナ",
+    "スイレン",
+    "ナツメ",
+    "ヒカリ",
+    "ポケモンの笛",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: メンテナンス / In: アゴの化石 (Parent: 15/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: いじわるレター / In: カイロス (Parent: 15/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: リーフマント / In: シェイミ (Parent: 14/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: アゴの化石 / In: コフキムシ (Parent: 18/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ツタージャ / In: シロナ (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: エリカ / In: グソクムシャ (Parent: 13/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: ヒカリ / In: 博士の研究 (Parent: 14/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: マーズ / In: フシギバナex (Parent: 15/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: グソクムシャ / In: ナツメ (Parent: 16/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: グズマ / In: コクーン (Parent: 17/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: コトネ / In: モンメン (Parent: 18/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: カイロス / In: ポケモンの笛 (Parent: 12/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ポケモン図鑑 / In: スイレン (Parent: 14/50 -> Mutant: 17/50)"
+    }
+  ]
+}

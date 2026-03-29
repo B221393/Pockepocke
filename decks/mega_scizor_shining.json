@@ -1,0 +1,92 @@
+{
+  "name": "メガハッサムex",
+  "description": "2026年3月Tier A。ベンチからの入れ替えで150ダメージ",
+  "cards": [
+    {
+      "name": "ストライク",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Steel",
+      "weakness": "Fire",
+      "attacks": [
+        {"name": "とんぼがえり", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ハッサム",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 100,
+      "type": "Steel",
+      "weakness": "Fire",
+      "evolves_from": "ストライク",
+      "attacks": [
+        {"name": "しっぷうづき", "energy_cost": 2, "damage": 50}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガハッサムex",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 200,
+      "type": "Steel",
+      "weakness": "Fire",
+      "evolves_from": "ハッサム",
+      "attacks": [
+        {"name": "バレットスラッガー", "energy_cost": 2, "damage": 100}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ブロロン",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Steel",
+      "weakness": "Fire",
+      "attacks": [
+        {"name": "ガスでつつむ", "energy_cost": 2, "damage": 40}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ふしぎなアメ",
+      "card_type": "Item",
+      "effect": "rare_candy",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "retreat_cost_minus_1",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "鋼エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

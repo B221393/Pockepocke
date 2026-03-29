@@ -1,0 +1,71 @@
+{
+  "name": "炎_ホウオウ_循環_V3_グッズ偏重_サブ2",
+  "strategy": "tank",
+  "win_rate": 0.5066326530612245,
+  "wins": 14895,
+  "total_games": 29400,
+  "deck_composition": [
+    "アローラガラガラ",
+    "ウルガモス",
+    "エンテイex",
+    "エンニュート",
+    "ガオガエン",
+    "ゴウカザルex",
+    "ヒトカゲ",
+    "ブーバーン",
+    "ヘルガー",
+    "ホウオウex",
+    "メガバシャーモex",
+    "シズイ",
+    "シトロンのリュック",
+    "ナツメ",
+    "ハラ",
+    "フレイムパッチ",
+    "フレイムパッチ",
+    "博士の研究",
+    "博士の研究",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ポケモン図鑑 / In: エンニュート (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: エンニュート / In: エンテイ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: デンジ / In: トレーニングエリア (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: エンテイ / In: アローラガラガラ (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: おさかなネット / In: シズイ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ホウオウex / In: メガバシャーモex (Parent: 22/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: マツバ / In: ホウオウ (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: トレーニングエリア / In: ハラ (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: ホウオウ / In: ガオガエン (Parent: 30/50 -> Mutant: 34/50)"
+    }
+  ]
+}

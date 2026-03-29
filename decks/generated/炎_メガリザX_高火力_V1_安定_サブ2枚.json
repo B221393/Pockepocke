@@ -1,0 +1,87 @@
+{
+  "name": "炎_メガリザX_高火力_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.6777485187623437,
+  "wins": 20590,
+  "total_games": 30380,
+  "deck_composition": [
+    "バオップ",
+    "ヒノヤコマ",
+    "ファイヤーex",
+    "ホウオウex",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "メガリザードンYex",
+    "リザードン",
+    "そうじゅくエキス",
+    "アゴの化石",
+    "エレキコード",
+    "カルム",
+    "ハウ",
+    "ハルカ",
+    "ビーストナイト",
+    "フレイムパッチ",
+    "ポケモンセンターのお姉さん",
+    "リーフマント",
+    "博士の研究",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: リザードンex / In: ビーストナイト (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: ホウオウex / In: 旅の行商人 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: グリーン / In: メタルコアバリア (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: ヒードラン / In: クイタラン (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: クイタラン / In: カルム (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: メタルコアバリア / In: テーブルシティ (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: イーブイのバッグ / In: ヒノヤコマ (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: サカキ / In: ファイヤーex (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ガオガエンex / In: ハウ (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: テーブルシティ / In: メガリザードンYex (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: ウインディ / In: リザードン (Parent: 41/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: バクガメス / In: バオップ (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: リザードンex / In: リーフマント (Parent: 40/50 -> Mutant: 42/50)"
+    }
+  ]
+}

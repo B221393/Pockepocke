@@ -1,0 +1,67 @@
+{
+  "name": "龍_レック_最強_V3_グッズ偏重_サブ2",
+  "strategy": "aggro",
+  "win_rate": 0.5658775510204082,
+  "wins": 13864,
+  "total_games": 24500,
+  "deck_composition": [
+    "レックウザex",
+    "レックウザex",
+    "ウルトラネクロズマex",
+    "オノンド",
+    "オノンド",
+    "カイリューex",
+    "かいの化石",
+    "かんこうきゃく",
+    "どくバリ",
+    "はねの化石",
+    "ふしぎなアメ",
+    "エレキコード",
+    "カイ",
+    "カルム",
+    "スピーダー",
+    "メンテナンス",
+    "リーフ",
+    "ルザミーネ",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ヌメルゴン / In: ミニリュウ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: ミニリュウ / In: メンテナンス (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: そうじゅくエキス / In: カイ (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: ガブリアスex / In: どくバリ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: ふしぎなアメ / In: かけだし調査員 (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 103,
+      "diff": "Out: ギラティナ / In: スピーダー (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: かけだし調査員 / In: ルザミーネ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: カイリューex / In: リーフ (Parent: 35/50 -> Mutant: 37/50)"
+    }
+  ]
+}

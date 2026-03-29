@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザY_ワンパン_V5_メガピン刺し_サブ1",
+  "strategy": "aggro",
+  "win_rate": 0.5424319727891157,
+  "wins": 12758,
+  "total_games": 23520,
+  "deck_composition": [
+    "エンテイex",
+    "エンテイex",
+    "オーガポンかまどのめん",
+    "カエンジシ",
+    "クイタラン",
+    "デルビル",
+    "ブーバーン",
+    "ホウオウex",
+    "ポニータ",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "リザード",
+    "タケシ",
+    "ハイキングコース",
+    "ハンサム",
+    "ヒカリ",
+    "フレイムパッチ",
+    "ボタン",
+    "ロケット団のしたっぱ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: メモリーライト / In: デルビル (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: メリッサ / In: キュウコン (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: ずがいの化石 / In: セレナ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: セレナ / In: ウインディ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ウインディ / In: ブーバーン (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: キュウコン / In: ロケット団のしたっぱ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: エンテイ / In: ハンサム (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: ダルマッカ / In: マーズ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: おさかなネット / In: ヒカリ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: マーズ / In: カエンジシ (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: おさかなネット / In: 博士の研究 (Parent: 31/50 -> Mutant: 38/50)"
+    }
+  ]
+}

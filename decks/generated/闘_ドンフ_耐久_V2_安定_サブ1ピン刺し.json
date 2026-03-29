@@ -1,0 +1,87 @@
+{
+  "name": "闘_ドンフ_耐久_V2_安定_サブ1ピン刺し",
+  "strategy": "tank",
+  "win_rate": 0.18515130190007037,
+  "wins": 5262,
+  "total_games": 28420,
+  "deck_composition": [
+    "カバルドン",
+    "ガメノデス",
+    "コジョフー",
+    "コジョフー",
+    "ズガイドス",
+    "ダグトリオ",
+    "チャーレム",
+    "トロッゴン",
+    "メガチャーレムex",
+    "メガミミロップex",
+    "ルカリオex",
+    "ルカリオex",
+    "ルガルガン",
+    "きずぐすり",
+    "ずがいの化石",
+    "ひみつのコハク",
+    "オボンのみ",
+    "サカキ",
+    "タケシ",
+    "ナツメ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: ヒカリ / In: ルカリオex (Parent: 6/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ラッキーミトン / In: オボンのみ (Parent: 7/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: 博士の研究 / In: ガメノデス (Parent: 5/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: ドンファンex / In: きずぐすり (Parent: 4/50 -> Mutant: 8/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: やまおとこ / In: ズガイドス (Parent: 2/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: どくバリ / In: チャーレム (Parent: 4/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: ギガイアスex / In: タケシ (Parent: 8/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: きずぐすり / In: ルガルガン (Parent: 1/50 -> Mutant: 7/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: アサナン / In: メガチャーレムex (Parent: 7/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ヤンチャム / In: ずがいの化石 (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: ルカリオex / In: メガミミロップex (Parent: 22/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: ドンファンex / In: カバルドン (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: コノヨザル / In: トロッゴン (Parent: 34/50 -> Mutant: 37/50)"
+    }
+  ]
+}

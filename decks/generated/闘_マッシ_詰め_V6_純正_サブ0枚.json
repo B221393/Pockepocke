@@ -1,0 +1,71 @@
+{
+  "name": "闘_マッシ_詰め_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.376672335600907,
+  "wins": 13289,
+  "total_games": 35280,
+  "deck_composition": [
+    "エビワラー",
+    "カラカラ",
+    "ダグトリオ",
+    "バンギラス",
+    "マッシブーンex",
+    "マッシブーンex",
+    "かけだし調査員",
+    "きずぐすり",
+    "ひみつのコハク",
+    "ふたの化石",
+    "ギンガ団のしたっぱ",
+    "ゴツゴツメット",
+    "ジュン",
+    "スピーダー",
+    "セキ",
+    "タケシ",
+    "ポケモン通信",
+    "ルザミーネ",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: マチス / In: モノマネむすめ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ドンファン / In: ルザミーネ (Parent: 20/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: オボンのみ / In: カラカラ (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: カポエラー / In: ジュン (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: マチス / In: エビワラー (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: カラカラ / In: シズイ (Parent: 26/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: シズイ / In: ポケモン通信 (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: モノマネむすめ / In: セキ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: カバルドン / In: タケシ (Parent: 26/50 -> Mutant: 28/50)"
+    }
+  ]
+}

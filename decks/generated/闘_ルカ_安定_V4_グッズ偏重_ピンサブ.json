@@ -1,0 +1,83 @@
+{
+  "name": "闘_ルカ_安定_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.15260380014074595,
+  "wins": 4337,
+  "total_games": 28420,
+  "deck_composition": [
+    "イシツブテ",
+    "ウリムー",
+    "エビワラー",
+    "エビワラー",
+    "ゴーリキー",
+    "サイホーン",
+    "ダグトリオ",
+    "トロッゴン",
+    "ネンドール",
+    "バンギラス",
+    "モグリュー",
+    "どくバリ",
+    "ふしぎなアメ",
+    "エレキコード",
+    "カツラ",
+    "スイレン",
+    "博士の研究",
+    "博士の研究",
+    "博士の研究",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: カンナギタウンの長老 / In: レッド (Parent: 11/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: ジュン / In: モグリュー (Parent: 9/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: レッド / In: エレキコード (Parent: 7/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ポケモンの笛 / In: エビワラー (Parent: 10/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: アカギ / In: スイレン (Parent: 4/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: ノズパス / In: ゴーリキー (Parent: 8/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: キョウ / In: カツラ (Parent: 10/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: まもりのポンチョ / In: ダグトリオ (Parent: 6/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ルカリオex / In: トロッゴン (Parent: 14/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ガブリアスex / In: 鋼鉄のまえかけ (Parent: 14/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: ルカリオex / In: サイドン (Parent: 6/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: サイドン / In: エビワラー (Parent: 9/50 -> Mutant: 14/50)"
+    }
+  ]
+}

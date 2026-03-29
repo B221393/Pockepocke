@@ -1,0 +1,63 @@
+{
+  "name": "闘_ルカ_安定_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.14874411302982732,
+  "wins": 3790,
+  "total_games": 25480,
+  "deck_composition": [
+    "アサナン",
+    "イワーク",
+    "コジョフー",
+    "サンドパン",
+    "タイレーツ",
+    "ドンファン",
+    "パルデアケンタロス",
+    "ルカリオex",
+    "ルカリオex",
+    "はじまりの平原",
+    "エリカ",
+    "カスミ",
+    "ギンガ団のしたっぱ",
+    "サカキ",
+    "トレーニングエリア",
+    "マーズ",
+    "マーマネ",
+    "博士の研究",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: タケシ / In: サカキ (Parent: 7/50 -> Mutant: 9/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ハリテヤマ / In: プテラex (Parent: 3/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: プテラex / In: ガラガラex (Parent: 6/50 -> Mutant: 12/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: マクノシタ / In: アサナン (Parent: 5/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ガメノデス / In: パルデアケンタロス (Parent: 2/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: たべのこし / In: マーズ (Parent: 3/50 -> Mutant: 6/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: ガラガラex / In: エリカ (Parent: 7/50 -> Mutant: 9/50)"
+    }
+  ]
+}

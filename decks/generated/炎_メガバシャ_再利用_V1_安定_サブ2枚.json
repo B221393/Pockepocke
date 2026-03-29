@@ -1,0 +1,75 @@
+{
+  "name": "炎_メガバシャ_再利用_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.6476190476190476,
+  "wins": 15232,
+  "total_games": 23520,
+  "deck_composition": [
+    "ウインディ",
+    "ウインディ",
+    "エンテイex",
+    "エンテイex",
+    "ズガドーンex",
+    "ヒヒダルマ",
+    "マグマッグ",
+    "メガバシャーモex",
+    "メガバシャーモex",
+    "ふたの化石",
+    "エリカ",
+    "エレキジェネレーター",
+    "グリーン",
+    "シトロンのリュック",
+    "シロナ",
+    "ネモ",
+    "フレイムパッチ",
+    "メリッサ",
+    "レッド",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: グレンアルマex / In: ふたの化石 (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: コトネ / In: シトロンのリュック (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: イーブイのバッグ / In: マグマッグ (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: バクガメス / In: ニャビー (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: ニャビー / In: エリカ (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: アゴの化石 / In: シロナ (Parent: 31/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: マツバ / In: ビーストナイト (Parent: 34/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ビーストナイト / In: グリーン (Parent: 29/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: マグマッグ / In: ネモ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: ファイヤー / In: ウインディ (Parent: 39/50 -> Mutant: 41/50)"
+    }
+  ]
+}

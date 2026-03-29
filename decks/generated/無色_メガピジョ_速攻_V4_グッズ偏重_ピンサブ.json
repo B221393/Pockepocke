@@ -1,0 +1,67 @@
+{
+  "name": "無色_メガピジョ_速攻_V4_グッズ偏重_ピンサブ",
+  "strategy": "aggro",
+  "win_rate": 0.47390228818800245,
+  "wins": 15326,
+  "total_games": 32340,
+  "deck_composition": [
+    "エネコ",
+    "オニスズメ",
+    "コラッタ",
+    "ナマケロ",
+    "ピジョットex",
+    "ピジョン",
+    "プリン",
+    "メガピジョットex",
+    "メガピジョットex",
+    "ヤルキモノ",
+    "いじわるレター",
+    "こうらの化石",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "イリマ",
+    "グリーン",
+    "セキ",
+    "ネズ",
+    "ハウ",
+    "マチス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: モノマネむすめ / In: ナマケロ (Parent: 24/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: チルット / In: いじわるレター (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: まもりのポンチョ / In: セキ (Parent: 34/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: ハルカ / In: エネコ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: プクリン / In: ハウ (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: オボンのみ / In: オニスズメ (Parent: 24/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: ハルカ / In: ミルタンク (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ミルタンク / In: プリン (Parent: 24/50 -> Mutant: 30/50)"
+    }
+  ]
+}

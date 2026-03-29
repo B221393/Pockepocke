@@ -1,0 +1,67 @@
+{
+  "name": "雷_ピカライ_進化_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.4119727891156463,
+  "wins": 6056,
+  "total_games": 14700,
+  "deck_composition": [
+    "アローラライチュウex",
+    "アローラライチュウex",
+    "サンダースex",
+    "シビルドン",
+    "ジバコイル",
+    "デンチュラ",
+    "デンチュラ",
+    "パチリスex",
+    "パルスワン",
+    "ピカチュウex",
+    "いじわるレター",
+    "はじまりの平原",
+    "ふたの化石",
+    "カツラ",
+    "コトネ",
+    "スイレン",
+    "ハラ",
+    "マオ",
+    "モンスターボール",
+    "モンスターボール"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ポケモンの笛 / In: シトロン (Parent: 17/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: どくバリ / In: パチリスex (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: 旅の行商人 / In: カツラ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: エリキテル / In: はじまりの平原 (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ピカチュウex / In: デンチュラ (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: ラクライ / In: パルスワン (Parent: 25/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: シトロン / In: ジバコイル (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: はじまりの平原 / In: いじわるレター (Parent: 27/50 -> Mutant: 36/50)"
+    }
+  ]
+}

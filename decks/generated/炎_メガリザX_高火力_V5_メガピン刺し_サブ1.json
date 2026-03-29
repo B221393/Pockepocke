@@ -1,0 +1,79 @@
+{
+  "name": "炎_メガリザX_高火力_V5_メガピン刺し_サブ1",
+  "strategy": "combo",
+  "win_rate": 0.5718877551020408,
+  "wins": 11209,
+  "total_games": 19600,
+  "deck_composition": [
+    "エースバーン",
+    "カルボウ",
+    "バシャーモ",
+    "ブースターex",
+    "ホウオウex",
+    "マルヤクデ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "ヤトウモリ",
+    "ヤトウモリ",
+    "やまおとこ",
+    "シトロン",
+    "ジュン",
+    "デンジ",
+    "ナツメ",
+    "ハラ",
+    "マーマネ",
+    "メンテナンス",
+    "メンテナンス",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: フレイムパッチ / In: メガリザードンXex (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: ラムのみ / In: ブースターex (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: イーブイのバッグ / In: ラビフット (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: レシラム / In: メンテナンス (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: マグカルゴ / In: カルボウ (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: ラビフット / In: ナツメ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: メガリザードンXex / In: やまおとこ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: ずがいの化石 / In: デンジ (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: ハルカ / In: エースバーン (Parent: 26/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: ホウオウex / In: エースバーン (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: エースバーン / In: ジュン (Parent: 36/50 -> Mutant: 39/50)"
+    }
+  ]
+}

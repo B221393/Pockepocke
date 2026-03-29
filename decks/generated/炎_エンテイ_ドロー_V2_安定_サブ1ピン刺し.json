@@ -1,0 +1,67 @@
+{
+  "name": "炎_エンテイ_ドロー_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.5557977736549166,
+  "wins": 11983,
+  "total_games": 21560,
+  "deck_composition": [
+    "エンテイex",
+    "エンテイex",
+    "バオップ",
+    "ヒコザル",
+    "ファイヤーex",
+    "ポニータ",
+    "メガリザードンXex",
+    "メガリザードンXex",
+    "メラルバ",
+    "ラウドボーン",
+    "きずぐすり",
+    "そうじゅくエキス",
+    "カツラ",
+    "シズイ",
+    "デンジ",
+    "フレイムパッチ",
+    "ポケモンセンターのお姉さん",
+    "メタルコアバリア",
+    "ルザミーネ",
+    "幻の石板"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: マツバ / In: カツラ (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ブビィ / In: デンジ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: フレイムパッチ / In: ポケモンセンターのお姉さん (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: アセロラ / In: シズイ (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: アカギ / In: きずぐすり (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: そうじゅくエキス / In: ズガドーンex (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: ズガドーンex / In: ロトム図鑑 (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ロトム図鑑 / In: メタルコアバリア (Parent: 32/50 -> Mutant: 35/50)"
+    }
+  ]
+}

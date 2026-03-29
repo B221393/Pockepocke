@@ -1,0 +1,67 @@
+{
+  "name": "草_エルフ_加速_V4_グッズ偏重_ピンサブ",
+  "strategy": "combo",
+  "win_rate": 0.4,
+  "wins": 9408,
+  "total_games": 23520,
+  "deck_composition": [
+    "アマージョ",
+    "エルフーンex",
+    "エルフーンex",
+    "オーガポンみどりのめんex",
+    "カプサイジ",
+    "ダダリンex",
+    "チコリータ",
+    "マスカーニャ",
+    "メェークル",
+    "メガフシギバナex",
+    "ロゼリア",
+    "オボンのみ",
+    "シトロン",
+    "シロナ",
+    "セレナ",
+    "ポケモンセンターのお姉さん",
+    "ポケモン図鑑",
+    "ポケモン通信",
+    "ラムのみ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: アセロラ / In: カプサイジ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: グリーン / In: メェークル (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: ビーストウォール / In: ロゼリア (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: 博士の研究 / In: ポケモンセンターのお姉さん (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ビードル / In: コフキムシ (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: コフキムシ / In: シロナ (Parent: 12/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: 博士の研究 / In: オーガポンみどりのめんex (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: ふしぎなアメ / In: アマージョ (Parent: 33/50 -> Mutant: 37/50)"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "水_パルキア_高打点_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.43268221574344023,
+  "wins": 14841,
+  "total_games": 34300,
+  "deck_composition": [
+    "アズマオウ",
+    "アルクジラ",
+    "ウパー",
+    "ケロマツ",
+    "コダック",
+    "スイクンex",
+    "スイクンex",
+    "スターミー",
+    "スターミー",
+    "ドククラゲ",
+    "ニョロゾ",
+    "ハリーセン",
+    "パルキアex",
+    "パルキアex",
+    "ヒトデマン",
+    "ふしぎなアメ",
+    "イーブイのバッグ",
+    "スイレン",
+    "ハイキングコース",
+    "ペパー"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: イルカマン / In: ヒトデマン (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ジュン / In: スターミー (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ママンボウ / In: アズマオウ (Parent: 15/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: ヘイラッシャ / In: ケロマツ (Parent: 23/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 80,
+      "diff": "Out: ヒレの化石 / In: スターミー (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: モノマネむすめ / In: ハイキングコース (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ヒトデマン / In: ニョロゾ (Parent: 17/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: スターミー / In: アルクジラ (Parent: 26/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: イーブイのバッグ / In: ドククラゲ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: カスミ / In: ハリーセン (Parent: 19/50 -> Mutant: 26/50)"
+    }
+  ]
+}

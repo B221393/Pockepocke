@@ -1,0 +1,99 @@
+{
+  "name": "メガルカリオexデッキ（超高火力）",
+  "description": "最新パック「シャイニングメガ」の看板。闘タイプの圧倒的火力",
+  "cards": [
+    {
+      "name": "リオル",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Fighting",
+      "weakness": "Psychic",
+      "attacks": [
+        {"name": "パンチ", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ルカリオex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 130,
+      "type": "Fighting",
+      "weakness": "Psychic",
+      "evolves_from": "リオル",
+      "attacks": [
+        {"name": "はどうだん", "energy_cost": 2, "damage": 70}
+      ],
+      "count": 2
+    },
+    {
+      "name": "メガルカリオex",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 210,
+      "type": "Fighting",
+      "weakness": "Psychic",
+      "evolves_from": "ルカリオex",
+      "attacks": [
+        {"name": "メガインファイト", "energy_cost": 3, "damage": 180}
+      ],
+      "count": 2
+    },
+    {
+      "name": "マクノシタ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 70,
+      "type": "Fighting",
+      "weakness": "Psychic",
+      "attacks": [
+        {"name": "つっぱり", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ハリテヤマ",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 120,
+      "type": "Fighting",
+      "weakness": "Psychic",
+      "evolves_from": "マクノシタ",
+      "attacks": [
+        {"name": "はりて", "energy_cost": 3, "damage": 80}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "大きなマント",
+      "card_type": "Item",
+      "effect": "hp_boost_20",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "闘エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

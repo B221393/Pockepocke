@@ -1,0 +1,67 @@
+{
+  "name": "龍_レック_最強_V1_安定_サブ2枚",
+  "strategy": "aggro",
+  "win_rate": 0.3780148423005566,
+  "wins": 8150,
+  "total_games": 21560,
+  "deck_composition": [
+    "レックウザex",
+    "レックウザex",
+    "カイリューex",
+    "カイリューex",
+    "ガブリアス",
+    "クリムガン",
+    "ジジーロン",
+    "ヌメルゴン",
+    "ボーマンダ",
+    "ミニリュウ",
+    "きずぐすり",
+    "たべのこし",
+    "はじまりの平原",
+    "カルム",
+    "ネモ",
+    "ポケモン通信",
+    "マーマネ",
+    "リーリエ",
+    "博士の研究",
+    "釣り人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: カイリューex / In: 幻の石板 (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 77,
+      "diff": "Out: ガブリアスex / In: はじまりの平原 (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ふしぎなアメ / In: ネモ (Parent: 23/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ガブリアスex / In: リーリエ (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: スター団のしたっぱ / In: ジジーロン (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: 幻の石板 / In: ヌメルゴン (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: ヌメイル / In: ジャラコ (Parent: 21/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: ジャラコ / In: 釣り人 (Parent: 18/50 -> Mutant: 30/50)"
+    }
+  ]
+}

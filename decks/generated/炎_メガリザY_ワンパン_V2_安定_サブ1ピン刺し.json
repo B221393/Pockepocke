@@ -1,0 +1,91 @@
+{
+  "name": "炎_メガリザY_ワンパン_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.5399290150842946,
+  "wins": 12170,
+  "total_games": 22540,
+  "deck_composition": [
+    "ウインディex",
+    "クイタラン",
+    "ズガドーンex",
+    "ニャビー",
+    "ヒトモシ",
+    "ファイアロー",
+    "ブーバー",
+    "ブーバーン",
+    "マグマッグ",
+    "メガリザードンYex",
+    "メガリザードンYex",
+    "ラビフット",
+    "かいの化石",
+    "カツラ",
+    "グズマ",
+    "テーブルシティ",
+    "ヒットハンマー",
+    "ビーストウォール",
+    "フレイムパッチ",
+    "ポケモンの笛"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: メガリザードンXex / In: ズガドーンex (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: エンテイex / In: パルデアケンタロス (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: エンテイex / In: ブーバー (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ギャロップ / In: エンニュート (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 25,
+      "diff": "Out: エンニュート / In: ブーバー (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: パルデアケンタロス / In: ニャビー (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: ブーバー / In: テーブルシティ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: ニャビー / In: ブーバーン (Parent: 28/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: ゴツゴツメット / In: ヒトモシ (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 76,
+      "diff": "Out: エンテイ / In: ホウオウex (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: バオッキー / In: マグマッグ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ハラ / In: ファイアロー (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ゴツゴツメット / In: ポケモンの笛 (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: ホウオウex / In: ラビフット (Parent: 27/50 -> Mutant: 30/50)"
+    }
+  ]
+}

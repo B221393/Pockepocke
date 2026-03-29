@@ -1,0 +1,83 @@
+{
+  "name": "闘_ドンフ_耐久_V3_グッズ偏重_サブ2",
+  "strategy": "tank",
+  "win_rate": 0.24598420013166558,
+  "wins": 7473,
+  "total_games": 30380,
+  "deck_composition": [
+    "イワーク",
+    "ガラガラex",
+    "サイホーン",
+    "サンドパン",
+    "ヌイコグマ",
+    "ノズパス",
+    "メガチャーレムex",
+    "ルカリオex",
+    "いじわるレター",
+    "きずぐすり",
+    "きずぐすり",
+    "たべのこし",
+    "はねの化石",
+    "ウォーターボート",
+    "エレキジェネレーター",
+    "カルム",
+    "トレーニングエリア",
+    "ハウ",
+    "ポケモン通信",
+    "モノマネむすめ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: 大きなふうせん / In: 幻の石板 (Parent: 11/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: ドンファンex / In: ウォーターボート (Parent: 7/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ルガルガンex / In: モノマネむすめ (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: チャーレム / In: イワーク (Parent: 9/50 -> Mutant: 11/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: グラードン / In: ポケモン通信 (Parent: 11/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: モンスターボール / In: サンドパン (Parent: 10/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: 幻の石板 / In: カルム (Parent: 8/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: 釣り人 / In: メガチャーレムex (Parent: 8/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 134,
+      "diff": "Out: ドンファンex / In: エレキジェネレーター (Parent: 19/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: ガラガラ / In: トレーニングエリア (Parent: 15/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: ダークペンダント / In: たべのこし (Parent: 22/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: フカマル / In: サイホーン (Parent: 12/50 -> Mutant: 15/50)"
+    }
+  ]
+}

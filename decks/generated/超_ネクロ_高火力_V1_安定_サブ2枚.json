@@ -1,0 +1,99 @@
+{
+  "name": "超_ネクロ_高火力_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.44414088215931535,
+  "wins": 13493,
+  "total_games": 30380,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "ソルガレオex",
+    "ソルガレオex",
+    "ソルガレオex",
+    "テッシード",
+    "ハッサム",
+    "ミミズズ",
+    "メルメタル",
+    "レアコイル",
+    "エーフィex",
+    "クレセリアex",
+    "スリーパー",
+    "ネイティオ",
+    "メガサーナイトex",
+    "ヤドン",
+    "ルナアーラex",
+    "おさかなネット",
+    "まもりのポンチョ",
+    "ジャグラー"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: オボンのみ / In: ビーストナイト (Parent: 19/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ラルトス / In: ネイティオ (Parent: 16/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: マーズ / In: ヤドキング (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: ビーストナイト / In: ジャグラー (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 56,
+      "diff": "Out: 鋼鉄のまえかけ / In: テッシード (Parent: 23/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: モンスターボール / In: クレセリアex (Parent: 22/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: コレクレー / In: メガサーナイトex (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: リーリエ / In: エーフィex (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ヤバチャ / In: ミュウex (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: 釣り人 / In: ヤドン (Parent: 37/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: ミュウex / In: ハッサム (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: ルナアーラex / In: ミミズズ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 131,
+      "diff": "Out: ヤドキング / In: ゴースト (Parent: 23/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: フワライド / In: メルメタル (Parent: 20/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: はねの化石 / In: ソルガレオex (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 138,
+      "diff": "Out: ゴースト / In: レアコイル (Parent: 31/50 -> Mutant: 38/50)"
+    }
+  ]
+}

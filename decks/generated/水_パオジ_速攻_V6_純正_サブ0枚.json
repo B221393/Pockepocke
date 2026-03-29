@@ -1,0 +1,83 @@
+{
+  "name": "水_パオジ_速攻_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.3102659245516388,
+  "wins": 10034,
+  "total_games": 32340,
+  "deck_composition": [
+    "アローラキュウコンex",
+    "カメックスex",
+    "ガラルバリコオル",
+    "スターミーex",
+    "デリバード",
+    "バニプッチ",
+    "パオジアンex",
+    "ユキメノコ",
+    "ユキワラシ",
+    "こうらの化石",
+    "カスミ",
+    "カルム",
+    "グズマ",
+    "グリーン",
+    "サカキ",
+    "ナンジャモ",
+    "ハンサム",
+    "マチス",
+    "博士の研究",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ヒレの化石 / In: カルム (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 28,
+      "diff": "Out: ミカン / In: アローラキュウコンex (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: パオジアンex / In: グレイシア (Parent: 23/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: ラプラス / In: カルム (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: エンペルト / In: ナンジャモ (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: ふしぎなアメ / In: スターミーex (Parent: 11/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: ナツメ / In: サカキ (Parent: 11/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: ナマズン / In: ユキメノコ (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: セキ / In: ガラルバリコオル (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: ふしぎな広場 / In: デリバード (Parent: 14/50 -> Mutant: 17/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: カルム / In: バニプッチ (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: グレイシア / In: カスミ (Parent: 12/50 -> Mutant: 19/50)"
+    }
+  ]
+}

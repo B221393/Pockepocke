@@ -1,0 +1,71 @@
+{
+  "name": "水_パルキア_高打点_V4_グッズ偏重_ピンサブ",
+  "strategy": "combo",
+  "win_rate": 0.6209372637944066,
+  "wins": 16430,
+  "total_games": 26460,
+  "deck_composition": [
+    "ウッウ",
+    "クレベース",
+    "グレイシア",
+    "スイクンex",
+    "トリトドン",
+    "パルキアex",
+    "パルキアex",
+    "メガヤドランex",
+    "ユキノオー",
+    "かんこうきゃく",
+    "ふしぎな広場",
+    "アゴの化石",
+    "エレキコード",
+    "エレキジェネレーター",
+    "セキ",
+    "ハウ",
+    "ヒットハンマー",
+    "リーフ",
+    "ロケット団のしたっぱ",
+    "幻の石板"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ウッウ / In: アリゲイツ (Parent: 40/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: 旅の行商人 / In: セキ (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: たべのこし / In: 幻の石板 (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: カスミ / In: トリトドン (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: カスミ / In: リーフ (Parent: 37/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: アリゲイツ / In: レッドカード (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: レッドカード / In: アゴの化石 (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: カスミ / In: メガヤドランex (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: ナツメ / In: ウッウ (Parent: 35/50 -> Mutant: 38/50)"
+    }
+  ]
+}

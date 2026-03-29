@@ -1,0 +1,83 @@
+{
+  "name": "超_ミュウツ_サナ_V2_安定_サブ1ピン刺し",
+  "strategy": "control",
+  "win_rate": 0.627201166180758,
+  "wins": 21513,
+  "total_games": 34300,
+  "deck_composition": [
+    "ガラルサニゴーン",
+    "キルリア",
+    "キルリア",
+    "トゲピー",
+    "ポットデス",
+    "ミュウex",
+    "ミュウツーex",
+    "メガサーナイトex",
+    "メガサーナイトex",
+    "ラティアス",
+    "そうじゅくエキス",
+    "ふしぎなアメ",
+    "アセロラ",
+    "イーブイのバッグ",
+    "エレメンタルつけかえ",
+    "シズイ",
+    "セレナ",
+    "モンスターボール",
+    "ラッキーミトン",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: トゲチック / In: サマヨール (Parent: 36/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ミュウツーex / In: トゲピー (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: セレナ / In: キルリア (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 43,
+      "diff": "Out: カイ / In: そうじゅくエキス (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: リーフ / In: ポットデス (Parent: 27/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: メガサーナイトex / In: モンスターボール (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: ロトム / In: セレナ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ムンナ / In: ペロリーム (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: カキ / In: アセロラ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: サマヨール / In: イーブイのバッグ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: ペロリーム / In: メガサーナイトex (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: ゴチミル / In: ガラルサニゴーン (Parent: 39/50 -> Mutant: 43/50)"
+    }
+  ]
+}

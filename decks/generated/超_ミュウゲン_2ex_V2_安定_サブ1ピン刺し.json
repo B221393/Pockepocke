@@ -1,0 +1,55 @@
+{
+  "name": "超_ミュウゲン_2ex_V2_安定_サブ1ピン刺し",
+  "strategy": "control",
+  "win_rate": 0.6599591836734694,
+  "wins": 16169,
+  "total_games": 24500,
+  "deck_composition": [
+    "オドリドリ",
+    "ゲンガーex",
+    "ゲンガーex",
+    "シロデスナ",
+    "ソーナンス",
+    "ピッピ",
+    "フラエッテ",
+    "ミュウex",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "ランプラー",
+    "かいの化石",
+    "かんこうきゃく",
+    "ふしぎな広場",
+    "アセロラ",
+    "シロナ",
+    "ミカン",
+    "モノマネむすめ",
+    "レッドカード"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: 博士の研究 / In: エーフィex (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: ユクシー / In: ソーナンス (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: エーフィex / In: ふたの化石 (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: シズイ / In: シロナ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ふたの化石 / In: ピッピ (Parent: 39/50 -> Mutant: 41/50)"
+    }
+  ]
+}

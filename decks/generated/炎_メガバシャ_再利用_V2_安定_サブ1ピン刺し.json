@@ -1,0 +1,83 @@
+{
+  "name": "炎_メガバシャ_再利用_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.6420991253644315,
+  "wins": 22024,
+  "total_games": 34300,
+  "deck_composition": [
+    "アチゲータ",
+    "エンテイex",
+    "ギャロップex",
+    "ヒトカゲ",
+    "ヒヒダルマ",
+    "ホウオウex",
+    "マグカルゴ",
+    "メガバシャーモex",
+    "メガバシャーモex",
+    "リザード",
+    "いたずらルーレット",
+    "ひみつのコハク",
+    "まもりのポンチョ",
+    "アカギ",
+    "エレキコード",
+    "カルム",
+    "ネモ",
+    "フレイムパッチ",
+    "ポケモン通信",
+    "ロケット団のしたっぱ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: オボンのみ / In: ヒヒダルマ (Parent: 37/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: ヒトモシ / In: ポケモン通信 (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: メガバシャーモex / In: デンジ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: エンテイex / In: ホウオウex (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: きずぐすり / In: ギャロップex (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ネズ / In: マグカルゴ (Parent: 35/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: ヒコザル / In: ラッキーミトン (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: ヒトカゲ / In: アチゲータ (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: ダルマッカ / In: ネモ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: デンジ / In: アカギ (Parent: 36/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: メガバシャーモex / In: まもりのポンチョ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: ラッキーミトン / In: リザード (Parent: 37/50 -> Mutant: 41/50)"
+    }
+  ]
+}

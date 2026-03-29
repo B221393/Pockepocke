@@ -1,0 +1,387 @@
+{
+  "name": "炎_リザードンX_グッズ偏重_V3",
+  "strategy": "aggro",
+  "win_rate": 0.5513856513856514,
+  "wins": 85156,
+  "total_games": 154440,
+  "deck_composition": [
+    "ウインディ",
+    "エンニュート",
+    "エンニュート",
+    "エンニュート",
+    "バクフーン",
+    "ファイヤーex",
+    "メガリザードンXex",
+    "リザード",
+    "はねの化石",
+    "ふしぎな広場",
+    "アイリス",
+    "アカギ",
+    "イリマ",
+    "セキ",
+    "セレナ",
+    "テーブルシティ",
+    "ハイキングコース",
+    "メリッサ",
+    "レスキュースカーフ",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: アセロラ / In: リザード (Parent: 15/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: ヒノアラシ / In: きずぐすり (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 5,
+      "diff": "Out: ダークペンダント / In: カイ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ガオガエンex / In: はじまりの平原 (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: リザードンex / In: ギャロップex (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 13,
+      "diff": "Out: きずぐすり / In: マーズ (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: リザードンex / In: ブーバーン (Parent: 18/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: リザード / In: かいの化石 (Parent: 19/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: エンニュート / In: ハイキングコース (Parent: 24/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: ルチア / In: シルバー (Parent: 15/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: アカネ / In: ヘルガー (Parent: 21/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: リーフ / In: ポニータ (Parent: 19/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: グズマ / In: メガリザードンYex (Parent: 13/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: ポニータ / In: 旅の行商人 (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: ガーディ / In: ポケモンセンターのお姉さん (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: レスキュースカーフ / In: ファイアロー (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: ギャロップex / In: アセロラ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: カイ / In: ウインディ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 52,
+      "diff": "Out: ファイヤー / In: リザードン (Parent: 32/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: ウインディ / In: ギャロップ (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: ガオガエンex / In: ウインディex (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: かけだし調査員 / In: ハンドスコープ (Parent: 38/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: ハンドスコープ / In: ハルカ (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: ブーバーン / In: ガオガエンex (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: リザードンex / In: エレキコード (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: リザードン / In: ジュン (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ジュン / In: シルバー (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: ポケモンセンターのお姉さん / In: ビーストウォール (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: アセロラ / In: ファイアロー (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ガオガエンex / In: リーフ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: はじまりの平原 / In: トレーニングエリア (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: リーフ / In: イツキ (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: 旅の行商人 / In: ラウドボーン (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: ファイアロー / In: ウインディ (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: イツキ / In: ブースター (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: ビーストウォール / In: メガリザードンXex (Parent: 39/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: マーズ / In: ギンガ団のしたっぱ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: シルバー / In: 博士の研究 (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 126,
+      "diff": "Out: メガリザードンXex / In: カエンジシ (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: ヘルガー / In: イリマ (Parent: 37/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: ハルカ / In: ウインディ (Parent: 37/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: リザードンex / In: グズマ (Parent: 32/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ウインディ / In: タケシ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 148,
+      "diff": "Out: 博士の研究 / In: アイリス (Parent: 34/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 149,
+      "diff": "Out: かいの化石 / In: ハンサム (Parent: 38/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 151,
+      "diff": "Out: カエンジシ / In: メガリザードンXex (Parent: 32/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 161,
+      "diff": "Out: ギンガ団のしたっぱ / In: コトネ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 164,
+      "diff": "Out: ラウドボーン / In: トレーニングエリア (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 168,
+      "diff": "Out: トレーニングエリア / In: エンニュート (Parent: 38/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 179,
+      "diff": "Out: エンニュート / In: おおきいマラサダ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 190,
+      "diff": "Out: ファイアロー / In: セレナ (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 196,
+      "diff": "Out: おおきいマラサダ / In: デルビル (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 197,
+      "diff": "Out: シルバー / In: ガーディ (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 203,
+      "diff": "Out: ギャロップ / In: ヒトカゲ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 204,
+      "diff": "Out: グズマ / In: ハイキングコース (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 208,
+      "diff": "Out: おおきいマラサダ / In: バクフーン (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 209,
+      "diff": "Out: タケシ / In: ラッキーミトン (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 211,
+      "diff": "Out: エレキコード / In: グレンアルマex (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 212,
+      "diff": "Out: メガリザードンYex / In: はじまりの平原 (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 217,
+      "diff": "Out: ガーディ / In: 鋼鉄のまえかけ (Parent: 18/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 220,
+      "diff": "Out: ヒトカゲ / In: たての化石 (Parent: 24/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 221,
+      "diff": "Out: はじまりの平原 / In: ウインディ (Parent: 22/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 226,
+      "diff": "Out: ウインディex / In: ロトム図鑑 (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 230,
+      "diff": "Out: ハンサム / In: ギャロップ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 231,
+      "diff": "Out: ブースター / In: レスキュースカーフ (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 233,
+      "diff": "Out: ウインディ / In: カキ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 235,
+      "diff": "Out: ハイキングコース / In: マチス (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 236,
+      "diff": "Out: マチス / In: ホウオウ (Parent: 24/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 237,
+      "diff": "Out: ラッキーミトン / In: むしよけスプレー (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 239,
+      "diff": "Out: アイリス / In: セキ (Parent: 24/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 242,
+      "diff": "Out: ギャロップ / In: ヒノヤコマ (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 243,
+      "diff": "Out: ヒノヤコマ / In: ガーディ (Parent: 19/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 248,
+      "diff": "Out: コトネ / In: ペパー (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 249,
+      "diff": "Out: ホウオウ / In: ガーディ (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 251,
+      "diff": "Out: むしよけスプレー / In: テーブルシティ (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 254,
+      "diff": "Out: デルビル / In: エンニュート (Parent: 17/50 -> Mutant: 21/50)"
+    },
+    {
+      "gen": 255,
+      "diff": "Out: 鋼鉄のまえかけ / In: ウインディ (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 260,
+      "diff": "Out: たての化石 / In: メリッサ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 261,
+      "diff": "Out: トレーニングエリア / In: アカギ (Parent: 24/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 264,
+      "diff": "Out: ガーディ / In: エンニュート (Parent: 20/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 272,
+      "diff": "Out: ガーディ / In: ヒカリ (Parent: 30/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 273,
+      "diff": "Out: グレンアルマex / In: はねの化石 (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 274,
+      "diff": "Out: ウインディ / In: エンニュート (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 285,
+      "diff": "Out: ペパー / In: 釣り人 (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 287,
+      "diff": "Out: カキ / In: フレイムパッチ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 291,
+      "diff": "Out: ヒカリ / In: リザード (Parent: 31/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 295,
+      "diff": "Out: 釣り人 / In: ふしぎな広場 (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 297,
+      "diff": "Out: フレイムパッチ / In: アイリス (Parent: 35/50 -> Mutant: 42/50)"
+    }
+  ]
+}

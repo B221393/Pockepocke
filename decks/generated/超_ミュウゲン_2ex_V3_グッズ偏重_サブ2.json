@@ -1,0 +1,71 @@
+{
+  "name": "超_ミュウゲン_2ex_V3_グッズ偏重_サブ2",
+  "strategy": "control",
+  "win_rate": 0.6880612244897959,
+  "wins": 20229,
+  "total_games": 29400,
+  "deck_composition": [
+    "ゲンガーex",
+    "バウッツェル",
+    "ピクシー",
+    "フラエッテ",
+    "ミュウex",
+    "ミュウツーex",
+    "ミュウツーex",
+    "カンナギタウンの長老",
+    "グリーン",
+    "コトネ",
+    "ゴツゴツメット",
+    "タケシ",
+    "ハウ",
+    "ハウ",
+    "ハンドスコープ",
+    "マーズ",
+    "モノマネむすめ",
+    "モンスターボール",
+    "ラッキーミトン",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: ふたの化石 / In: キルリア (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: たての化石 / In: ハンドスコープ (Parent: 38/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: キルリア / In: ラッキーミトン (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ミュウツーex / In: バウッツェル (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: クレセリアex / In: グランブル (Parent: 37/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: グランブル / In: マーズ (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: シロナ / In: タケシ (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ゲンガーex / In: ピクシー (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 145,
+      "diff": "Out: 博士の研究 / In: ミュウツーex (Parent: 37/50 -> Mutant: 40/50)"
+    }
+  ]
+}

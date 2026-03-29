@@ -1,0 +1,71 @@
+{
+  "name": "無色_メガピジョ_速攻_V5_メガピン刺し_サブ1",
+  "strategy": "aggro",
+  "win_rate": 0.6191776710684274,
+  "wins": 20631,
+  "total_games": 33320,
+  "deck_composition": [
+    "カビゴン",
+    "コラッタ",
+    "ポリゴンZ",
+    "メガピジョットex",
+    "メガピジョットex",
+    "メガピジョットex",
+    "おさかなネット",
+    "ずがいの化石",
+    "たての化石",
+    "はねの化石",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "イリマ",
+    "エレキジェネレーター",
+    "ハラ",
+    "ペパー",
+    "ポケモンセンターのお姉さん",
+    "ポケモン通信",
+    "マチス",
+    "レッドカード"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: ポッポ / In: はねの化石 (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 33,
+      "diff": "Out: チルット / In: レッドカード (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: ヒカリ / In: イリマ (Parent: 32/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: プリン / In: ロトム図鑑 (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 108,
+      "diff": "Out: オボンのみ / In: ハラ (Parent: 30/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: ロトム図鑑 / In: ポリゴンZ (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: メガピジョットex / In: マチス (Parent: 29/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: ポッポ / In: ずがいの化石 (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: オオタチ / In: たての化石 (Parent: 31/50 -> Mutant: 37/50)"
+    }
+  ]
+}

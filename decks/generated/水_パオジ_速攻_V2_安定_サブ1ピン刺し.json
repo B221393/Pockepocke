@@ -1,0 +1,67 @@
+{
+  "name": "水_パオジ_速攻_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.561342229199372,
+  "wins": 14303,
+  "total_games": 25480,
+  "deck_composition": [
+    "カプレヒレ",
+    "キングラー",
+    "クラブ",
+    "スイクンex",
+    "タマンタ",
+    "タマンタ",
+    "パオジアンex",
+    "メガギャラドスex",
+    "メガラグラージex",
+    "ヨワシ",
+    "ヨワシex",
+    "こうらの化石",
+    "イーブイのバッグ",
+    "エレキコード",
+    "ジャグラー",
+    "ジュン",
+    "スイレン",
+    "メモリーライト",
+    "モンスターボール",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: イーブイのバッグ / In: こうらの化石 (Parent: 31/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 22,
+      "diff": "Out: ロトム図鑑 / In: キングラー (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: スイクンex / In: オシャマリ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 49,
+      "diff": "Out: ラッキーミトン / In: ヨワシ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: パオジアンex / In: リーリエ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: オシャマリ / In: エレキコード (Parent: 36/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: リーリエ / In: タマンタ (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 129,
+      "diff": "Out: バニプッチ / In: イーブイのバッグ (Parent: 29/50 -> Mutant: 32/50)"
+    }
+  ]
+}

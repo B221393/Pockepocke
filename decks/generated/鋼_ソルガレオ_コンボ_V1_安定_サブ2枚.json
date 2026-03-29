@@ -1,0 +1,83 @@
+{
+  "name": "鋼_ソルガレオ_コンボ_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.46382488479262673,
+  "wins": 14091,
+  "total_games": 30380,
+  "deck_composition": [
+    "ウルトラネクロズマex",
+    "ウルトラネクロズマex",
+    "ガラルマッギョ",
+    "デカヌチャン",
+    "メルメタルex",
+    "アブリボン",
+    "エーフィex",
+    "ケーシィ",
+    "ブーピッグ",
+    "ムウマージ",
+    "メガチルタリスex",
+    "ラルトス",
+    "ルナアーラex",
+    "ルージュラ",
+    "むしよけスプレー",
+    "エレキジェネレーター",
+    "スター団のしたっぱ",
+    "ボタン",
+    "リーリエ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: メルメタル / In: リーリエ (Parent: 25/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 16,
+      "diff": "Out: スピーダー / In: ムウマージ (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: ソルガレオex / In: メガチルタリスex (Parent: 19/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: 大きなマント / In: デカヌチャン (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: モンスターボール / In: ブーピッグ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ルナアーラex / In: ラルトス (Parent: 22/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: ラッキーミトン / In: イエッサンex (Parent: 23/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: アブリー / In: ボタン (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: ヒラヒナ / In: アブリボン (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: イエッサンex / In: ルージュラ (Parent: 28/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: ソルガレオex / In: ガラルマッギョ (Parent: 27/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: 鋼鉄のまえかけ / In: ケーシィ (Parent: 25/50 -> Mutant: 32/50)"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "雷_メガライボ_速攻_V6_純正_サブ0枚",
+  "strategy": "aggro",
+  "win_rate": 0.47048979591836737,
+  "wins": 11527,
+  "total_games": 24500,
+  "deck_composition": [
+    "エレザード",
+    "コイル",
+    "ジバコイル",
+    "ゼブライカ",
+    "トゲデマル",
+    "ピカチュウex",
+    "メガライボルトex",
+    "メガライボルトex",
+    "ラクライ",
+    "レアコイル",
+    "そうじゅくエキス",
+    "たての化石",
+    "グズマ",
+    "スピーダー",
+    "ナンジャモ",
+    "ポケモン図鑑",
+    "ミカン",
+    "博士の研究",
+    "博士の研究",
+    "鋼鉄のまえかけ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: ダークペンダント / In: リーフマント (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: メリープ / In: たての化石 (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: ロトム図鑑 / In: 鋼鉄のまえかけ (Parent: 34/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 39,
+      "diff": "Out: リーフマント / In: コイル (Parent: 25/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ミカン / In: ピカチュウex (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: エレザード / In: ジバコイル (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 44,
+      "diff": "Out: アゴの化石 / In: エレザード (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: ナンジャモ / In: エレズン (Parent: 30/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: サンダース / In: ゼブライカ (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: 大きなマント / In: そうじゅくエキス (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 113,
+      "diff": "Out: サンダース / In: パモット (Parent: 26/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: エレズン / In: スピーダー (Parent: 25/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: マツバ / In: ポケモン図鑑 (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: パモット / In: トゲデマル (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: ビーストナイト / In: ミカン (Parent: 26/50 -> Mutant: 33/50)"
+    }
+  ]
+}

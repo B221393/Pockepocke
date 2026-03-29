@@ -1,0 +1,75 @@
+{
+  "name": "鋼_ディアルガ_ロマン_V6_純正_サブ0枚",
+  "strategy": "combo",
+  "win_rate": 0.5046122448979592,
+  "wins": 12363,
+  "total_games": 24500,
+  "deck_composition": [
+    "アローラディグダ",
+    "ディアルガex",
+    "ディアルガex",
+    "ブロロン",
+    "オムナイト",
+    "メガラグラージex",
+    "メノクラゲ",
+    "いたずらルーレット",
+    "おさかなネット",
+    "ふしぎなアメ",
+    "アカギ",
+    "シズイ",
+    "セレナ",
+    "ナンジャモ",
+    "ヒレの化石",
+    "メタルコアバリア",
+    "メモリーライト",
+    "ラッキーミトン",
+    "ルチア",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: ブロロローム / In: ナツメ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ハンドスコープ / In: カムカメ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: ふしぎなアメ / In: ラッキーミトン (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: サカキ / In: オムナイト (Parent: 27/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: レッドカード / In: おさかなネット (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ドーミラー / In: トゲデマル (Parent: 32/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 84,
+      "diff": "Out: タッツー / In: ブロロン (Parent: 29/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 89,
+      "diff": "Out: トゲデマル / In: 博士の研究 (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: カムカメ / In: メノクラゲ (Parent: 25/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: ナツメ / In: アローラディグダ (Parent: 31/50 -> Mutant: 39/50)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "草_フシギバ_どく_V4_グッズ偏重_ピンサブ",
+  "strategy": "control",
+  "win_rate": 0.40914442700156983,
+  "wins": 10425,
+  "total_games": 25480,
+  "deck_composition": [
+    "カジッチュ",
+    "キャタピー",
+    "サルノリ",
+    "ジュナイパーex",
+    "スコヴィラン",
+    "スピアー",
+    "ツボツボex",
+    "トロピウス",
+    "フシギバナex",
+    "マッシブーンex",
+    "ミュウex",
+    "いじわるレター",
+    "やまおとこ",
+    "グリーン",
+    "ヒットハンマー",
+    "ヒレの化石",
+    "ルチア",
+    "レスキュースカーフ",
+    "博士の研究",
+    "大きなふうせん"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: フシギバナex / In: エレキジェネレーター (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 11,
+      "diff": "Out: 博士の研究 / In: カジッチュ (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 12,
+      "diff": "Out: エレキジェネレーター / In: かいの化石 (Parent: 21/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: かいの化石 / In: トロピウス (Parent: 20/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: マダツボミ / In: ツボツボex (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ラッキーミトン / In: ツタージャ (Parent: 24/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: ドクケイル / In: スコヴィラン (Parent: 20/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: リーリエ / In: ヒットハンマー (Parent: 24/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 79,
+      "diff": "Out: エリカ / In: スピアー (Parent: 22/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: ツタージャ / In: マッシブーンex (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 115,
+      "diff": "Out: エリカ / In: やまおとこ (Parent: 28/50 -> Mutant: 31/50)"
+    }
+  ]
+}

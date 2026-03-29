@@ -1,0 +1,91 @@
+{
+  "name": "水_メガギャラ_爆発_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.5835807050092764,
+  "wins": 18873,
+  "total_games": 32340,
+  "deck_composition": [
+    "ウパー",
+    "オシャマリ",
+    "ガラルバリコオル",
+    "ギャラドス",
+    "スワンナ",
+    "ゼニガメ",
+    "トリトドン",
+    "パルキアex",
+    "ヒヤッキー",
+    "メガギャラドスex",
+    "メガギャラドスex",
+    "メガギャラドスex",
+    "ヤドン",
+    "おおきいマラサダ",
+    "ふしぎなアメ",
+    "ふたの化石",
+    "イーブイのバッグ",
+    "スター団のしたっぱ",
+    "テーブルシティ",
+    "ポケモン通信"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: メガギャラドスex / In: アゴの化石 (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: かいの化石 / In: ハルクジラ (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ギャラドスex / In: オシャマリ (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: アゴの化石 / In: テーブルシティ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ウォーターボート / In: ネオラント (Parent: 36/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: ずがいの化石 / In: おおきいマラサダ (Parent: 33/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 75,
+      "diff": "Out: フレイムパッチ / In: ギャラドス (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: ネオラント / In: カキ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: デリバード / In: ヤドン (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: カキ / In: ゼニガメ (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: ネモ / In: セビエ (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: ママンボウ / In: スワンナ (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: ハルクジラ / In: ふたの化石 (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: セビエ / In: パルキアex (Parent: 32/50 -> Mutant: 35/50)"
+    }
+  ]
+}

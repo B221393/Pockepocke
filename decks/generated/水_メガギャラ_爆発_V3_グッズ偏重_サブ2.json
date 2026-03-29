@@ -1,0 +1,79 @@
+{
+  "name": "水_メガギャラ_爆発_V3_グッズ偏重_サブ2",
+  "strategy": "combo",
+  "win_rate": 0.6565646258503401,
+  "wins": 19303,
+  "total_games": 29400,
+  "deck_composition": [
+    "アマルルガ",
+    "カメール",
+    "ギャラドス",
+    "ニョロトノ",
+    "プルリル",
+    "メガギャラドスex",
+    "メガギャラドスex",
+    "ヤドン",
+    "かんこうきゃく",
+    "ひみつのコハク",
+    "ふしぎなアメ",
+    "ふしぎなアメ",
+    "エレキジェネレーター",
+    "ゴツゴツメット",
+    "シルバー",
+    "ハンドスコープ",
+    "ヘビーメット",
+    "マチス",
+    "リーフマント",
+    "ルザミーネ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 14,
+      "diff": "Out: やまおとこ / In: ルザミーネ (Parent: 44/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ラプラスex / In: カメール (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: ポケモン通信 / In: ポッタイシ (Parent: 43/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: リーフマント / In: ニョロトノ (Parent: 43/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 60,
+      "diff": "Out: ポッタイシ / In: ヤドン (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: エレキコード / In: かんこうきゃく (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: メリッサ / In: ゴツゴツメット (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: メガギャラドスex / In: テッポウオ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: シザリガー / In: シルバー (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: テッポウオ / In: ギャラドス (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: アマルス / In: プルリル (Parent: 27/50 -> Mutant: 30/50)"
+    }
+  ]
+}

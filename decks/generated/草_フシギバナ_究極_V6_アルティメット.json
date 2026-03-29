@@ -1,0 +1,307 @@
+{
+  "name": "草_フシギバナ_究極_V6_アルティメット",
+  "strategy": "tank",
+  "win_rate": 0.7462585034013606,
+  "wins": 114088,
+  "total_games": 152880,
+  "deck_composition": [
+    "アメモース",
+    "オリーヴァ",
+    "コクーン",
+    "メガニウム",
+    "メガフシギバナex",
+    "メガフシギバナex",
+    "レディアン",
+    "こうらの化石",
+    "どくバリ",
+    "ふしぎな広場",
+    "まもりのポンチョ",
+    "やまおとこ",
+    "アカギ",
+    "イツキ",
+    "イリマ",
+    "エレキコード",
+    "グラジオ",
+    "シルバー",
+    "ネモ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: メンテナンス / In: マッシブーンex (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 2,
+      "diff": "Out: デンジ / In: フシギバナ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: エリカ / In: オーロット (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: キャタピー / In: エリカ (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: スピーダー / In: マーマネ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: ハルカ / In: ペパー (Parent: 37/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: そうじゅくエキス / In: ノクタス (Parent: 33/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: フシギバナ / In: ナンジャモ (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: 大きなマント / In: シズイ (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: ラッキーミトン / In: レディアン (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: キョウ / In: ふしぎな広場 (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 48,
+      "diff": "Out: コンパン / In: ラッキーミトン (Parent: 36/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: ナンジャモ / In: ドレディア (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: ペパー / In: レディアン (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 57,
+      "diff": "Out: レディアン / In: はじまりの平原 (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 58,
+      "diff": "Out: ラッキーミトン / In: エルフーンex (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: はじまりの平原 / In: ウツドン (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: マッシブーンex / In: いたずらルーレット (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: ラッキーミトン / In: パラセクト (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: エリカ / In: リーリエ (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: パラセクト / In: キノガッサ (Parent: 38/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: ネズ / In: コフーライ (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: オーロット / In: メリッサ (Parent: 41/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: ドレディア / In: マスカーニャ (Parent: 39/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 106,
+      "diff": "Out: ウツドン / In: イリマ (Parent: 38/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: メリッサ / In: マシェード (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 114,
+      "diff": "Out: マシェード / In: ポポッコ (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 117,
+      "diff": "Out: シズイ / In: いたずらルーレット (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 119,
+      "diff": "Out: マーマネ / In: どくバリ (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: エリカ / In: ガーメイル (Parent: 43/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 125,
+      "diff": "Out: ノクタス / In: カルム (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 127,
+      "diff": "Out: いたずらルーレット / In: スコヴィラン (Parent: 43/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: エリカ / In: ナッシー (Parent: 37/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: カルム / In: ずがいの化石 (Parent: 44/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: コフーライ / In: ポポッコ (Parent: 39/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 143,
+      "diff": "Out: リーリエ / In: リーフィアex (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 144,
+      "diff": "Out: キマワリ / In: ミノマダム (Parent: 45/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 148,
+      "diff": "Out: ずがいの化石 / In: メタルコアバリア (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 149,
+      "diff": "Out: ポポッコ / In: はねの化石 (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 153,
+      "diff": "Out: はねの化石 / In: ハイキングコース (Parent: 38/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 155,
+      "diff": "Out: ルチア / In: オリーヴァ (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 158,
+      "diff": "Out: オリーヴァ / In: コトネ (Parent: 44/50 -> Mutant: 49/50)"
+    },
+    {
+      "gen": 162,
+      "diff": "Out: ポポッコ / In: タルップル (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 167,
+      "diff": "Out: ガーメイル / In: デンジ (Parent: 43/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 170,
+      "diff": "Out: いたずらルーレット / In: イツキ (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 173,
+      "diff": "Out: タルップル / In: リーフィアex (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 174,
+      "diff": "Out: デンジ / In: グラジオ (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 175,
+      "diff": "Out: ナッシー / In: 鋼鉄のまえかけ (Parent: 37/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 177,
+      "diff": "Out: リーフィアex / In: ワナイダー (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 182,
+      "diff": "Out: ふしぎな広場 / In: ロズレイド (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 208,
+      "diff": "Out: キノガッサ / In: ラムのみ (Parent: 42/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 213,
+      "diff": "Out: ワナイダー / In: アノホラグサ (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 215,
+      "diff": "Out: ラムのみ / In: ふたの化石 (Parent: 44/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 216,
+      "diff": "Out: アノホラグサ / In: ネモ (Parent: 41/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 221,
+      "diff": "Out: コトネ / In: エレキコード (Parent: 42/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 243,
+      "diff": "Out: ミノマダム / In: まもりのポンチョ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 250,
+      "diff": "Out: ふたの化石 / In: イツキ (Parent: 38/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 267,
+      "diff": "Out: イツキ / In: ふしぎな広場 (Parent: 41/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 268,
+      "diff": "Out: メタルコアバリア / In: やまおとこ (Parent: 39/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 279,
+      "diff": "Out: ドレディア / In: アメモース (Parent: 39/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 280,
+      "diff": "Out: 鋼鉄のまえかけ / In: オリーヴァ (Parent: 38/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 281,
+      "diff": "Out: マスカーニャ / In: ビーストナイト (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 283,
+      "diff": "Out: ロズレイド / In: アカギ (Parent: 40/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 285,
+      "diff": "Out: スコヴィラン / In: 博士の研究 (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 288,
+      "diff": "Out: リーフィアex / In: メガニウム (Parent: 43/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 290,
+      "diff": "Out: ビーストナイト / In: こうらの化石 (Parent: 46/50 -> Mutant: 49/50)"
+    },
+    {
+      "gen": 293,
+      "diff": "Out: ハイキングコース / In: シルバー (Parent: 45/50 -> Mutant: 50/50)"
+    },
+    {
+      "gen": 294,
+      "diff": "Out: エルフーンex / In: コクーン (Parent: 44/50 -> Mutant: 47/50)"
+    }
+  ]
+}

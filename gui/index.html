@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokepoke Oracle Analyzer v16</title>
+    <style>
+        :root {
+            --bg: #0a0e14;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --p1-color: #00e5ff;
+            --p2-color: #ff3d00;
+            --accent: #ffcc00;
+        }
+
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: white;
+            display: flex; flex-direction: column; align-items: center;
+            height: 100vh; overflow: hidden;
+        }
+
+        /* Modal Info Pane */
+        #info-modal {
+            display: none; position: fixed; top: 50%; left: 50%;
+            transform: translate(-50%, -50%); background: rgba(10, 14, 20, 0.95);
+            padding: 25px; border: 1px solid var(--accent); z-index: 9999;
+            border-radius: 10px; width: 300px; box-shadow: 0 0 30px rgba(0,0,0,0.8);
+            backdrop-filter: blur(5px);
+        }
+        #info-modal h3 { margin: 0 0 15px 0; color: var(--accent); border-bottom: 1px solid #333; padding-bottom: 10px; }
+        #info-modal p { margin: 5px 0; font-size: 0.95rem; color: #ddd; }
+        .modal-btn { 
+            margin-top: 20px; width: 100%; padding: 8px; background: var(--accent);
+            color: #000; border: none; cursor: pointer; border-radius: 5px; font-weight: bold;
+        }
+
+        header {
+            width: 100%; padding: 20px;
+            text-align: center; font-size: 1.5rem; letter-spacing: 2px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.05), transparent);
+        }
+
+        .main-container {
+            flex: 1; display: flex; width: 95%; max-width: 1200px;
+            gap: 20px; margin-top: 20px;
+        }
+
+        #eval-bar-container {
+            width: 60px; height: 80%;
+            background: #222; position: relative;
+            border-radius: 30px; overflow: hidden;
+            display: flex; flex-direction: column-reverse;
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+
+        #p1-fill { width: 100%; transition: height 1s cubic-bezier(0.4, 0, 0.2, 1); background: var(--p1-color); box-shadow: 0 0 20px var(--p1-color); }
+        #p2-fill { width: 100%; transition: height 1s; background: var(--p2-color); flex-grow: 1; }
+
+        .eval-value {
+            position: absolute; width: 100%; text-align: center;
+            font-weight: bold; font-size: 1.2rem; transform: translateY(-50%);
+            top: 50%; text-shadow: 0 0 10px black;
+        }
+
+        .board { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+
+        .player-area {
+            background: var(--card-bg); border-radius: 15px; padding: 15px;
+            display: flex; gap: 15px; border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .player-info { width: 200px; font-size: 1.1rem; border-right: 1px solid #444; }
+        .active-card { font-size: 1.2rem; color: var(--accent); }
+        .hp-bar { height: 10px; background: #333; border-radius: 5px; margin-top: 5px; overflow: hidden; }
+        .hp-fill { height: 100%; background: #4caf50; transition: width 0.5s; }
+
+        .active-label { font-size: 0.7rem; color: #aaa; margin-bottom: 2px; text-transform: uppercase; }
+        .bench-area { display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
+        .bench-card { background: rgba(255,255,255,0.05); padding: 5px 10px; border-radius: 5px; font-size: 0.8rem; border: 1px dashed #555; }
+
+        #log-area {
+            width: 100%; height: 100px; background: rgba(0,0,0,0.5);
+            margin-top: 20px; border-radius: 10px; padding: 10px;
+            font-family: monospace; font-size: 0.9rem; color: #aaa;
+            overflow-y: auto; border: 1px solid #333;
+        }
+
+        .highlight { color: #fff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>POKEPOKE ORACLE v17 <span style="font-size: 0.8rem; color: #888;">// REAL-TIME EVALUATION ENGINE</span></header>
+
+<!-- Stats Modal -->
+<div id="info-modal">
+    <h3 id="modal-name">Pokemon Data</h3>
+    <p>🔥 Type: <span id="modal-type"></span></p>
+    <p>❤️ Max HP: <span id="modal-hp"></span></p>
+    <p>⚔️ Base DMG: <span id="modal-dmg"></span></p>
+    <p>⚡ Energy: <span id="modal-eng"></span></p>
+    <p>🌟 EX?: <span id="modal-ex"></span></p>
+    <button class="modal-btn" onclick="document.getElementById('info-modal').style.display='none'">CLOSE</button>
+</div>
+
+<div class="main-container">
+    <div id="eval-bar-container">
+        <div id="p1-fill" style="height: 50%;"></div>
+        <div id="p2-fill"></div>
+        <div id="eval-text" class="eval-value">50%</div>
+    </div>
+
+    <div class="board">
+        <!-- Oponent Area (P2) -->
+        <div class="player-area" id="p2-area">
+            <div class="player-info">
+                <div id="p2-name">OPPONENT</div>
+                <div id="p2-points" style="font-size: 0.8rem; color: #ff3d00;">POINTS: 0</div>
+                <div id="p2-cards" style="font-size: 0.8rem; color: #888; margin-top: 5px;"></div>
+            </div>
+            <div id="p2-active-area" style="flex: 1;">
+                <div class="active-label">⚔️ ACTIVE (バトル場)</div>
+                <div class="active-card" id="p2-active-name">...</div>
+                <div class="hp-bar"><div id="p2-hp-fill" class="hp-fill" style="width: 100%;"></div></div>
+                <div id="p2-energy" style="font-size: 0.8rem; color: #40c4ff;">ENERGY: 0.0</div>
+                <div class="bench-area" id="p2-bench"></div>
+            </div>
+        </div>
+
+        <!-- My Area (P1) -->
+        <div class="player-area" id="p1-area" style="margin-top: auto; border-color: var(--p1-color);">
+            <div class="player-info">
+                <div id="p1-name" style="color: var(--p1-color);">ME (PLAYER)</div>
+                <div id="p1-points" style="font-size: 0.8rem; color: #40c4ff;">POINTS: 0</div>
+                <div id="p1-cards" style="font-size: 0.8rem; color: #888; margin-top: 5px;"></div>
+            </div>
+            <div id="p1-active-area" style="flex: 1;">
+                <div class="active-label">⚔️ ACTIVE (バトル場)</div>
+                <div class="active-card" id="p1-active-name">...</div>
+                <div class="hp-bar"><div id="p1-hp-fill" class="hp-fill" style="width: 100%;"></div></div>
+                <div id="p1-energy" style="font-size: 0.8rem; color: #40c4ff;">ENERGY: 0.0</div>
+                <div class="bench-area" id="p1-bench"></div>
+            </div>
+        </div>
+
+        <div id="log-area">
+            > Initializing Oracle Link...<br>
+            > Waiting for simulation turn...
+        </div>
+    </div>
+</div>
+
+<script>
+    async function updateGUI() {
+        try {
+            const resp = await fetch('state.json?t=' + Date.now());
+            const state = await resp.json();
+
+            // Eval Bar
+            const p1v = Math.round(state.evaluation);
+            document.getElementById('p1-fill').style.height = p1v + '%';
+            document.getElementById('eval-text').innerText = (p1v >= 50 ? '+' : '-') + Math.abs(p1v - 50);
+
+            // Helper for Modal
+            window.showCardData = function(cardStr) {
+                const c = JSON.parse(decodeURIComponent(cardStr));
+                document.getElementById('modal-name').innerText = c.name;
+                document.getElementById('modal-type').innerText = c.type || "Unknown";
+                document.getElementById('modal-hp').innerText = c.hp;
+                document.getElementById('modal-dmg').innerText = c.dmg || "N/A";
+                document.getElementById('modal-eng').innerText = c.energy;
+                document.getElementById('modal-ex').innerText = c.is_ex ? "YES" : "NO";
+                document.getElementById('info-modal').style.display = 'block';
+            };
+
+            // P1
+            document.getElementById('p1-name').innerText = state.p1.name;
+            document.getElementById('p1-points').innerText = "POINTS: " + state.p1.points;
+            document.getElementById('p1-cards').innerText = "HAND: " + (state.p1.hand_count ?? '--') + " | DECK: " + (state.p1.deck_count ?? '--');
+            if(state.p1.active) {
+                document.getElementById('p1-active-name').innerHTML = `<span style="cursor:pointer;" ondblclick="showCardData('${encodeURIComponent(JSON.stringify(state.p1.active))}')">${state.p1.active.name}</span>`;
+                const hpp = (state.p1.active.current_hp / state.p1.active.hp) * 100;
+                document.getElementById('p1-hp-fill').style.width = hpp + '%';
+                document.getElementById('p1-energy').innerText = "ENERGY: " + state.p1.active.energy.toFixed(1);
+            }
+            if(state.p1.bench) {
+                document.getElementById('p1-bench').innerHTML = state.p1.bench.map(b => 
+                    `<div class="bench-card" style="cursor:pointer;" ondblclick="showCardData('${encodeURIComponent(JSON.stringify(b))}')">🪑 ${b.name} (HP: ${b.current_hp}/${b.hp})</div>`
+                ).join('');
+            }
+
+            // P2
+            document.getElementById('p2-name').innerText = state.p2.name;
+            document.getElementById('p2-points').innerText = "POINTS: " + state.p2.points;
+            document.getElementById('p2-cards').innerText = "HAND: " + (state.p2.hand_count ?? '--') + " | DECK: " + (state.p2.deck_count ?? '--');
+            if(state.p2.active) {
+                document.getElementById('p2-active-name').innerHTML = `<span style="cursor:pointer;" ondblclick="showCardData('${encodeURIComponent(JSON.stringify(state.p2.active))}')">${state.p2.active.name}</span>`;
+                const hppc = (state.p2.active.current_hp / state.p2.active.hp) * 100;
+                document.getElementById('p2-hp-fill').style.width = hppc + '%';
+                document.getElementById('p2-energy').innerText = "ENERGY: " + state.p2.active.energy.toFixed(1);
+            }
+            if(state.p2.bench) {
+                document.getElementById('p2-bench').innerHTML = state.p2.bench.map(b => 
+                    `<div class="bench-card" style="cursor:pointer;" ondblclick="showCardData('${encodeURIComponent(JSON.stringify(b))}')">🪑 ${b.name} (HP: ${b.current_hp}/${b.hp})</div>`
+                ).join('');
+            }
+
+            // Log
+            const logArea = document.getElementById('log-area');
+            const newLog = `<div><span class="highlight">[T+${Math.floor(state.timestamp % 1000)}]</span> ${state.p1.best_move}</div>`;
+            logArea.innerHTML = newLog + logArea.innerHTML;
+
+        } catch (e) {
+            console.error("GUI Update Error", e);
+        }
+    }
+
+    setInterval(updateGUI, 2000); // 2秒おきに最新化
+</script>
+</body>
+</html>

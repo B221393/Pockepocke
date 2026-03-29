@@ -1,0 +1,79 @@
+{
+  "name": "炎_ホウオウ_循環_V2_安定_サブ1ピン刺し",
+  "strategy": "tank",
+  "win_rate": 0.47372448979591836,
+  "wins": 12999,
+  "total_games": 27440,
+  "deck_composition": [
+    "エンテイex",
+    "エンテイex",
+    "クイタラン",
+    "ヒバニー",
+    "ヒートロトム",
+    "ホウオウex",
+    "ホウオウex",
+    "ポニータ",
+    "マグマッグ",
+    "モウカザル",
+    "リザード",
+    "かんこうきゃく",
+    "はじまりの平原",
+    "ふしぎなアメ",
+    "ウォーターボート",
+    "スピーダー",
+    "ボタン",
+    "リーリエ",
+    "博士の研究",
+    "大きなマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: グラジオ / In: マグマッグ (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: コータス / In: ボタン (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 20,
+      "diff": "Out: シズイ / In: ウォーターボート (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 24,
+      "diff": "Out: ブーバー / In: ヒバニー (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: アカネ / In: モウカザル (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: フレイムパッチ / In: ウォーターボート (Parent: 25/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: ウォーターボート / In: スピーダー (Parent: 21/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 101,
+      "diff": "Out: マグマッグ / In: マグマッグ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: アチャモ / In: リザード (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 107,
+      "diff": "Out: かけだし調査員 / In: かんこうきゃく (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 133,
+      "diff": "Out: エンニュート / In: ポニータ (Parent: 18/50 -> Mutant: 31/50)"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "闘_ドンフ_耐久_V6_純正_サブ0枚",
+  "strategy": "tank",
+  "win_rate": 0.34052478134110786,
+  "wins": 11680,
+  "total_games": 34300,
+  "deck_composition": [
+    "イワーク",
+    "オーガポンいしずえのめん",
+    "サワムラー",
+    "セキタンザン",
+    "ダグトリオ",
+    "ドンファンex",
+    "ドンファンex",
+    "ナマズン",
+    "マンキー",
+    "マンキー",
+    "メガチャーレムex",
+    "ルガルガン",
+    "きずぐすり",
+    "イリマ",
+    "ポケモン通信",
+    "メリッサ",
+    "ルザミーネ",
+    "レスキュースカーフ",
+    "ロケット団のしたっぱ",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: きずぐすり / In: マンキー (Parent: 19/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 59,
+      "diff": "Out: マーズ / In: 博士の研究 (Parent: 15/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: ルカリオex / In: ゴローニャ (Parent: 17/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: ゴローニャ / In: ルカリオex (Parent: 16/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: カラカラ / In: かけだし調査員 (Parent: 22/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 87,
+      "diff": "Out: 大きなふうせん / In: ヘビーメット (Parent: 12/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: ヘビーメット / In: ナマズン (Parent: 12/50 -> Mutant: 18/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: サナギラス / In: サワムラー (Parent: 20/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 110,
+      "diff": "Out: タケシ / In: ルガルガン (Parent: 18/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 116,
+      "diff": "Out: ルカリオex / In: セキタンザン (Parent: 13/50 -> Mutant: 19/50)"
+    },
+    {
+      "gen": 136,
+      "diff": "Out: やまおとこ / In: メリッサ (Parent: 13/50 -> Mutant: 15/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: かけだし調査員 / In: ダグトリオ (Parent: 19/50 -> Mutant: 23/50)"
+    }
+  ]
+}

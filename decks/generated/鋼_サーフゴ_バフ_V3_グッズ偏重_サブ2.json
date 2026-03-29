@@ -1,0 +1,75 @@
+{
+  "name": "鋼_サーフゴ_バフ_V3_グッズ偏重_サブ2",
+  "strategy": "aggro",
+  "win_rate": 0.4353134110787172,
+  "wins": 11945,
+  "total_games": 27440,
+  "deck_composition": [
+    "カミツルギ",
+    "サーフゴー",
+    "サーフゴーex",
+    "サーフゴーex",
+    "ミノマダム",
+    "メガクチートex",
+    "メガハッサムex",
+    "メガハッサムex",
+    "メルメタルex",
+    "こうらの化石",
+    "アイリス",
+    "ジャグラー",
+    "ジャグラー",
+    "ジュン",
+    "ネモ",
+    "ヒレの化石",
+    "メモリーライト",
+    "モンスターボール",
+    "リーフマント",
+    "リーフマント"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: メリッサ / In: ヒレの化石 (Parent: 19/50 -> Mutant: 24/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: モンスターボール / In: ジャグラー (Parent: 21/50 -> Mutant: 23/50)"
+    },
+    {
+      "gen": 21,
+      "diff": "Out: 幻の石板 / In: メガクチートex (Parent: 24/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: クチート / In: メモリーライト (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: モンスターボール / In: シトロンのリュック (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 65,
+      "diff": "Out: シトロンのリュック / In: カミツルギ (Parent: 28/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 71,
+      "diff": "Out: かんこうきゃく / In: こうらの化石 (Parent: 24/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 85,
+      "diff": "Out: クチート / In: モンスターボール (Parent: 26/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: カミツルギ / In: サーフゴー (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: 旅の行商人 / In: メガハッサムex (Parent: 27/50 -> Mutant: 40/50)"
+    }
+  ]
+}

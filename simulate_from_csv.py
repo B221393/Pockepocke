@@ -289,14 +289,13 @@ def _simulate_pair(
         p2 = Player(spec2.deck_name, deepcopy(deck2_cards))
         game = Game(p1, p2, rng, randomize_first_player=True)
 
-        accident = game.setup()
+        # setup returns (p1_accident, p2_accident)
+        a1, a2 = game.setup()
 
-        if accident == "accident":
+        if a1 or a2:
             games_with_accident += 1
-            if _had_hand_accident(p1):
-                deck1_accidents += 1
-            if _had_hand_accident(p2):
-                deck2_accidents += 1
+            if a1: deck1_accidents += 1
+            if a2: deck2_accidents += 1
             continue
 
         result = game.play()

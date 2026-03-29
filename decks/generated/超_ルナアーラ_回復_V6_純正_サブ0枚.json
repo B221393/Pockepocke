@@ -1,0 +1,59 @@
+{
+  "name": "超_ルナアーラ_回復_V6_純正_サブ0枚",
+  "strategy": "tank",
+  "win_rate": 0.11685891748003549,
+  "wins": 2634,
+  "total_games": 22540,
+  "deck_composition": [
+    "スリープ",
+    "トゲピー",
+    "ピッピ",
+    "ペロッパフ",
+    "ミミッキュex",
+    "ムウマ",
+    "ユニラン",
+    "ヨマワル",
+    "ルナアーラex",
+    "きずぐすり",
+    "ずがいの化石",
+    "たての化石",
+    "ふしぎなアメ",
+    "シロナ",
+    "ボタン",
+    "マチス",
+    "マツバ",
+    "メンテナンス",
+    "ルチア",
+    "ロトム図鑑"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 17,
+      "diff": "Out: ハルカ / In: トゲピー (Parent: 4/50 -> Mutant: 10/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: きずぐすり / In: ヤミラミ (Parent: 8/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: ふしぎなアメ / In: ペロッパフ (Parent: 11/50 -> Mutant: 16/50)"
+    },
+    {
+      "gen": 109,
+      "diff": "Out: ヨノワール / In: ロトム図鑑 (Parent: 9/50 -> Mutant: 14/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: ヤミラミ / In: ムウマ (Parent: 8/50 -> Mutant: 13/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: ルナアーラex / In: ミミッキュex (Parent: 9/50 -> Mutant: 16/50)"
+    }
+  ]
+}

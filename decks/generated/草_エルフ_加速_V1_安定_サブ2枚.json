@@ -1,0 +1,75 @@
+{
+  "name": "草_エルフ_加速_V1_安定_サブ2枚",
+  "strategy": "combo",
+  "win_rate": 0.5744297719087635,
+  "wins": 19140,
+  "total_games": 33320,
+  "deck_composition": [
+    "エルフーンex",
+    "オリーニョ",
+    "カブルモ",
+    "クヌギダマ",
+    "チェリム",
+    "チュリネ",
+    "ナエトル",
+    "ニャオハ",
+    "ヒマナッツ",
+    "ビビヨン",
+    "メガカイロスex",
+    "メガカイロスex",
+    "メガフシギバナex",
+    "メガフシギバナex",
+    "モンジャラ",
+    "ずがいの化石",
+    "むしよけスプレー",
+    "ナツメ",
+    "ヒットハンマー",
+    "博士の研究"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: ポケモンの笛 / In: カミツルギ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 8,
+      "diff": "Out: カミツルギ / In: ニャオハ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 30,
+      "diff": "Out: アセロラ / In: ツタージャ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 46,
+      "diff": "Out: モジャンボ / In: クヌギダマ (Parent: 33/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 51,
+      "diff": "Out: リーリエ / In: カブルモ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: アゲハント / In: チュリネ (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 88,
+      "diff": "Out: エルフーンex / In: ビビヨン (Parent: 30/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 90,
+      "diff": "Out: メリッサ / In: チェリム (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 141,
+      "diff": "Out: ツタージャ / In: オリーニョ (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 142,
+      "diff": "Out: バタフリー / In: ナエトル (Parent: 32/50 -> Mutant: 34/50)"
+    }
+  ]
+}

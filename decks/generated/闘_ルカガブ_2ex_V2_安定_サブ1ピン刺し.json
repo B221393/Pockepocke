@@ -1,0 +1,79 @@
+{
+  "name": "闘_ルカガブ_2ex_V2_安定_サブ1ピン刺し",
+  "strategy": "aggro",
+  "win_rate": 0.5570578231292517,
+  "wins": 13102,
+  "total_games": 23520,
+  "deck_composition": [
+    "カバルドン",
+    "ガチゴラス",
+    "ガブリアスex",
+    "シロデスナ",
+    "ジーランス",
+    "ドサイドン",
+    "メガチャーレムex",
+    "メガチャーレムex",
+    "ルカリオex",
+    "マッシブーンex",
+    "マッシブーンex",
+    "はじまりの平原",
+    "ふしぎなアメ",
+    "グリーン",
+    "ジャグラー",
+    "スター団のしたっぱ",
+    "ヒットハンマー",
+    "リーリエ",
+    "ロケット団のしたっぱ",
+    "当たりつきアイス"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: メグロコ / In: シロデスナ (Parent: 25/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 42,
+      "diff": "Out: イシヘンジン / In: バルキー (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: モンスターボール / In: ジーランス (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: ルカリオex / In: ジャグラー (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: アカネ / In: グリーン (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: ガブリアスex / In: ふしぎなアメ (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 73,
+      "diff": "Out: チャーレム / In: ドサイドン (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 99,
+      "diff": "Out: バルキー / In: ヒットハンマー (Parent: 35/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ふしぎなアメ / In: カバルドン (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 122,
+      "diff": "Out: ふしぎな広場 / In: メガチャーレムex (Parent: 32/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: ビーストナイト / In: スター団のしたっぱ (Parent: 37/50 -> Mutant: 41/50)"
+    }
+  ]
+}

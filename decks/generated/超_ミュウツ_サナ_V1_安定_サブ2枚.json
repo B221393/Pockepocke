@@ -1,0 +1,75 @@
+{
+  "name": "超_ミュウツ_サナ_V1_安定_サブ2枚",
+  "strategy": "control",
+  "win_rate": 0.8049045424621462,
+  "wins": 24453,
+  "total_games": 30380,
+  "deck_composition": [
+    "エーフィex",
+    "キルリア",
+    "ソウブレイズ",
+    "ポットデス",
+    "ミミッキュex",
+    "ミュウex",
+    "ミュウex",
+    "ミュウex",
+    "ミュウツーex",
+    "メガサーナイトex",
+    "はねの化石",
+    "ふしぎなアメ",
+    "ふたの化石",
+    "カキ",
+    "カキ",
+    "カンナギタウンの長老",
+    "トレーニングエリア",
+    "ヒットハンマー",
+    "ヘビーメット",
+    "ラッキーミトン"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 1,
+      "diff": "Out: ミュウツーex / In: エーフィex (Parent: 44/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: カキ / In: ヘビーメット (Parent: 37/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 68,
+      "diff": "Out: メガサーナイトex / In: フレフワン (Parent: 42/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: キュワワー / In: ミミッキュex (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: 大きなふうせん / In: マーマネ (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: ゼルネアス / In: ミュウex (Parent: 45/50 -> Mutant: 49/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: フレフワン / In: ポットデス (Parent: 47/50 -> Mutant: 50/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: マーマネ / In: はねの化石 (Parent: 48/50 -> Mutant: 50/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: レッドカード / In: ふたの化石 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: ブーピッグ / In: トレーニングエリア (Parent: 47/50 -> Mutant: 50/50)"
+    }
+  ]
+}

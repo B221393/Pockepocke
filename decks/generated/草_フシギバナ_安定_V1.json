@@ -1,0 +1,411 @@
+{
+  "name": "草_フシギバナ_安定_V1",
+  "strategy": "tank",
+  "win_rate": 0.526234885515822,
+  "wins": 81819,
+  "total_games": 155480,
+  "deck_composition": [
+    "オーガポンみどりのめんex",
+    "チェリンボ",
+    "ドレディア",
+    "ナエトル",
+    "ネマシュ",
+    "ノクタス",
+    "バルビート",
+    "フシギソウ",
+    "フシギバナ",
+    "ヘラクロス",
+    "メガニウム",
+    "メガフシギバナex",
+    "メガヤンマ",
+    "おさかなネット",
+    "カルム",
+    "キョウ",
+    "ナツメ",
+    "ヒカリ",
+    "ポケモンの笛",
+    "リーリエ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 3,
+      "diff": "Out: アセロラ / In: モンジャラ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 4,
+      "diff": "Out: タマンチュラ / In: パラセクト (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 7,
+      "diff": "Out: ミノムッチ / In: アローラナッシー (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 9,
+      "diff": "Out: たべのこし / In: スコヴィラン (Parent: 23/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: ドレディア / In: ジャノビー (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 15,
+      "diff": "Out: オボンのみ / In: ジュナイパー (Parent: 27/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: ミノムッチ / In: ナエトル (Parent: 27/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: ジャノビー / In: キノガッサ (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 27,
+      "diff": "Out: はじまりの平原 / In: グラジオ (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 29,
+      "diff": "Out: グラジオ / In: オーロット (Parent: 26/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: ルザミーネ / In: カイロス (Parent: 29/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 35,
+      "diff": "Out: ドレディア / In: ベイリーフ (Parent: 25/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 36,
+      "diff": "Out: オーロット / In: マユルド (Parent: 29/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 38,
+      "diff": "Out: ナエトル / In: フシギソウ (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: 当たりつきアイス / In: チュリネ (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 47,
+      "diff": "Out: エリカ / In: ダダリンex (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 53,
+      "diff": "Out: ジュナイパーex / In: サルノリ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 55,
+      "diff": "Out: マユルド / In: かいの化石 (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: パラセクト / In: メガニウム (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: キノガッサ / In: メガフシギバナex (Parent: 38/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 66,
+      "diff": "Out: サルノリ / In: ハヤシガメ (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: モクロー / In: ナツメ (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 69,
+      "diff": "Out: ダダリンex / In: ラッキーミトン (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 82,
+      "diff": "Out: かいの化石 / In: デンジ (Parent: 35/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 83,
+      "diff": "Out: グラジオ / In: コロボーシ (Parent: 38/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 91,
+      "diff": "Out: ハヤシガメ / In: モジャンボ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 92,
+      "diff": "Out: ラッキーミトン / In: コクーン (Parent: 28/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 93,
+      "diff": "Out: コロボーシ / In: ふしぎなアメ (Parent: 33/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 94,
+      "diff": "Out: アローラナッシー / In: カンナギタウンの長老 (Parent: 40/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 95,
+      "diff": "Out: ベイリーフ / In: おさかなネット (Parent: 39/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 96,
+      "diff": "Out: おさかなネット / In: キャタピー (Parent: 35/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 98,
+      "diff": "Out: チュリネ / In: アイリス (Parent: 35/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 102,
+      "diff": "Out: まもりのポンチョ / In: ストライク (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 104,
+      "diff": "Out: カンナギタウンの長老 / In: ニャローテ (Parent: 30/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 105,
+      "diff": "Out: スコヴィラン / In: モクロー (Parent: 30/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 112,
+      "diff": "Out: デンジ / In: スピアー (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: メガフシギバナex / In: ロズレイド (Parent: 33/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 121,
+      "diff": "Out: フシギソウ / In: イーブイのバッグ (Parent: 30/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: モンジャラ / In: リーフィア (Parent: 26/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 124,
+      "diff": "Out: モクロー / In: フレイムパッチ (Parent: 38/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 128,
+      "diff": "Out: メガフシギバナex / In: おおきいマラサダ (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 130,
+      "diff": "Out: ふしぎなアメ / In: ルチア (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 132,
+      "diff": "Out: ジュナイパー / In: カリキリ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 137,
+      "diff": "Out: リーフィア / In: アママイコ (Parent: 23/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 139,
+      "diff": "Out: ロズレイド / In: ラランテス (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 140,
+      "diff": "Out: ルチア / In: イツキ (Parent: 28/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 151,
+      "diff": "Out: スピアー / In: クサイハナ (Parent: 23/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 158,
+      "diff": "Out: フレイムパッチ / In: ノクタス (Parent: 26/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 160,
+      "diff": "Out: キャタピー / In: ヒマナッツ (Parent: 29/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 163,
+      "diff": "Out: カリキリ / In: ダークペンダント (Parent: 29/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 164,
+      "diff": "Out: ヒマナッツ / In: タマタマ (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 169,
+      "diff": "Out: タマタマ / In: ハヤシガメ (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 170,
+      "diff": "Out: モジャンボ / In: リーフ (Parent: 31/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 171,
+      "diff": "Out: ダークペンダント / In: カイロス (Parent: 23/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 176,
+      "diff": "Out: カイロス / In: ハンサム (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 180,
+      "diff": "Out: エリカ / In: マオ (Parent: 34/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 183,
+      "diff": "Out: ハンサム / In: ハンサム (Parent: 34/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 184,
+      "diff": "Out: アイリス / In: かけだし調査員 (Parent: 28/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 191,
+      "diff": "Out: ラランテス / In: セレビィ (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 192,
+      "diff": "Out: イツキ / In: ウツドン (Parent: 28/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 203,
+      "diff": "Out: ハンサム / In: ジュナイパーex (Parent: 19/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 204,
+      "diff": "Out: ジュナイパーex / In: コンパン (Parent: 28/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 205,
+      "diff": "Out: リーフ / In: モノマネむすめ (Parent: 28/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 206,
+      "diff": "Out: エリカ / In: ラランテス (Parent: 21/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 207,
+      "diff": "Out: カイロス / In: ペパー (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 208,
+      "diff": "Out: モノマネむすめ / In: ヒカリ (Parent: 22/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 212,
+      "diff": "Out: ハヤシガメ / In: オリーヴァ (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 216,
+      "diff": "Out: ニャローテ / In: ダークペンダント (Parent: 28/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 219,
+      "diff": "Out: おおきいマラサダ / In: クヌギダマ (Parent: 21/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 222,
+      "diff": "Out: ウツドン / In: ニャオハ (Parent: 20/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 228,
+      "diff": "Out: コンパン / In: ゴーゴート (Parent: 25/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 230,
+      "diff": "Out: ラランテス / In: オリーヴァ (Parent: 25/50 -> Mutant: 29/50)"
+    },
+    {
+      "gen": 231,
+      "diff": "Out: オリーヴァ / In: メンテナンス (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 233,
+      "diff": "Out: ゴーゴート / In: パラス (Parent: 16/50 -> Mutant: 22/50)"
+    },
+    {
+      "gen": 235,
+      "diff": "Out: イーブイのバッグ / In: おさかなネット (Parent: 26/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 237,
+      "diff": "Out: クサイハナ / In: リーリエ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 239,
+      "diff": "Out: ストライク / In: パラス (Parent: 29/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 241,
+      "diff": "Out: かけだし調査員 / In: メガヤンマ (Parent: 20/50 -> Mutant: 28/50)"
+    },
+    {
+      "gen": 244,
+      "diff": "Out: パラス / In: ひみつのコハク (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 249,
+      "diff": "Out: クヌギダマ / In: ヘラクロス (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 250,
+      "diff": "Out: ペパー / In: カルム (Parent: 33/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 251,
+      "diff": "Out: オリーヴァ / In: フシギソウ (Parent: 29/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 254,
+      "diff": "Out: パラス / In: ラムのみ (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 256,
+      "diff": "Out: コクーン / In: トロピウス (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 259,
+      "diff": "Out: セレビィ / In: バルビート (Parent: 31/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 268,
+      "diff": "Out: ニャオハ / In: ポケモンの笛 (Parent: 32/50 -> Mutant: 36/50)"
+    },
+    {
+      "gen": 270,
+      "diff": "Out: ラムのみ / In: チェリンボ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 273,
+      "diff": "Out: アママイコ / In: オーガポンみどりのめんex (Parent: 32/50 -> Mutant: 38/50)"
+    },
+    {
+      "gen": 275,
+      "diff": "Out: マオ / In: キョウ (Parent: 32/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 279,
+      "diff": "Out: メンテナンス / In: フシギバナ (Parent: 27/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 281,
+      "diff": "Out: ダークペンダント / In: アマージョ (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 286,
+      "diff": "Out: ひみつのコハク / In: ネマシュ (Parent: 27/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 298,
+      "diff": "Out: トロピウス / In: ナエトル (Parent: 31/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 299,
+      "diff": "Out: アマージョ / In: ドレディア (Parent: 34/50 -> Mutant: 36/50)"
+    }
+  ]
+}

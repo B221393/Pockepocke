@@ -1,0 +1,83 @@
+{
+  "name": "水_スイゲツ_環境_V1_安定_サブ2枚",
+  "strategy": "snipe",
+  "win_rate": 0.5298919567827131,
+  "wins": 17656,
+  "total_games": 33320,
+  "deck_composition": [
+    "アローラロコン",
+    "ウミトリオ",
+    "オシャマリ",
+    "カプレヒレ",
+    "ガマゲロゲ",
+    "ゲッコウガex",
+    "コイキング",
+    "シャリタツ",
+    "スイクンex",
+    "スイクンex",
+    "トリトドン",
+    "バスラオ",
+    "フリーザーex",
+    "フリーザーex",
+    "ルージュラ",
+    "こうらの化石",
+    "ずがいの化石",
+    "グリーン",
+    "ヘビーメット",
+    "モノマネむすめ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 6,
+      "diff": "Out: ゲッコウガex / In: フリーザーex (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 18,
+      "diff": "Out: カスミ / In: ルージュラ (Parent: 41/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 26,
+      "diff": "Out: 鋼鉄のまえかけ / In: バスラオ (Parent: 36/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 32,
+      "diff": "Out: カマスジョー / In: ウリムー (Parent: 32/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: イリマ / In: カプレヒレ (Parent: 22/50 -> Mutant: 25/50)"
+    },
+    {
+      "gen": 45,
+      "diff": "Out: フリーザーex / In: こうらの化石 (Parent: 27/50 -> Mutant: 32/50)"
+    },
+    {
+      "gen": 56,
+      "diff": "Out: マツバ / In: オシャマリ (Parent: 27/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 61,
+      "diff": "Out: アローラロコン / In: アシマリ (Parent: 31/50 -> Mutant: 34/50)"
+    },
+    {
+      "gen": 78,
+      "diff": "Out: アシマリ / In: トリトドン (Parent: 21/50 -> Mutant: 26/50)"
+    },
+    {
+      "gen": 111,
+      "diff": "Out: オクタン / In: アローラロコン (Parent: 30/50 -> Mutant: 35/50)"
+    },
+    {
+      "gen": 118,
+      "diff": "Out: ウリムー / In: シャリタツ (Parent: 24/50 -> Mutant: 27/50)"
+    },
+    {
+      "gen": 123,
+      "diff": "Out: ミカン / In: コイキング (Parent: 34/50 -> Mutant: 36/50)"
+    }
+  ]
+}

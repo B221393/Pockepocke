@@ -1,0 +1,79 @@
+{
+  "name": "水_フリスイ_後攻_V2_安定_サブ1ピン刺し",
+  "strategy": "tempo",
+  "win_rate": 0.5726844583987442,
+  "wins": 14592,
+  "total_games": 25480,
+  "deck_composition": [
+    "イノムー",
+    "キングドラex",
+    "ゲコガシラ",
+    "ゴルダック",
+    "スイクンex",
+    "スワンナ",
+    "フリーザーex",
+    "フリーザーex",
+    "ふしぎな広場",
+    "エレキジェネレーター",
+    "カスミ",
+    "カルム",
+    "ギンガ団のしたっぱ",
+    "ゴツゴツメット",
+    "ジュン",
+    "ナツメ",
+    "ナツメ",
+    "ヒットハンマー",
+    "ロケット団のしたっぱ",
+    "幻の石板"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 10,
+      "diff": "Out: パオジアンex / In: イノムー (Parent: 33/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 23,
+      "diff": "Out: ナミイルカ / In: ゲコガシラ (Parent: 36/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 34,
+      "diff": "Out: モスノウ / In: ナツメ (Parent: 37/50 -> Mutant: 40/50)"
+    },
+    {
+      "gen": 41,
+      "diff": "Out: シトロン / In: ガラルバリヤード (Parent: 37/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 50,
+      "diff": "Out: アローラロコン / In: ゴルダック (Parent: 31/50 -> Mutant: 33/50)"
+    },
+    {
+      "gen": 54,
+      "diff": "Out: パオジアンex / In: レジアイス (Parent: 28/50 -> Mutant: 31/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: ふたの化石 / In: キングドラex (Parent: 27/50 -> Mutant: 30/50)"
+    },
+    {
+      "gen": 70,
+      "diff": "Out: レジアイス / In: エレキジェネレーター (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 74,
+      "diff": "Out: ガラルバリヤード / In: ゴツゴツメット (Parent: 35/50 -> Mutant: 37/50)"
+    },
+    {
+      "gen": 86,
+      "diff": "Out: スイクンex / In: ヒットハンマー (Parent: 37/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 100,
+      "diff": "Out: ヘビーメット / In: 幻の石板 (Parent: 35/50 -> Mutant: 37/50)"
+    }
+  ]
+}

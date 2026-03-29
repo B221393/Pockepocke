@@ -1,0 +1,63 @@
+{
+  "name": "水_スイゲツ_ドロー_V3_グッズ偏重_サブ2",
+  "strategy": "tempo",
+  "win_rate": 0.7077551020408164,
+  "wins": 20808,
+  "total_games": 29400,
+  "deck_composition": [
+    "ゲッコウガex",
+    "スイクンex",
+    "パオジアンex",
+    "マンムー",
+    "メガヤドランex",
+    "メガヤドランex",
+    "ラプラスex",
+    "こうらの化石",
+    "ひみつのコハク",
+    "イーブイのバッグ",
+    "カルネ",
+    "グラジオ",
+    "ビーストウォール",
+    "ポケモンの笛",
+    "ミカン",
+    "モンスターボール",
+    "ラムのみ",
+    "博士の研究",
+    "博士の研究",
+    "旅の行商人"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: ゲッコウガex / In: トレーニングエリア (Parent: 41/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 40,
+      "diff": "Out: ポケモン図鑑 / In: メガヤドランex (Parent: 38/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 63,
+      "diff": "Out: フローゼル / In: 旅の行商人 (Parent: 40/50 -> Mutant: 42/50)"
+    },
+    {
+      "gen": 64,
+      "diff": "Out: モンスターボール / In: スイクンex (Parent: 39/50 -> Mutant: 44/50)"
+    },
+    {
+      "gen": 81,
+      "diff": "Out: スイクンex / In: メガヤドランex (Parent: 44/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 120,
+      "diff": "Out: スイクンex / In: マンムー (Parent: 45/50 -> Mutant: 47/50)"
+    },
+    {
+      "gen": 135,
+      "diff": "Out: トレーニングエリア / In: ビーストウォール (Parent: 31/50 -> Mutant: 38/50)"
+    }
+  ]
+}

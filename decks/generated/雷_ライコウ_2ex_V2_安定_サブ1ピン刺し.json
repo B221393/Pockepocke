@@ -1,0 +1,63 @@
+{
+  "name": "雷_ライコウ_2ex_V2_安定_サブ1ピン刺し",
+  "strategy": "combo",
+  "win_rate": 0.7005714285714286,
+  "wins": 17164,
+  "total_games": 24500,
+  "deck_composition": [
+    "エレザード",
+    "エレザード",
+    "サンダースex",
+    "サンダースex",
+    "パモット",
+    "メガライボルトex",
+    "メガライボルトex",
+    "ライコウex",
+    "ライコウex",
+    "ルクシオ",
+    "そうじゅくエキス",
+    "ふしぎなアメ",
+    "むしよけスプレー",
+    "エリカ",
+    "ギンガ団のしたっぱ",
+    "ネモ",
+    "ビーストウォール",
+    "フレイムパッチ",
+    "メモリーライト",
+    "モノマネむすめ"
+  ],
+  "mutation_history": [
+    {
+      "gen": 0,
+      "diff": "Initial construction"
+    },
+    {
+      "gen": 19,
+      "diff": "Out: マオ / In: ライコウex (Parent: 39/50 -> Mutant: 41/50)"
+    },
+    {
+      "gen": 31,
+      "diff": "Out: パチリスex / In: モノマネむすめ (Parent: 40/50 -> Mutant: 43/50)"
+    },
+    {
+      "gen": 37,
+      "diff": "Out: チョンチー / In: エレザード (Parent: 40/50 -> Mutant: 46/50)"
+    },
+    {
+      "gen": 62,
+      "diff": "Out: ジバコイル / In: パモット (Parent: 34/50 -> Mutant: 39/50)"
+    },
+    {
+      "gen": 67,
+      "diff": "Out: ライコウex / In: ルクシオ (Parent: 41/50 -> Mutant: 48/50)"
+    },
+    {
+      "gen": 72,
+      "diff": "Out: 博士の研究 / In: エリカ (Parent: 39/50 -> Mutant: 45/50)"
+    },
+    {
+      "gen": 97,
+      "diff": "Out: イーブイのバッグ / In: ギンガ団のしたっぱ (Parent: 43/50 -> Mutant: 48/50)"
+    }
+  ]
+}
