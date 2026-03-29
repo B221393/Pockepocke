@@ -37,14 +37,16 @@ class Attack:
 @dataclass
 class Card:
     name: str
-    card_type: str          # "Pokemon" | "Trainer" | "Item" | "Supporter"
+    card_type: str          # \"Pokemon\" | \"Trainer\" | \"Item\" | \"Supporter\"
     stage: Optional[int]    # 0=たね, 1=1進化, 2=2進化  (None for non-Pokemon)
     hp: Optional[int]
     pokemon_type: Optional[str]
     evolves_from: Optional[str]
     attacks: list[Attack]
-    effect: str = ""        # For Trainer / Item / Supporter cards
+    weakness: Optional[str] = None  # 弱点タイプを追加
+    effect: str = \"\"        # For Trainer / Item / Supporter cards
     is_baby: bool = False   # ベビィポケモン: 攻撃前にコイントスが必要
+
 
 
 @dataclass
@@ -106,15 +108,16 @@ def load_deck_from_json(path: str | Path) -> list[Card]:
             for a in entry.get("attacks", [])
         ]
         card = Card(
-            name=entry["name"],
-            card_type=entry["card_type"],
-            stage=entry.get("stage"),
-            hp=entry.get("hp"),
-            pokemon_type=entry.get("type"),
-            evolves_from=entry.get("evolves_from"),
+            name=entry[\"name\"],
+            card_type=entry[\"card_type\"],
+            stage=entry.get(\"stage\"),
+            hp=entry.get(\"hp\"),
+            pokemon_type=entry.get(\"type\"),
+            evolves_from=entry.get(\"evolves_from\"),
             attacks=attacks,
-            effect=entry.get("effect", ""),
-            is_baby=bool(entry.get("is_baby", False)),
+            weakness=entry.get(\"weakness\"),
+            effect=entry.get(\"effect\", \"\"),
+            is_baby=bool(entry.get(\"is_baby\", False)),
         )
         for _ in range(entry.get("count", 1)):
             cards.append(deepcopy(card))
@@ -383,6 +386,11 @@ class Player:
             actual_damage = attack.damage * heads
         else:
             actual_damage = attack.damage
+        
+        # 弱点計算 (ポケポケ仕様: +20ダメージ)
+        if opponent.active.card.weakness == self.active.card.pokemon_type:
+            actual_damage += 20
+            
         opponent.active.damage += actual_damage
         if opponent.active.is_knocked_out:
             points = 2 if opponent.active.is_ex else 1
