@@ -44,6 +44,7 @@ class Card:
     evolves_from: Optional[str]
     attacks: list[Attack]
     effect: str = ""        # For Trainer / Item / Supporter cards
+    is_baby: bool = False   # ベビィポケモン: 攻撃前にコイントスが必要
 
 
 @dataclass
@@ -113,6 +114,7 @@ def load_deck_from_json(path: str | Path) -> list[Card]:
             evolves_from=entry.get("evolves_from"),
             attacks=attacks,
             effect=entry.get("effect", ""),
+            is_baby=bool(entry.get("is_baby", False)),
         )
         for _ in range(entry.get("count", 1)):
             cards.append(deepcopy(card))
@@ -201,7 +203,7 @@ class Player:
         self.energy_pool += ENERGY_PER_TURN
 
         # 3. Play items / supporters
-        self._play_trainers(rng)
+        self._play_trainers(rng, opponent)
 
         # 4. Evolve
         self._evolve_pokemon()
@@ -215,14 +217,28 @@ class Player:
         # 7. Attack
         return self._attack(opponent, rng)
 
-    def _play_trainers(self, rng: random.Random) -> None:
-        for card in self.hand[:]:   # iterate over copy
+    def _play_trainers(self, rng: random.Random, opponent: Optional["Player"] = None) -> None:
+        # Sort hand so Cyrus is played with smart timing:
+        # Play サイラス (discard_opponent_bench) only when opponent has bench Pokémon.
+        # Otherwise prefer draw supporters first.
+        def _supporter_priority(card: Card) -> int:
+            if card.card_type == "Supporter" and card.effect == "discard_opponent_bench":
+                # Play Cyrus if opponent has at least one bench Pokémon
+                return 0 if (opponent and opponent.bench) else 2
+            if card.card_type == "Supporter":
+                return 1
+            return 3  # Items play after supporters (so draw effects apply to items too)
+
+        sorted_hand = sorted(self.hand[:], key=_supporter_priority)
+        for card in sorted_hand:
+            if card not in self.hand:
+                continue  # already removed by earlier iteration
             if card.card_type == "Item":
                 self._apply_item(card, rng)
                 self.hand.remove(card)
                 self.discard.append(card)
             elif card.card_type == "Supporter" and not self._supporter_played:
-                self._apply_supporter(card, rng)
+                self._apply_supporter(card, rng, opponent)
                 self.hand.remove(card)
                 self.discard.append(card)
                 self._supporter_played = True
@@ -269,13 +285,34 @@ class Player:
                     self.hand.remove(stage2)
                     return
 
-    def _apply_supporter(self, card: Card, _rng: random.Random) -> None:
+    def _apply_supporter(self, card: Card, _rng: random.Random, opponent: Optional["Player"] = None) -> None:
         if card.effect == "draw_5":
             self.draw(min(5, len(self.deck)))
-        elif card.effect == "draw_3_and_bench_supporter":
+        elif card.effect in ("draw_3_and_bench_supporter", "draw_3"):
             self.draw(min(3, len(self.deck)))
-        elif card.effect == "discard_opponent_bench":
-            pass  # opponent bench manipulation – simplified / skipped for win-rate balance
+        elif card.effect == "draw_2":
+            self.draw(min(2, len(self.deck)))
+        elif card.effect == "search_any":
+            self._search_deck("search_any", _rng)
+        elif card.effect == "heal_bench_50" and self.bench:
+            # エリカ: ベンチ1体のHPを50回復
+            target = min(self.bench, key=lambda ap: ap.remaining_hp)
+            target.damage = max(0, target.damage - 50)
+        elif card.effect == "switch_opponent_active" and opponent and opponent.bench:
+            # フラダリ: 相手のアクティブと相手のベンチを入れ替え
+            new_active = opponent.bench.pop(0)
+            if opponent.active:
+                opponent.bench.append(opponent.active)
+            opponent.active = new_active
+        elif card.effect == "discard_opponent_bench" and opponent and opponent.bench:
+            # サイラス: 相手のベンチ1体を手札に戻す（最も脅威度の高いポケモンを選択）
+            # 脅威度 = 最大ダメージ × HP の積で評価
+            target = max(
+                opponent.bench,
+                key=lambda ap: (ap.card.hp or 0) * max((a.damage for a in ap.card.attacks), default=0),
+            )
+            opponent.bench.remove(target)
+            opponent.discard.append(target.card)
 
     def _search_deck(self, effect: str, rng: random.Random) -> None:
         """Move a matching card from deck to hand."""
@@ -332,6 +369,11 @@ class Player:
                 self.active.status = ""
             else:
                 return None
+        # ベビィポケモンチェック: 相手のアクティブがベビィポケモンなら
+        # 攻撃前にコイントス。裏なら攻撃できない。
+        if opponent.active.card.is_baby:
+            if rng.random() >= 0.5:  # 裏 → 攻撃失敗
+                return None
         attack = self.active.best_attack
         if attack is None:
             return None
@@ -367,10 +409,13 @@ class Game:
         player1: Player,
         player2: Player,
         rng: random.Random,
+        randomize_first_player: bool = False,
     ) -> None:
         self.p1 = player1
         self.p2 = player2
         self.rng = rng
+        self.randomize_first_player = randomize_first_player
+        self._first_player: Optional[Player] = None  # set during play()
 
     def setup(self) -> Optional[str]:
         """
@@ -405,9 +450,14 @@ class Game:
         """
         Play the game to completion.
         Returns "p1", "p2", or "draw" (timeout).
+        Sets self._first_player to whichever Player went first.
         """
-        # First turn: no attack for the going-first player (Pocket rule)
-        first_player, second_player = (self.p1, self.p2)
+        # Determine who goes first (optionally randomised)
+        if self.randomize_first_player and self.rng.random() < 0.5:
+            first_player, second_player = (self.p2, self.p1)
+        else:
+            first_player, second_player = (self.p1, self.p2)
+        self._first_player = first_player
 
         for turn in range(1, MAX_TURNS * 2 + 1):
             current, other = (first_player, second_player) if turn % 2 == 1 else (second_player, first_player)
@@ -421,7 +471,7 @@ class Game:
             # First turn of the game: first player draws and sets up but does not attack
             if turn == 1:
                 current.energy_pool += ENERGY_PER_TURN
-                current._play_trainers(self.rng)
+                current._play_trainers(self.rng, other)
                 current._evolve_pokemon()
                 current._place_basics_to_bench()
                 current._attach_energy()
@@ -453,6 +503,9 @@ class SimulationResult:
     deck1_hand_accidents: int
     deck2_hand_accidents: int
     games_with_accident: int
+    first_player_wins: int = 0   # 先行プレイヤーの勝利数
+    second_player_wins: int = 0  # 後攻プレイヤーの勝利数
+    p1_first_count: int = 0      # p1 が先行だった試合数
 
     @property
     def deck1_win_rate(self) -> float:
@@ -472,19 +525,43 @@ class SimulationResult:
     def deck2_accident_rate(self) -> float:
         return self.deck2_hand_accidents / self.total_games if self.total_games else 0.0
 
+    @property
+    def first_player_win_rate(self) -> float:
+        """先行プレイヤーの勝率（引き分け含む有効試合ベース）。"""
+        decided = self.first_player_wins + self.second_player_wins
+        return self.first_player_wins / decided if decided else 0.0
+
+    @property
+    def second_player_win_rate(self) -> float:
+        """後攻プレイヤーの勝率。"""
+        decided = self.first_player_wins + self.second_player_wins
+        return self.second_player_wins / decided if decided else 0.0
+
     def __str__(self) -> str:
         valid = self.total_games - self.games_with_accident
-        return (
-            f"=== {self.deck1_name} vs {self.deck2_name} ===\n"
-            f"総試合数: {self.total_games}  有効試合数: {valid}\n"
-            f"[{self.deck1_name}]  勝利: {self.deck1_wins}  "
-            f"勝率: {self.deck1_win_rate:.1%}  "
-            f"手札事故率: {self.deck1_accident_rate:.1%}\n"
-            f"[{self.deck2_name}]  勝利: {self.deck2_wins}  "
-            f"勝率: {self.deck2_win_rate:.1%}  "
-            f"手札事故率: {self.deck2_accident_rate:.1%}\n"
-            f"引き分け: {self.draws}\n"
+        decided = self.first_player_wins + self.second_player_wins
+        fp_line = (
+            f"先行勝率: {self.first_player_win_rate:.1%}  後攻勝率: {self.second_player_win_rate:.1%}"
+            if decided > 0 else ""
         )
+        lines = [
+            f"=== {self.deck1_name} vs {self.deck2_name} ===",
+            f"総試合数: {self.total_games}  有効試合数: {valid}",
+            (
+                f"[{self.deck1_name}]  勝利: {self.deck1_wins}  "
+                f"勝率: {self.deck1_win_rate:.1%}  "
+                f"手札事故率: {self.deck1_accident_rate:.1%}"
+            ),
+            (
+                f"[{self.deck2_name}]  勝利: {self.deck2_wins}  "
+                f"勝率: {self.deck2_win_rate:.1%}  "
+                f"手札事故率: {self.deck2_accident_rate:.1%}"
+            ),
+            f"引き分け: {self.draws}",
+        ]
+        if fp_line:
+            lines.append(fp_line)
+        return "\n".join(lines) + "\n"
 
 
 def simulate(
@@ -492,6 +569,7 @@ def simulate(
     deck2_path: str | Path,
     n: int = 1000,
     seed: Optional[int] = None,
+    randomize_first_player: bool = True,
 ) -> SimulationResult:
     """
     Run *n* simulated games between the two decks and return aggregated results.
@@ -502,6 +580,8 @@ def simulate(
     deck2_path : path to second deck JSON
     n          : number of games to simulate
     seed       : random seed for reproducibility (None = random)
+    randomize_first_player : if True (default), randomly decide who goes first each game
+                             to get unbiased first/second-player win-rate statistics.
     """
     rng = random.Random(seed)
 
@@ -515,6 +595,7 @@ def simulate(
 
     deck1_wins = deck2_wins = draws = 0
     deck1_accidents = deck2_accidents = games_with_accident = 0
+    first_player_wins = second_player_wins = p1_first_count = 0
 
     def _had_hand_accident(player: Player) -> bool:
         """Return True if the player's opening hand contained no Basic Pokémon."""
@@ -526,7 +607,7 @@ def simulate(
     for _ in range(n):
         p1 = Player(deck1_name, deepcopy(deck1_cards))
         p2 = Player(deck2_name, deepcopy(deck2_cards))
-        game = Game(p1, p2, rng)
+        game = Game(p1, p2, rng, randomize_first_player=randomize_first_player)
 
         accident = game.setup()
 
@@ -539,10 +620,23 @@ def simulate(
             continue
 
         result = game.play()
+
+        # Track first/second player advantage
+        p1_went_first = (game._first_player is p1)
+        if p1_went_first:
+            p1_first_count += 1
         if result == "p1":
             deck1_wins += 1
+            if p1_went_first:
+                first_player_wins += 1
+            else:
+                second_player_wins += 1
         elif result == "p2":
             deck2_wins += 1
+            if p1_went_first:
+                second_player_wins += 1
+            else:
+                first_player_wins += 1
         else:
             draws += 1
 
@@ -556,4 +650,7 @@ def simulate(
         deck1_hand_accidents=deck1_accidents,
         deck2_hand_accidents=deck2_accidents,
         games_with_accident=games_with_accident,
+        first_player_wins=first_player_wins,
+        second_player_wins=second_player_wins,
+        p1_first_count=p1_first_count,
     )
