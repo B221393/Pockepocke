@@ -259,6 +259,8 @@ class CsvSimResult:
             "deck2_win_rate_pct": f"{self.sim.deck2_win_rate * 100:.1f}",
             "deck1_accident_rate_pct": f"{self.sim.deck1_accident_rate * 100:.1f}",
             "deck2_accident_rate_pct": f"{self.sim.deck2_accident_rate * 100:.1f}",
+            "first_player_win_rate_pct": f"{self.sim.first_player_win_rate * 100:.1f}",
+            "second_player_win_rate_pct": f"{self.sim.second_player_win_rate * 100:.1f}",
         }
 
 
@@ -274,6 +276,7 @@ def _simulate_pair(
 
     deck1_wins = deck2_wins = draws = 0
     deck1_accidents = deck2_accidents = games_with_accident = 0
+    first_player_wins = second_player_wins = p1_first_count = 0
 
     def _had_hand_accident(player: Player) -> bool:
         all_cards = player.hand + ([player.active.card] if player.active else [])
@@ -284,7 +287,7 @@ def _simulate_pair(
     for _ in range(n):
         p1 = Player(spec1.deck_name, deepcopy(deck1_cards))
         p2 = Player(spec2.deck_name, deepcopy(deck2_cards))
-        game = Game(p1, p2, rng)
+        game = Game(p1, p2, rng, randomize_first_player=True)
 
         accident = game.setup()
 
@@ -297,10 +300,23 @@ def _simulate_pair(
             continue
 
         result = game.play()
+
+        # Track first/second player advantage
+        p1_went_first = (game._first_player is p1)
+        if p1_went_first:
+            p1_first_count += 1
         if result == "p1":
             deck1_wins += 1
+            if p1_went_first:
+                first_player_wins += 1
+            else:
+                second_player_wins += 1
         elif result == "p2":
             deck2_wins += 1
+            if p1_went_first:
+                second_player_wins += 1
+            else:
+                first_player_wins += 1
         else:
             draws += 1
 
@@ -314,6 +330,9 @@ def _simulate_pair(
         deck1_hand_accidents=deck1_accidents,
         deck2_hand_accidents=deck2_accidents,
         games_with_accident=games_with_accident,
+        first_player_wins=first_player_wins,
+        second_player_wins=second_player_wins,
+        p1_first_count=p1_first_count,
     )
 
 
@@ -355,6 +374,7 @@ def _write_results_csv(results: list[CsvSimResult], out_path: Path) -> None:
         "deck1_wins", "deck2_wins", "draws",
         "deck1_win_rate_pct", "deck2_win_rate_pct",
         "deck1_accident_rate_pct", "deck2_accident_rate_pct",
+        "first_player_win_rate_pct", "second_player_win_rate_pct",
     ]
     with open(out_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fields)

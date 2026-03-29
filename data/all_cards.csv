@@ -1,4 +1,4 @@
-card_name,card_type,stage,hp,pokemon_type,evolves_from,is_ex,attack1_energy_cost,attack1_damage,attack1_coin_flips,attack1_effect,attack2_energy_cost,attack2_damage,attack2_coin_flips,attack2_effect,trainer_effect,set_name
+card_name,card_type,stage,hp,pokemon_type,evolves_from,is_ex,attack1_energy_cost,attack1_damage,attack1_coin_flips,attack1_effect,attack2_energy_cost,attack2_damage,attack2_coin_flips,attack2_effect,trainer_effect,set_name,is_baby
 ヒトカゲ,Pokemon,0,60,Fire,,False,1,20,0,,,,,,,A1
 リザード,Pokemon,1,90,Fire,ヒトカゲ,False,1,30,0,,,,,,,A1
 リザードンex,Pokemon,2,180,Fire,リザード,True,3,120,0,discard_2_energy,,,,,A1
@@ -125,3 +125,7 @@ card_name,card_type,stage,hp,pokemon_type,evolves_from,is_ex,attack1_energy_cost
 なぞのいし,Item,,,,,,,,,,,,,,evolve_fossil,A1
 かいのかせき,Item,,,,,,,,,,,,,,search_fossil,A1
 ふかいうみのかけら,Item,,,,,,,,,,,,,,evolve_fossil_water,A1
+ピチュー,Pokemon,0,30,Lightning,,False,1,10,1,paralyze,,,,,,P1,True
+ピチュー,Pokemon,0,30,Lightning,,False,1,10,1,paralyze,,,,,,P1,True
+ソーナノ,Pokemon,0,30,Psychic,,False,0,0,0,,,,,,,P1,True
+ゴンベ,Pokemon,0,40,Colorless,,False,1,10,0,,,,,,,P1,True

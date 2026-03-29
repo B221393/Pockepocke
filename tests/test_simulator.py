@@ -538,3 +538,230 @@ def test_all_cards_csv_rare_candy_present() -> None:
         names = [row["card_name"] for row in csv.DictReader(f)]
     assert "ふしぎのあめ" in names, "ふしぎのあめ が all_cards.csv に含まれていません"
 
+
+# ---------------------------------------------------------------------------
+# Baby Pokémon mechanic tests
+# ---------------------------------------------------------------------------
+
+def test_baby_pokemon_card_flag() -> None:
+    """is_baby フラグが Card に設定できる。"""
+    baby = Card(
+        name="ピチュー",
+        card_type="Pokemon",
+        stage=0,
+        hp=30,
+        pokemon_type="Lightning",
+        evolves_from=None,
+        attacks=[Attack(energy_cost=1, damage=10)],
+        is_baby=True,
+    )
+    assert baby.is_baby is True
+    normal = _make_basic_card()
+    assert normal.is_baby is False
+
+
+def test_baby_pokemon_blocks_attack_on_tails() -> None:
+    """ベビィポケモン: 攻撃側のコイントスが裏ならダメージ0。"""
+    rng = random.Random()
+    rng.random = lambda: 0.9   # 常に裏（>= 0.5）
+
+    attacker_card = _make_basic_card("アタッカー", hp=60, damage=30)
+    baby_card = Card(
+        name="ピチュー",
+        card_type="Pokemon",
+        stage=0,
+        hp=30,
+        pokemon_type="Lightning",
+        evolves_from=None,
+        attacks=[Attack(energy_cost=1, damage=10)],
+        is_baby=True,
+    )
+
+    p_atk = Player("A", [deepcopy(attacker_card)])
+    p_def = Player("D", [deepcopy(baby_card)])
+    baby_ap = ActivePokemon(card=baby_card)
+    atk_ap = ActivePokemon(card=attacker_card)
+    atk_ap.energy = 10
+    p_atk.active = atk_ap
+    p_def.active = baby_ap
+
+    p_atk._attack(p_def, rng)
+    assert p_def.active.damage == 0, "裏ならベビィポケモンへのダメージは0のはず"
+
+
+def test_baby_pokemon_allows_attack_on_heads() -> None:
+    """ベビィポケモン: 攻撃側のコイントスが表ならダメージが通る（KO含む）。"""
+    rng = random.Random()
+    rng.random = lambda: 0.1   # 常に表（< 0.5）
+
+    attacker_card = _make_basic_card("アタッカー", hp=60, damage=30)
+    # HP を高くして攻撃後も場に残るようにする
+    baby_card = Card(
+        name="ピチュー",
+        card_type="Pokemon",
+        stage=0,
+        hp=100,
+        pokemon_type="Lightning",
+        evolves_from=None,
+        attacks=[Attack(energy_cost=1, damage=10)],
+        is_baby=True,
+    )
+
+    p_atk = Player("A", [deepcopy(attacker_card)])
+    p_def = Player("D", [deepcopy(baby_card)])
+    baby_ap = ActivePokemon(card=baby_card)
+    atk_ap = ActivePokemon(card=attacker_card)
+    atk_ap.energy = 10
+    p_atk.active = atk_ap
+    p_def.active = baby_ap
+
+    p_atk._attack(p_def, rng)
+    assert p_def.active is not None, "HP=100 のベビィポケモンはKOされないはず"
+    assert p_def.active.damage == 30, "表ならベビィポケモンへのダメージは通るはず"
+
+
+def test_baby_pokemon_in_game() -> None:
+    """ベビィポケモンを含むデッキでゲームが正常に進行する。"""
+    baby = Card(
+        name="ゴンベ",
+        card_type="Pokemon",
+        stage=0,
+        hp=40,
+        pokemon_type="Colorless",
+        evolves_from=None,
+        attacks=[Attack(energy_cost=1, damage=10)],
+        is_baby=True,
+    )
+    item = Card("きずぐすり", "Item", None, None, None, None, [], "heal_30")
+    deck1 = [deepcopy(baby) for _ in range(2)] + [deepcopy(item) for _ in range(18)]
+    deck2 = _minimal_deck()
+    rng = random.Random(42)
+    p1 = Player("ベビィデッキ", deck1)
+    p2 = Player("通常デッキ", deck2)
+    game = Game(p1, p2, rng)
+    game.setup()
+    result = game.play()
+    assert result in ("p1", "p2", "draw")
+
+
+def test_all_cards_csv_has_baby_pokemon() -> None:
+    """all_cards.csv にベビィポケモンが含まれている。"""
+    import csv
+    csv_path = Path(__file__).parent.parent / "data" / "all_cards.csv"
+    rows = list(csv.DictReader(open(csv_path, encoding="utf-8")))
+    baby_rows = [r for r in rows if str(r.get("is_baby", "")).strip().lower() == "true"]
+    assert len(baby_rows) >= 3, (
+        f"ベビィポケモンが不足しています (現在 {len(baby_rows)} 件, 最低3件必要)"
+    )
+
+
+# ---------------------------------------------------------------------------
+# First/second player tracking tests
+# ---------------------------------------------------------------------------
+
+def test_simulation_result_has_first_second_player_fields() -> None:
+    """SimulationResult に先行・後攻フィールドが存在する。"""
+    result = simulate(HERACROSS_DECK, DARKRAI_DECK, n=200, seed=10)
+    assert hasattr(result, "first_player_wins")
+    assert hasattr(result, "second_player_wins")
+    assert hasattr(result, "p1_first_count")
+
+
+def test_first_second_player_wins_sum_to_total() -> None:
+    """先行勝利数 + 後攻勝利数 = 総勝利数（引き分け除く）。"""
+    result = simulate(HERACROSS_DECK, CHARIZARD_DECK, n=500, seed=20)
+    total_wins = result.deck1_wins + result.deck2_wins
+    fp_total = result.first_player_wins + result.second_player_wins
+    assert fp_total == total_wins, (
+        f"先行後攻勝利合計 {fp_total} が総勝利数 {total_wins} と一致しません"
+    )
+
+
+def test_first_player_rate_roughly_half_with_balanced_decks() -> None:
+    """均衡したデッキ同士では先行勝率が40〜65%程度に収まる（先行有利の許容範囲）。"""
+    result = simulate(DARKRAI_DECK, CHARIZARD_DECK, n=1000, seed=30)
+    decided = result.first_player_wins + result.second_player_wins
+    if decided > 0:
+        fp_rate = result.first_player_wins / decided
+        assert 0.35 <= fp_rate <= 0.75, (
+            f"先行勝率 {fp_rate:.1%} が想定範囲外です (35〜75%)"
+        )
+
+
+def test_p1_first_count_roughly_half_with_randomize() -> None:
+    """先行ランダム化時、p1 が先行の試合数はおよそ半分。"""
+    result = simulate(HERACROSS_DECK, DARKRAI_DECK, n=1000, seed=40,
+                      randomize_first_player=True)
+    assert result.p1_first_count > 0
+    # 1000 試合で p1 先行が 350〜650 の範囲に収まるはず
+    assert 300 <= result.p1_first_count <= 700, (
+        f"p1 先行回数 {result.p1_first_count} が想定範囲外です"
+    )
+
+
+def test_no_randomize_p1_always_first() -> None:
+    """randomize_first_player=False のとき、p1 は常に先行。"""
+    result = simulate(HERACROSS_DECK, DARKRAI_DECK, n=100, seed=50,
+                      randomize_first_player=False)
+    valid = result.total_games - result.games_with_accident
+    assert result.p1_first_count == valid, (
+        f"先行固定時は p1_first_count({result.p1_first_count}) == 有効試合数({valid}) のはず"
+    )
+
+
+# ---------------------------------------------------------------------------
+# Cyrus (サイラス) supporter tests
+# ---------------------------------------------------------------------------
+
+def test_cyrus_removes_opponent_bench() -> None:
+    """サイラスを使うと相手のベンチポケモンが1体除去される。"""
+    rng = random.Random(0)
+    attacker = _make_basic_card("アタッカー", hp=60, damage=10)
+    bench_mon = _make_basic_card("ベンチ", hp=100, damage=50)
+
+    cyrus = Card(
+        name="サイラス",
+        card_type="Supporter",
+        stage=None, hp=None, pokemon_type=None, evolves_from=None,
+        attacks=[], effect="discard_opponent_bench",
+    )
+    # p1 has Cyrus in hand, p2 has bench Pokémon
+    p1 = Player("P1", [])
+    p2 = Player("P2", [])
+    p1.active = ActivePokemon(card=attacker)
+    p2.active = ActivePokemon(card=attacker)
+    p2.bench.append(ActivePokemon(card=bench_mon))
+    p1.hand = [deepcopy(cyrus)]
+
+    assert len(p2.bench) == 1
+    p1._play_trainers(rng, p2)
+    assert len(p2.bench) == 0, "サイラス使用後、相手のベンチは0体になるはず"
+
+
+def test_cyrus_prefers_strongest_bench_target() -> None:
+    """サイラスは最も脅威度の高いベンチポケモンを除去する。"""
+    rng = random.Random(0)
+    weak_bench = _make_basic_card("弱いベンチ", hp=50, damage=10)
+    strong_bench = _make_basic_card("強いベンチ", hp=150, damage=100)
+
+    cyrus = Card(
+        name="サイラス", card_type="Supporter",
+        stage=None, hp=None, pokemon_type=None, evolves_from=None,
+        attacks=[], effect="discard_opponent_bench",
+    )
+    p1 = Player("P1", [])
+    p2 = Player("P2", [])
+    attacker = _make_basic_card("アタッカー")
+    p1.active = ActivePokemon(card=attacker)
+    p2.active = ActivePokemon(card=attacker)
+    p2.bench.append(ActivePokemon(card=weak_bench))
+    p2.bench.append(ActivePokemon(card=strong_bench))
+    p1.hand = [deepcopy(cyrus)]
+
+    p1._play_trainers(rng, p2)
+    assert len(p2.bench) == 1
+    remaining = p2.bench[0].card.name
+    assert remaining == "弱いベンチ", (
+        f"サイラスは最も強いベンチポケモンを除去するはず。残留: {remaining}"
+    )
+
