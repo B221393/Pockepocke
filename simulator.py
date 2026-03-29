@@ -227,7 +227,7 @@ class Player:
                 return 0 if (opponent and opponent.bench) else 2
             if card.card_type == "Supporter":
                 return 1
-            return 3  # Items always play first
+            return 3  # Items play after supporters (so draw effects apply to items too)
 
         sorted_hand = sorted(self.hand[:], key=_supporter_priority)
         for card in sorted_hand:

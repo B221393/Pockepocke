@@ -268,10 +268,16 @@ def _mutate_deck(
         if not pool_filtered:
             continue
 
-        # ベビィポケモン採用: 10% の確率でベビィポケモンを候補に含める
+        # ベビィポケモン採用: Pokémon を交換する場合、10% の確率でベビィポケモンを候補に追加
         baby_pool = [c for c in card_pool if c.is_baby and counts.get(c.name, 0) < MAX_COPIES]
-        if baby_pool and rng.random() < 0.10:
-            pool_filtered = baby_pool
+        if (
+            removed.card_type == "Pokemon"
+            and baby_pool
+            and rng.random() < 0.10
+        ):
+            # 既存フィルタ (タイプ・HP・EX) を尊重しつつベビィポケモンを追加候補として加える
+            extra_babies = [c for c in baby_pool if c not in pool_filtered]
+            pool_filtered = pool_filtered + extra_babies
 
         new_card = deepcopy(rng.choice(pool_filtered))
         candidate.insert(idx, new_card)

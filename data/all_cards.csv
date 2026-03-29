@@ -126,6 +126,5 @@ card_name,card_type,stage,hp,pokemon_type,evolves_from,is_ex,attack1_energy_cost
 かいのかせき,Item,,,,,,,,,,,,,,search_fossil,A1
 ふかいうみのかけら,Item,,,,,,,,,,,,,,evolve_fossil_water,A1
 ピチュー,Pokemon,0,30,Lightning,,False,1,10,1,paralyze,,,,,,P1,True
-ピチュー,Pokemon,0,30,Lightning,,False,1,10,1,paralyze,,,,,,P1,True
 ソーナノ,Pokemon,0,30,Psychic,,False,0,0,0,,,,,,,P1,True
 ゴンベ,Pokemon,0,40,Colorless,,False,1,10,0,,,,,,,P1,True
