@@ -1,0 +1,91 @@
+{
+  "name": "ダークライex（ねむりコントロール）",
+  "description": "相手をねむり状態にしてハメる最新環境のコントロールデッキ",
+  "cards": [
+    {
+      "name": "ダークライex",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 180,
+      "type": "Dark",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "ナイトメアパルス", "energy_cost": 2, "damage": 80, "effect": "sleep_synergy"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ニューラ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Dark",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "ひっかく", "energy_cost": 1, "damage": 20}
+      ],
+      "count": 2
+    },
+    {
+      "name": "マニューラex",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 140,
+      "type": "Dark",
+      "weakness": "Fighting",
+      "evolves_from": "ニューラ",
+      "attacks": [
+        {"name": "あくのはどう", "energy_cost": 2, "damage": 60, "effect": "sleep"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ミカルゲ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Dark",
+      "weakness": null,
+      "attacks": [
+        {"name": "のろい", "energy_cost": 1, "damage": 10, "effect": "sleep"}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "大きなマント",
+      "card_type": "Item",
+      "effect": "hp_boost_20",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "レッドカード",
+      "card_type": "Item",
+      "effect": "shuffle_opponent_hand",
+      "count": 2
+    },
+    {
+      "name": "悪エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

@@ -215,6 +215,9 @@ class Player:
             pass
         elif card.effect == "rare_candy":
             self._apply_rare_candy()
+        elif card.effect == "hp_boost_20" and self.active:
+            # 大きなマント: 最大HPを一時的に+20（シミュレーション上はダメージを-20して疑似再現）
+            self.active.damage = max(0, self.active.damage - 20)
 
     def _apply_rare_candy(self) -> None:
         in_play = []

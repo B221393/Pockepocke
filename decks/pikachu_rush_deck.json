@@ -1,0 +1,91 @@
+{
+  "name": "ピカチュウex（雷速攻）",
+  "description": "2ターン目から90ダメージを連発する最速の速攻デッキ",
+  "cards": [
+    {
+      "name": "ピカチュウex",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 120,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "ぐれんのいなずま", "energy_cost": 2, "damage": 90}
+      ],
+      "count": 2
+    },
+    {
+      "name": "サンダーex",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 100,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "ハリケーンサンダー", "energy_cost": 3, "damage": 40, "coin_flips": 4}
+      ],
+      "count": 2
+    },
+    {
+      "name": "シマアマ",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "attacks": [
+        {"name": "けとばす", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ゼブライカ",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 100,
+      "type": "Electric",
+      "weakness": "Fighting",
+      "evolves_from": "シマアマ",
+      "attacks": [
+        {"name": "スパーク", "energy_cost": 2, "damage": 40}
+      ],
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "retreat_cost_minus_1",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "プラスパワー",
+      "card_type": "Item",
+      "effect": "boost_damage_10",
+      "count": 2
+    },
+    {
+      "name": "雷エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}

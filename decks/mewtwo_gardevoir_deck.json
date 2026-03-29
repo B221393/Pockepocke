@@ -1,0 +1,93 @@
+{
+  "name": "ミュウツーex（サーナイト加速）",
+  "description": "サーナイトでエネ加速してミュウツーで高火力を叩き込む王道デッキ",
+  "cards": [
+    {
+      "name": "ミュウツーex",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 150,
+      "type": "Psychic",
+      "weakness": "Psychic",
+      "attacks": [
+        {"name": "サイコドライブ", "energy_cost": 4, "damage": 150}
+      ],
+      "count": 2
+    },
+    {
+      "name": "ラルトス",
+      "card_type": "Pokemon",
+      "stage": 0,
+      "hp": 60,
+      "type": "Psychic",
+      "weakness": "Psychic",
+      "attacks": [
+        {"name": "ねんりき", "energy_cost": 1, "damage": 10}
+      ],
+      "count": 2
+    },
+    {
+      "name": "キルリア",
+      "card_type": "Pokemon",
+      "stage": 1,
+      "hp": 80,
+      "type": "Psychic",
+      "weakness": "Psychic",
+      "evolves_from": "ラルトス",
+      "attacks": [
+        {"name": "ビンタ", "energy_cost": 2, "damage": 30}
+      ],
+      "count": 2
+    },
+    {
+      "name": "サーナイト",
+      "card_type": "Pokemon",
+      "stage": 2,
+      "hp": 110,
+      "type": "Psychic",
+      "weakness": "Psychic",
+      "evolves_from": "キルリア",
+      "attacks": [
+        {"name": "マジカルショット", "energy_cost": 3, "damage": 60}
+      ],
+      "effect": "energy_acceleration",
+      "count": 2
+    },
+    {
+      "name": "博士の研究",
+      "card_type": "Supporter",
+      "effect": "draw_3",
+      "count": 2
+    },
+    {
+      "name": "モンスターボール",
+      "card_type": "Item",
+      "effect": "search_basic",
+      "count": 2
+    },
+    {
+      "name": "ポケモン通信",
+      "card_type": "Item",
+      "effect": "search_any",
+      "count": 2
+    },
+    {
+      "name": "スピーダー",
+      "card_type": "Item",
+      "effect": "retreat_cost_minus_1",
+      "count": 2
+    },
+    {
+      "name": "ナツメ",
+      "card_type": "Supporter",
+      "effect": "switch_opponent_active",
+      "count": 2
+    },
+    {
+      "name": "超エネルギー",
+      "card_type": "Item",
+      "effect": "energy_dummy",
+      "count": 2
+    }
+  ]
+}
