@@ -8,8 +8,8 @@
       "card_type": "Pokemon",
       "stage": 0,
       "hp": 70,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": null,
       "attacks": [
         {"name": "ひっかく", "energy_cost": 1, "damage": 20}
@@ -21,8 +21,8 @@
       "card_type": "Pokemon",
       "stage": 1,
       "hp": 120,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": "リザード",
       "attacks": [
         {"name": "かえんほうしゃ", "energy_cost": 2, "damage": 70}
@@ -34,8 +34,8 @@
       "card_type": "Pokemon",
       "stage": 2,
       "hp": 220,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": "リザードン",
       "attacks": [
         {"name": "メガクロスフレイム", "energy_cost": 4, "damage": 220}
@@ -47,8 +47,8 @@
       "card_type": "Pokemon",
       "stage": 2,
       "hp": 200,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": "リザードン",
       "attacks": [
         {"name": "メガフレアドライブ", "energy_cost": 3, "damage": 160, "effect": "burn"}
@@ -60,8 +60,8 @@
       "card_type": "Pokemon",
       "stage": 0,
       "hp": 60,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": null,
       "attacks": [
         {"name": "ひっかく", "energy_cost": 1, "damage": 10}
@@ -73,8 +73,8 @@
       "card_type": "Pokemon",
       "stage": 0,
       "hp": 60,
-      \"type\": \"Fire\",
-      \"weakness\": \"Water\",
+      "type": "Fire",
+      "weakness": "Water",
       "evolves_from": null,
       "attacks": [
         {"name": "えんまく", "energy_cost": 1, "damage": 20}
