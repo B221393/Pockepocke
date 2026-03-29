@@ -13,7 +13,26 @@ YouTube最新環境デッキおよび **GameWith** のデッキティアリス�
 
 最新のメタ情報を [GameWith デッキ一覧](https://gamewith.jp/pokemon-tcg-pocket/463660) から取得してシミュレーションに活用できます。
 
-### ① データ取得（スクレイピング）
+### ① カードデータ取得（全カードリスト）
+
+[GameWith 全カードリスト](https://gamewith.jp/pokemon-tcg-pocket/462535) から 2679 種類のポケモンカード情報を取得できます。
+
+```bash
+pip install requests beautifulsoup4
+python fetch_all_cards.py
+# → data/all_cards.csv に保存（上書き）
+
+# 既存データを保持しつつ新規カードを追加する場合
+python fetch_all_cards.py --merge
+```
+
+オプション:
+- `--url URL`     スクレイピング対象 URL（デフォルト: https://gamewith.jp/pokemon-tcg-pocket/462535）
+- `--out PATH`    出力 CSV パス（デフォルト: data/all_cards.csv）
+- `--timeout N`   HTTP タイムアウト秒数（デフォルト: 15）
+- `--merge`       既存 CSV の内容と統合する（デフォルト: 上書き）
+
+### ② デッキ強さランキング取得（スクレイピング）
 
 ```bash
 pip install requests beautifulsoup4
@@ -23,7 +42,7 @@ python fetch_gamewith.py
 
 `data/gamewith_decks.csv` には既に代表的な最新環境デッキデータが同梱されているため、スクレイピングなしでもすぐにシミュレーション可能です。
 
-### ② GameWith データでシミュレーション
+### ③ GameWith データでシミュレーション
 
 ```bash
 # Sランクデッキ同士を10000回対戦
@@ -36,7 +55,7 @@ python simulate_from_csv.py --top 8 -n 1000 --output results/simulation_results.
 python simulate_from_csv.py -n 2000 --seed 42
 ```
 
-### ③ 出力例
+### ④ 出力例
 
 ```
 データソース: data/gamewith_decks.csv  (3 デッキ)
@@ -119,16 +138,19 @@ python -m pytest tests/ -v
 ```
 Pockepocke/
 ├── data/
+│   ├── all_cards.csv                  # 全カードデータ (ポケポケ収録カード一覧)
 │   └── gamewith_decks.csv             # GameWith メタデッキデータ (15件)
 ├── decks/
 │   ├── mega_heracross_deck.json       # メガハッサムexデッキ (20枚)
 │   ├── darkrai_altaria_deck.json      # ダークライ×チルタリスデッキ (20枚)
 │   └── mega_charizard_deck.json       # メガリザードンX/Yデッキ (20枚)
-├── fetch_gamewith.py                  # GameWith スクレイパー
+├── fetch_all_cards.py                 # GameWith 全カードリスト スクレイパー
+├── fetch_gamewith.py                  # GameWith デッキティアリスト スクレイパー
 ├── simulate_from_csv.py               # CSV データを使ったシミュレーター
 ├── simulator.py                       # コアシミュレーターロジック
 ├── run_simulation.py                  # JSON デッキ用 CLI
 └── tests/
+    ├── test_fetch_all_cards.py        # 全カードスクレイパー テスト (34件)
     ├── test_simulator.py              # コアシミュレーター テスト (33件)
     └── test_simulate_from_csv.py      # CSV シミュレーター テスト (14件)
 ```
