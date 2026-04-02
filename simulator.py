@@ -4,6 +4,8 @@ import os
 from dataclasses import dataclass, field
 from typing import Optional
 
+from card_logic import CardLogic
+
 @dataclass
 class Card:
     id: str
@@ -79,6 +81,9 @@ class Player:
     def _execute_strategic_moves(self, opponent, game, rng):
         self._process_abilities(opponent, game, rng)
         
+        # 🛡️ 戦略的撤退 (Strategic Retreat)
+        self._retreat_strategic(opponent, game, rng)
+
         # 回復アイテム
         if self.active and self.active.damage >= 20:
             for card in self.hand[:]:
@@ -92,6 +97,30 @@ class Player:
         
         self._attach_energy_strategic(opponent)
         self._attack_strategic(opponent, game)
+
+    def _retreat_strategic(self, opponent, game, rng):
+        """瀕死のexポケモンをベンチに下げてサイド負けを防ぐ"""
+        if not self.active or not self.bench: return
+        if not self.active.is_ex: return # 非exは基本使い捨て
+        
+        # 残りHPが40以下（多くのポケモンの攻撃1回分）なら撤退を検討
+        if self.active.remaining_hp <= 40:
+            # 逃げるためのエネルギーがあるか確認（コスト1と仮定）
+            total_energy = sum(self.active.energy.values())
+            if total_energy >= 1:
+                # ベンチに身代わりになれる（HPに余裕がある）ポケモンがいるか
+                best_bench = max(self.bench, key=lambda p: p.remaining_hp)
+                if best_bench.remaining_hp > 60:
+                    # エネルギーを1つ捨てて交代
+                    etype = next(iter(self.active.energy))
+                    self.active.energy[etype] -= 1
+                    
+                    # 交代実行
+                    old_active = self.active
+                    self.active = best_bench
+                    self.bench.remove(best_bench)
+                    self.bench.append(old_active)
+                    # print(f"  [AI] {self.name} retreated {old_active.card.name} to save points!")
 
     def _play_trainer_strategic(self, card, opponent, game, rng):
         if "ナツメ" in card.name and not self._supporter_played:
