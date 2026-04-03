@@ -76,6 +76,20 @@ class Player:
         """カードの効果が発動したことを記録"""
         self.stats["activations"][card_name] = self.stats["activations"].get(card_name, 0) + 1
 
+    def record_energy_attachment(self, card_name, is_strategic=True):
+        s = self.stats.setdefault("energy_attached", {})
+        s[card_name] = s.get(card_name, 0) + 1
+        if not is_strategic:
+            self.stats["strategic_errors"] = self.stats.get("strategic_errors", 0) + 1
+
+    def record_damage_dealt(self, card_name, amount):
+        s = self.stats.setdefault("damage_dealt", {})
+        s[card_name] = s.get(card_name, 0) + amount
+
+    def record_damage_taken(self, card_name, amount):
+        s = self.stats.setdefault("damage_taken", {})
+        s[card_name] = s.get(card_name, 0) + amount
+
     def _init_energy_zone(self) -> list[str]:
         types = set()
         for c in self.deck:
@@ -85,6 +99,15 @@ class Player:
 
     def take_turn(self, opponent: "Player", game: "Game", rng: random.Random):
         if self.deck: self.hand.append(self.deck.pop(0))
+        
+        # 💤 Sleep Check (50% chance to wake up)
+        if self.active and self.active.status == "sleep":
+            if rng.random() < 0.5:
+                # print(f"  [STATUS] {self.active.card.name} woke up!")
+                self.active.status = ""
+            else:
+                return # Skip turn if still asleep
+
         self._execute_strategic_moves(opponent, game, rng)
 
     def _execute_strategic_moves(self, opponent, game, rng):
@@ -98,6 +121,7 @@ class Player:
             for card in self.hand[:]:
                 if "きずぐすり" in card.name or "エリカ" in card.name:
                     self.active.damage = max(0, self.active.damage - 20)
+                    self.record_activation(card.name) # 📊 Added
                     self.hand.remove(card); self.discard.append(card); break
 
         for card in self.hand[:]:
@@ -137,11 +161,13 @@ class Player:
                 idx = rng.randrange(len(opponent.bench))
                 opponent.active, opponent.bench[idx] = opponent.bench[idx], opponent.active
                 self._supporter_played = True
+                self.record_activation(card.name) # 📊 Added
                 self.hand.remove(card); self.discard.append(card)
         elif "博士の研究" in card.name and not self._supporter_played:
             for _ in range(2): 
                 if self.deck: self.hand.append(self.deck.pop(0))
             self._supporter_played = True
+            self.record_activation(card.name) # 📊 Added
             self.hand.remove(card); self.discard.append(card)
 
     def _play_pokemon_strategic(self, card, opponent, game, rng):
@@ -151,14 +177,17 @@ class Player:
             for slot in ([self.active] if self.active else []) + self.bench:
                 if slot.card.name == card.evolves_from and slot.can_evolve(game.turn_count):
                     slot.evolve(card, game.turn_count)
+                    self.record_activation(card.name) # 📊 Added
                     self.hand.remove(card); evolution_success = True; break
         
         if not evolution_success and (card.stage == 0 or is_mega):
             if not self.active:
                 self.active = ActivePokemon(card); self.active.turn_played = game.turn_count
+                self.record_activation(card.name) # 📊 Added
                 self.hand.remove(card)
             elif len(self.bench) < 3:
                 p_n = ActivePokemon(card); p_n.turn_played = game.turn_count
+                self.record_activation(card.name) # 📊 Added
                 self.bench.append(p_n); self.hand.remove(card)
 
     def _attach_energy_strategic(self, opponent):
@@ -172,10 +201,12 @@ class Player:
             target = max(self.bench, key=lambda p: (p.card.stage, p.remaining_hp))
 
         if target:
+            is_strategic = not is_doomed
             for etype, count in list(self.energy_pool.items()):
                 if count > 0:
                     target.energy[etype] = target.energy.get(etype, 0) + 1
                     self.energy_pool[etype] -= 1
+                    self.record_energy_attachment(target.card.name, is_strategic)
                     
                     # 🚀 [v6] ナイトメアオーラ
                     if (etype == "Darkness" or etype == "Dark") and "ダークライex" in target.card.name:
@@ -197,7 +228,14 @@ class Player:
         attack = self.active.card.attacks[0] if self.active.card.attacks else None
         if not attack: return
         
-        if sum(self.active.energy.values()) < sum(attack.energy_cost.values()): return
+        # Energy Check
+        for etype, required in attack.energy_cost.items():
+            if self.active.energy.get(etype, 0) < required:
+                if etype == "Colorless":
+                    total_energy = sum(self.active.energy.values())
+                    if total_energy < sum(attack.energy_cost.values()): return
+                else:
+                    return
 
         dmg = attack.damage
         if "ダークライ" in self.active.card.name and opponent.active.status == "sleep": dmg += 50
@@ -205,6 +243,9 @@ class Player:
         dmg = opponent._calculate_damage_reduction(opponent.active, dmg)
         
         opponent.active.damage += dmg
+        self.record_damage_dealt(self.active.card.name, dmg)
+        opponent.record_damage_taken(opponent.active.card.name, dmg)
+        self.record_activation(self.active.card.name)
 
         all_text = str(self.active.card.ability) + str(self.active.card.effect) + str(attack.effect)
         if "ねむりにする" in all_text: opponent.active.status = "sleep"
@@ -221,15 +262,20 @@ class Player:
             if "ブロークンスペース" in txt or "ギラティナex" in p.card.name:
                 if p.energy.get("Psychic", 0) < 1:
                     p.energy["Psychic"] = p.energy.get("Psychic", 0) + 1
+                    self.record_activation("特性: ブロークンスペース") # 📊 Added
 
             if "やすらぎのかぜ" in txt or "状態異常にならない" in txt:
                 for s in all_slots:
-                    if s.energy: s.status = ""
+                    if s.energy: 
+                        s.status = ""
+                self.record_activation("特性: やすらぎのかぜ") # 📊 Added
+
             if "みずしゅりけん" in txt or "狙撃" in txt:
                 opp_targets = ([opponent.active] if opponent.active else []) + opponent.bench
                 if opp_targets:
                     t = next((o for o in opp_targets if o.remaining_hp <= 20), rng.choice(opp_targets))
                     t.damage += 20
+                    self.record_activation("特性: みずしゅりけん") # 📊 Added
                     self._check_knockout(t, opponent)
 
     def _check_knockout(self, target, owner):
@@ -247,7 +293,18 @@ def load_master_db(path):
         for row in reader:
             if not row or len(row) < 5: continue
             cid = row[0]
-            attacks = [Attack(name=row[9], damage=int(row[10]), energy_cost={"Colorless": 1})] if len(row) > 10 and row[10].isdigit() else []
+            
+            # ⚡ Energy Parsing
+            costs = {}
+            for cost_str in row[12:]:
+                if ":" in cost_str:
+                    ctype, cval = cost_str.split(":")
+                    costs[ctype.strip()] = int(cval.strip())
+            
+            if not costs and row[2] == "Pokemon":
+                costs = {"Colorless": 1}
+
+            attacks = [Attack(name=row[9], damage=int(row[10]) if row[10].isdigit() else 0, energy_cost=costs)] if len(row) > 10 and row[10] else []
             db[cid] = Card(id=cid, name=row[1], card_type=row[2], pokemon_type=row[3], 
                          hp=int(row[4]) if row[4].isdigit() else 60, stage=int(row[5]) if row[5].isdigit() else 0,
                          evolves_from=row[6], ability=row[7], effect=row[8], attacks=attacks, weakness=row[15] if len(row)>15 else "")
