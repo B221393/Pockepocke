@@ -33,23 +33,17 @@ def load_deck_json(deck_name, master_db):
     safe_name = deck_name.replace("/", "_").replace("\\", "_")
     path = os.path.join(GENERATED_DIR, f"{safe_name}.json")
     if not os.path.exists(path):
-        # 名前が少し違う可能性（ファイル名エスケープ）
         return None
     
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
-    # 名前からCardオブジェクトへ変換
-    # master_dbは {id: Card}
-    # 名前で逆引き
     name_to_card = {c.name: c for c in master_db.values()}
-    
     deck_cards = []
     for cname in data["deck_composition"]:
         if cname in name_to_card:
             deck_cards.append(name_to_card[cname])
         else:
-            # 曖昧一致
             found = False
             for db_name, card in name_to_card.items():
                 if cname in db_name:
@@ -57,7 +51,6 @@ def load_deck_json(deck_name, master_db):
                     found = True
                     break
             if not found:
-                # デフォルたね
                 deck_cards.append(Card(id="dummy", name=cname, card_type="Pokemon", hp=60, stage=0))
     
     return {"name": deck_name, "cards": deck_cards, "strategy": data.get("strategy", "aggro")}
@@ -69,8 +62,7 @@ def run_tournament():
     decks = []
     for name in top_deck_names:
         d = load_deck_json(name, master_db)
-        if d:
-            decks.append(d)
+        if d: decks.append(d)
     
     if not decks:
         print("No decks found to run tournament.")
@@ -79,15 +71,23 @@ def run_tournament():
     print(f"Starting Master Tournament with {len(decks)} decks...")
     
     results = {d["name"]: {"wins": 0, "total": 0, "matchups": {}} for d in decks}
+    card_intel = {} # カード名 -> {adoption: 0, activations: 0, points: 0}
+    
+    # 採用数の初期集計
+    for d in decks:
+        seen_in_deck = set()
+        for c in d["cards"]:
+            if c.name not in card_intel: card_intel[c.name] = {"adoption": 0, "activations": 0, "points": 0}
+            if c.name not in seen_in_deck:
+                card_intel[c.name]["adoption"] += 1
+                seen_in_deck.add(c.name)
+
     rng = random.Random(42)
 
     for i in range(len(decks)):
         for j in range(i + 1, len(decks)):
-            d1 = decks[i]
-            d2 = decks[j]
-            
-            d1_wins = 0
-            d2_wins = 0
+            d1, d2 = decks[i], decks[j]
+            d1_wins, d2_wins = 0, 0
             
             print(f"Matchup: {d1['name']} vs {d2['name']}")
             
@@ -99,6 +99,15 @@ def run_tournament():
                 
                 if res == "p1": d1_wins += 1
                 elif res == "p2": d2_wins += 1
+                
+                # 統計の集約
+                for p in [p1, p2]:
+                    for cname, count in p.stats["activations"].items():
+                        if cname in card_intel:
+                            card_intel[cname]["activations"] += count
+                            # その試合で勝ったプレイヤーのカードなら貢献ポイント付与
+                            if (p == p1 and res == "p1") or (p == p2 and res == "p2"):
+                                card_intel[cname]["points"] += (count * 10) # 簡易的な重み付け
             
             results[d1["name"]]["wins"] += d1_wins
             results[d1["name"]]["total"] += (d1_wins + d2_wins)
@@ -113,17 +122,27 @@ def run_tournament():
     sorted_res = sorted(results.items(), key=lambda x: x[1]["wins"] / max(1, x[1]["total"]), reverse=True)
     
     with open(TOURNAMENT_REPORT, "w", encoding="utf-8") as f:
-        f.write("# Master Tournament (High Fidelity Simulation) Results\n")
-        f.write(f"Total Decks: {len(decks)}\n")
-        f.write(f"Games per Matchup: {GAMES_PER_MATCHUP}\n\n")
-        f.write("## Final Rankings\n\n")
+        f.write("# Master Tournament Intelligence Report\n")
+        f.write(f"Total Decks: {len(decks)} | Total Games: {sum(r['total'] for r in results.values()) // 2}\n\n")
+        
+        f.write("## 🏆 Deck Rankings\n\n")
         f.write("| Rank | Deck Name | Master Win Rate | Total Wins |\n")
         f.write("|---|---|---|---|\n")
         for rank, (name, info) in enumerate(sorted_res, 1):
             wr = info["wins"] / max(1, info["total"])
             f.write(f"| #{rank} | {name} | {wr:.2%} | {info['wins']} |\n")
         
-        f.write("\n## Detailed Matrix\n\n")
+        f.write("\n## 🃏 Card MVP Analysis (Top 15)\n")
+        f.write("Which cards contributed most to victory?\n\n")
+        f.write("| Card Name | Adoption Rate | Total Activations | Contribution Score |\n")
+        f.write("|---|---|---|---|\n")
+        
+        sorted_cards = sorted(card_intel.items(), key=lambda x: x[1]["points"], reverse=True)
+        for name, stats in sorted_cards[:15]:
+            adoption = f"{stats['adoption']}/{len(decks)}"
+            f.write(f"| {name} | {adoption} | {stats['activations']} | {stats['points']} |\n")
+
+        f.write("\n## 📊 Detailed Matchup Matrix\n\n")
         header = "| Deck | " + " | ".join([f"#{i+1}" for i in range(len(decks))]) + " |\n"
         f.write(header)
         f.write("|---" * (len(decks) + 1) + "|\n")

@@ -66,6 +66,15 @@ class Player:
         self.points = 0
         self.energy_zone = self._init_energy_zone()
         self._supporter_played = False
+        # 📊 統計データ
+        self.stats = {
+            "activations": {}, # カード名 -> 使用回数
+            "points_earned": 0
+        }
+
+    def record_activation(self, card_name):
+        """カードの効果が発動したことを記録"""
+        self.stats["activations"][card_name] = self.stats["activations"].get(card_name, 0) + 1
 
     def _init_energy_zone(self) -> list[str]:
         types = set()
